@@ -44,11 +44,11 @@ export const query = graphql`
           thumbImage {
             childImageSharp {
               gatsbyImageData(height: 500)
-
-          featuredImage{
-            childImageSharp{
+            }
+          }
+          featuredImage {
+            childImageSharp {
               gatsbyImageData(width: 500)
-
             }
           }
         }
