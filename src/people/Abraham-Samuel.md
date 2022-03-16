@@ -2,8 +2,9 @@
 slug: abraham-samuel
 name: Abraham Samuel
 designation: Director - Strategic Sales
-category: Management Team
+category: Leadership Team UAE
 type: people
+order: 10
 excerpt: Abraham Samuel is a serial entrepreneur with over 35 years of experience and proven track record in commodity sales and franchise businesses across global markets.
 featuredImage: ../images/team/ABRAHAM-SAMUEL.jpg
 ---

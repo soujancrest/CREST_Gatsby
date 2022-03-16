@@ -7,6 +7,8 @@ focusArea: Circular Economy
 type: blog
 excerpt: India is home to around 100 million farmers today. Our nation has always prided its agriculture and produce, feeding many nations across the world. Rice and wheat among other foods are the staples, grown across the country.
 highlight: “Agriculture is a fundamental source of national prosperity.” – J. J. Mapes
+featuredImage: ../images/blog/03.jpg
+thumbImage: ../images/blog/BlogThumb_02.jpg
 ---
 
 ## Welcome

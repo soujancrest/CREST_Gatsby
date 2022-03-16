@@ -7,6 +7,8 @@ focusArea: Circular Economy
 type: blog
 excerpt: Somewhere between traditional architecture and high-rise, dense buildings, we lost sight of what’s really important - we lost our connection with Mother Nature.
 highlight:
+featuredImage: ../images/blog/05.jpg
+thumbImage: ../images/blog/BlogThumb_05.jpg
 ---
 
 ## Welcome

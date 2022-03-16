@@ -4,6 +4,7 @@ name: Niharika Kosanam
 designation: Vice President Sustainable design
 category: Leadership Team India
 type: people
+order: 17
 excerpt: Niharika Kosanam is the Founder of Continuum Studio, a firm that strives to achieve sustainability in every aspect of living.
 email: niharika@crest.eco
 featuredImage: ../images/team/NIHARIKA-KOSANAM.jpg

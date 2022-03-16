@@ -1,4 +1,3 @@
-
 import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
@@ -14,12 +13,22 @@ export default function People({ data }) {
   const boardOfTrustees = people.filter(
     person => person.frontmatter.category === "Board of Trustees"
   )
-  const managementTeam = people.filter(
-    person => person.frontmatter.category == "Management Team"
+  const managementTeamUSA = people.filter(
+    person => person.frontmatter.category == "Management Team - USA"
   )
-  const leadershipTeam = people.filter(
+  const managementTeamIndia = people.filter(
+    person => person.frontmatter.category == "Management Team - India"
+  )
+  const leadershipTeamIndia = people.filter(
     person => person.frontmatter.category == "Leadership Team India"
   )
+  const leadershipTeamUAE = people.filter(
+    person => person.frontmatter.category == "Leadership Team UAE"
+  )
+  console.log(managementTeamUSA)
+  console.log(boardOfTrustees)
+  console.log(people)
+  console.log(managementTeamIndia)
   return (
     <Layout>
       <Seo title="People" />
@@ -34,9 +43,25 @@ export default function People({ data }) {
           </div>
         </Container>
         <Container className="about-sub">
-          <h4 className="about-people-heading">MANAGEMENT TEAM</h4>
+          <h4 className="about-people-heading">MANAGEMENT TEAM - USA</h4>
           <div className="person-thumbs">
-            {managementTeam.map(item => (
+            {managementTeamUSA.map(item => (
+              <PeopleThumb person={item} key={item.id} />
+            ))}
+          </div>
+        </Container>
+        <Container className="about-sub">
+          <h4 className="about-people-heading">MANAGEMENT TEAM - INDIA</h4>
+          <div className="person-thumbs">
+            {managementTeamIndia.map(item => (
+              <PeopleThumb person={item} key={item.id} />
+            ))}
+          </div>
+        </Container>
+        <Container className="about-sub">
+          <h4 className="about-people-heading">LEADERSHIP TEAM - UAE</h4>
+          <div className="person-thumbs">
+            {leadershipTeamUAE.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
@@ -44,7 +69,7 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4 className="about-people-heading">LEADERSHIP TEAM - INDIA</h4>
           <div className="person-thumbs">
-            {leadershipTeam.map(item => (
+            {leadershipTeamIndia.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
@@ -55,22 +80,23 @@ export default function People({ data }) {
 }
 export const query = graphql`
   query people {
-    allMarkdownRemark(filter: { frontmatter: { type: { eq: "people" } } }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "people" } } }
+      sort: { fields: frontmatter___order }
+    ) {
       nodes {
         frontmatter {
+          order
+          name
           slug
+          designation
+          category
           featuredImage {
             childImageSharp {
               gatsbyImageData(width: 200)
             }
           }
-          category
-          email
-          designation
-          name
-          excerpt
         }
-        id
       }
     }
   }

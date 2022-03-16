@@ -13,12 +13,15 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <Container className="about-subs">
-        <h1 className="crest-heading mb-20">Blog</h1>
-     
+        <h1 className="crest-heading mb-20">OUR BLOG</h1>
+        <p>
+          CREST Foundation publishes objective, independent, high-quality
+          research, including books, reports, and other materials covering
+          sustainable development themes.
+        </p>
         <div className="blog-thumb">
           {blogs.map(blog => (
             <BlogThumb blog={blog} />
-            // <BlogThumb blog={blog} />
           ))}
         </div>
       </Container>
@@ -37,9 +40,15 @@ export const query = graphql`
           contentType
           focusArea
           excerpt
+
+          thumbImage {
+            childImageSharp {
+              gatsbyImageData(height: 500)
+
           featuredImage{
             childImageSharp{
               gatsbyImageData(width: 500)
+
             }
           }
         }

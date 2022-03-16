@@ -4,6 +4,7 @@ name: Rajendar Kumar
 designation: Founder & CEO
 category: Board of Trustees
 type: people
+order: 3
 excerpt: A successful serial entrepreneur, published author, passionate evangelist of sustainability and respectable mentor on triple bottom-line businesses models. Raj, has over 28 years of extensive hands-on experience in the field of architectural design, real-estate development and the construction industry
 email: raj@crest.eco
 featuredImage: ../images/team/RAJENDRA-KUMAR.jpg

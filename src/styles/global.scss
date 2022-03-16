@@ -1,4 +1,3 @@
-
 // variable
 $black: #000;
 $white: #fff;
@@ -105,6 +104,14 @@ p {
   font-weight: lighter;
   font-size: 1.125rem;
   line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-color: none;
 }
 
 // btns
@@ -254,7 +261,7 @@ p {
 
 .mission-heading {
   color: $theme-heading-color;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
@@ -334,25 +341,25 @@ p {
   width: 85%;
 }
 
-.focus-area-sec{
-  @media #{$extra-small}{
+.focus-area-sec {
+  @media #{$extra-small} {
     padding: 1rem;
   }
 }
 
-.focusareas-img-sec{
+.focusareas-img-sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     overflow-x: scroll;
   }
 
-  .focusareas{
+  .focusareas {
     position: relative;
 
-    @media #{$extra-small}{
+    @media #{$extra-small} {
       margin-right: 1rem;
     }
   }
@@ -382,19 +389,17 @@ p {
   border-bottom: 2px solid $theme-heading-color;
 }
 
-.pub-sec{
-  @media #{$extra-small}{
+.pub-sec {
+  @media #{$extra-small} {
     padding: 1rem;
   }
   .container {
     padding: 0;
-    @media #{$extra-small}{
+    @media #{$extra-small} {
       padding: unset;
     }
   }
 }
-
-
 
 .pub-sec h2 {
   margin: 0 0 2rem 0;
@@ -407,7 +412,7 @@ p {
   background-position: bottom;
   background-size: cover;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
     margin: 0;
@@ -417,14 +422,14 @@ p {
 .pub-sec .right-col {
   margin-left: 2rem;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     margin-left: 0;
   }
 }
 
 .pub-sec .right-col .col {
   margin: 0.5rem;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     margin: 0;
   }
 }
@@ -433,10 +438,10 @@ p {
   height: 30vh;
   background-image: url("../images/Cover\ Page-02.jpg");
   background-repeat: no-repeat;
- background-position: center; 
+  background-position: center;
   background-size: cover;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
     margin: 0;
@@ -449,7 +454,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
     margin: 0;
@@ -462,7 +467,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
     margin: 0;
@@ -475,7 +480,33 @@ p {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
+    background-size: contain;
+    height: 70vh;
+    margin: 0;
+  }
+}
+
+#pub-left-img-5 {
+  height: 30vh;
+  background-image: url("../images/Cover\ Page-07.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  @media #{$extra-small} {
+    background-size: contain;
+    height: 70vh;
+    margin: 0;
+  }
+}
+
+#pub-left-img-6 {
+  height: 30vh;
+  background-image: url("../images/Cover\ Page-01.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
     margin: 0;
@@ -486,7 +517,6 @@ p {
   padding: 1rem 0;
   margin: 0;
 }
-
 
 .page-head {
   margin: 3rem 0 0 0;
@@ -509,7 +539,7 @@ p {
 .about-sub {
   padding: 2rem 0;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     padding: 2rem;
   }
 }
@@ -536,7 +566,8 @@ p {
   padding: 0;
 }
 
-.blog-thumb,.person-thumb {
+.blog-thumb,
+.person-thumb {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
@@ -562,11 +593,11 @@ p {
   margin: 20px 0px 0 0;
 }
 
-.blog-thumb p ,
-.person-thumb p{
+.blog-thumb p,
+.person-thumb p {
   text-align: left;
   margin: 20px 0px 0px;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     margin: 10px 0 0;
   }
 }
@@ -714,7 +745,6 @@ p {
 }
 
 
-
 // navbar
 ul {
   padding: 0;
@@ -822,3 +852,4 @@ li {
   height: 400px;
   margin: 0 auto;
 }
+

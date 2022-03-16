@@ -11,22 +11,27 @@ import Seo from "../components/seo"
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
+  console.log(blogs)
   return (
     <Layout>
       <Seo title="Home" />
       <div className="banner">
         <Container>
           <h1 className="banner__heading">
-            A Circular Economy Can Help Nations
-            <br />
-            Achieve Their Climate Goals
+            An Insight into the harsh truth about survival
           </h1>
           <h4 className="banner__sub-heading">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            The planet has thrived through five mass extinctions. Surely, it can
+            handle one more. But, humans will not be able to survive even one.
+            In fact, the next mass extinction is going to mark the end of the
+            human race
           </h4>
-          <button className="main-btn">Read more</button>
+          <Link
+            className="main-btn"
+            to="/blog/an-insight-into-the-harsh-truth-about-survival"
+          >
+            Read more
+          </Link>
         </Container>
       </div>
       <div className="banner-box">
@@ -77,10 +82,9 @@ export default function IndexPage({ data }) {
                   the climate crisis.
                 </p>
               </div>
-
-              <p className="readmore">
-                <span>..... READ MORE</span>
-              </p>
+              <Link className="readmore" to="/about">
+                READ MORE
+              </Link>
             </Col>
             <Col className="right-col">
               <Row className="right-col-1">
@@ -90,13 +94,16 @@ export default function IndexPage({ data }) {
                     <h5 className="mission-subheading">
                       CLIMATE CRISIS AND HUMAN WELLBEING
                     </h5>
-                    <button className="readmore">Read more</button>
+                    <p>Human Wellbeing can save the planet</p>
+                    <Link className="readmore" to="/about/#ethos">
+                      READ MORE
+                    </Link>
                   </div>
                 </Col>
                 <Col className="mission-inner">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/Content.jpg"
+                      src="../images/about/ethos.png"
                       atl=""
                       className="mission-side-img"
                     />
@@ -106,17 +113,20 @@ export default function IndexPage({ data }) {
               <Row className="right-col-1">
                 <Col className="mission-inner">
                   <div className="mission-side-right">
-                    <h4 className="mission-heading">Our Ethos</h4>
+                    <h4 className="mission-heading">Our Vision</h4>
                     <h5 className="mission-subheading">
-                      CLIMATE CRISIS AND HUMAN WELLBEING
+                      RE-IMAGINING THE URBAN LIFESTYLE
                     </h5>
-                    <button className="readmore">Read more</button>
+                    <p>Energy Positive cities and global cooling</p>
+                    <Link className="readmore" to="/about/#vision">
+                      READ MORE
+                    </Link>
                   </div>
                 </Col>
                 <Col className="mission-inner">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/Content.jpg"
+                      src="../../images/about/vision.png"
                       atl=""
                       className="mission-side-img"
                     />
@@ -126,17 +136,20 @@ export default function IndexPage({ data }) {
               <Row className="right-col-1">
                 <Col className="mission-inner">
                   <div className="mission-side-right">
-                    <h4 className="mission-heading">Our Ethos</h4>
+                    <h4 className="mission-heading">Our Commitment</h4>
                     <h5 className="mission-subheading">
-                      CLIMATE CRISIS AND HUMAN WELLBEING
+                      LAUNCHING A WITNESSED-ORGANIC REVOLUTION
                     </h5>
-                    <button className="readmore">Read more</button>
+                    <p>Nutrition, Soil Health and Closed Loop Cycles</p>
+                    <Link className="readmore" to="/about/our-commitment">
+                      READ MORE
+                    </Link>
                   </div>
                 </Col>
                 <Col className="mission-inner">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/Content.jpg"
+                      src="../../images/about/commitment.jpg"
                       atl=""
                       className="mission-side-img"
                     />
@@ -246,42 +259,39 @@ export default function IndexPage({ data }) {
             <h2 className="crest-heading">PUBLICATIONS</h2>
           </Row>
           <Row className="pub-sec-row2">
-            <Col className="left-col">
-              {/* <StaticImage src="../images/Cover Page-01.jpg" /> */}
+            <Col>
+              <div id="pub-left-img-5"></div>
+              <p className="mission-discrption-info">BLUE DHARMA</p>
+              <p className="md-subp">
+                A Way to sustainable Lifestyle for Human Wellbeing
+              </p>
             </Col>
-            <Col className="right-col">
-              <Row>
-                <Col>
-                  <div id="pub-left-img-1"></div>
-                  <p className="mission-discrption-info">
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s,
-                  </p>
-                </Col>
-                <Col>
-                  <div id="pub-left-img-2"></div>
-                  <p className="mission-discrption-info">
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s,
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <div id="pub-left-img-3"></div>
-                  <p className="mission-discrption-info">
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s,
-                  </p>
-                </Col>
-                <Col>
-                  <div id="pub-left-img-4"></div>
-                  <p className="mission-discrption-info">
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s,
-                  </p>
-                </Col>
-              </Row>
+            <Col>
+              <div id="pub-left-img-1"></div>
+              <p className="mission-discrption-info">PLANET KRIYA</p>
+              <p className="md-subp">
+                A expose of the shocking changes agriculture has endured
+              </p>
+            </Col>
+            <Col>
+              <div id="pub-left-img-2"></div>
+              <p className="mission-discrption-info">INDIA WAKES</p>
+              <p className="md-subp">Post Coronavirus new world order</p>
+            </Col>
+            <Col>
+              <div id="pub-left-img-3"></div>
+              <p className="mission-discrption-info">EVERY DOT MATTERS</p>
+              <p className="md-subp"></p>
+            </Col>
+            <Col>
+              <div id="pub-left-img-4"></div>
+              <p className="mission-discrption-info">THE NEW NORM</p>
+              <p className="md-subp"></p>
+            </Col>
+            <Col>
+              <div id="pub-left-img-6"></div>
+              <p className="mission-discrption-info">THE MOTHER EARTH</p>
+              <p className="md-subp">An alarming wake-up call</p>
             </Col>
           </Row>
         </Container>
@@ -297,31 +307,13 @@ export default function IndexPage({ data }) {
           <br></br>
           <div className="blog-thumb">
             {blogs.map(blog => (
-              // <Link className="link" to={"/blog/" + blog.frontmatter.slug} key={blog.id}>
-              //   <div>
-              //     <h4>{blog.frontmatter.contentType}</h4>
-              //     <StaticImage src="../images/content.jpg" />
-              //     <h3>{blog.frontmatter.focusArea}</h3>
-              //     <h2>{blog.frontmatter.title}</h2>
-              //     <p>{blog.frontmatter.excerpt}</p>
-              //   </div>
-              // </Link>
               <BlogThumb blog={blog} />
             ))}
           </div>
-          {/* <Row>
-          <Col>
-            <p><span>Webinar</span><span>December 22, 2021</span></p>
-            <StaticImage src="../images/Content.jpg" />
-            <h3>Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s,</h3>
-            <p>Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s,Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s,</p>
-          </Col>
-        </Row> */}
           <div className="explore-btn">
-            <button className="explor-btn">Explore our library</button>
+            <Link className="explor-btn" to="/blog">
+              Explore our blog
+            </Link>
           </div>
         </Container>
       </div>
@@ -338,8 +330,15 @@ export const query = graphql`
         frontmatter {
           title
           slug
-          contentType
+          category
+          type
+          thumbImage {
+            childImageSharp {
+              gatsbyImageData(height: 500)
+            }
+          }
           focusArea
+          contentType
           excerpt
         }
       }

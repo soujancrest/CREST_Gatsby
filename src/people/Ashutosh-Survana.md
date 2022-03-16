@@ -2,8 +2,9 @@
 slug: ashutosh-suvarna
 name: Ashutosh Suvarna
 designation: Director - Sustainable Technologies
-category: Management Team
+category: Management Team - USA
 type: people
+order: 6
 excerpt: Ashutosh Suvarna has over 20 years of experience incubating start-ups and leading cross-functional innovation solutions globally.
 email: ashutosh@crest.eco
 featuredImage: ../images/team/ASHUTOSH-SUVARNA.jpg

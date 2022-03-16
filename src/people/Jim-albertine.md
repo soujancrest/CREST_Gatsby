@@ -1,9 +1,10 @@
 ---
 slug: jim-albertine
 name: Jim Albertine
-designation: Director - Govt.Relation
-category: Management Team
+designation: Director - Govt.Relations
+category: Management Team - USA
 type: people
+order: 4
 excerpt: Jim Albertine is the past President of the American League of Lobbyists and has been recognized as one of the premier lobbyists in the nation’s capital.
 email: jim@crest.eco
 featuredImage: ../images/team/JIM-ALBERTINE.jpg

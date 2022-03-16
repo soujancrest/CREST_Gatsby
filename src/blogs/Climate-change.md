@@ -6,6 +6,8 @@ contentType: Blog
 focusArea: Circular Economy
 type: blog
 excerpt: The planet has thrived through five mass extinctions. Surely, it can handle one more. But, humans will not be able to survive even one. In fact, the next mass extinction is going to mark the end of the human race.
+featuredImage: ../images/blog/02.jpg
+thumbImage: ../images/blog/BlogThumb_03.jpg
 ---
 
 ## Save the earth humans

@@ -4,6 +4,7 @@ name: Jack Albertine
 designation: Chairman
 category: Board of Trustees
 type: people
+order: 1
 excerpt: Jack Albertine is a visionary leader with diverse experience in investment banking, public policy and legal strategy. He is the Chairman and CEO of Albertine Enterprises, Inc. and  a Partner at JJ&B LLC, a boutique investment bank.
 email: jack@crest.eco
 featuredImage: ../images/team/JACK-ALBERTINE.jpg

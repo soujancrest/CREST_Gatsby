@@ -11,8 +11,7 @@ import Seo from "../../components/seo"
 import styles from "../../styles/global.scss"
 import AboutLayout from "../../components/AboutLayout"
 
-import '../../styles/about.scss'
-
+import "../../styles/about.scss"
 
 export default function About() {
   return (
@@ -20,12 +19,15 @@ export default function About() {
       <Seo title="About" />
       <AboutLayout />
       <div>
-        <Container className="about-sub">
+        <Container className="about-sub" id="mission">
           <h4 className="mission-heading mb-20">OUR MISSION</h4>
 
           <div className="ab-overview">
+
+          
           <div className="ab-img">
               <StaticImage src="../../images/about/1.png" alt="" className="img-fluid" />
+
             </div>
 
             <div className="ab-content">
@@ -45,40 +47,41 @@ export default function About() {
               Our practical approach is neither theoretical nor challenging to
               implement. The Foundation’s first publication, Blue Dharma, is a
               playbook of sustainable practices that have successfully powered
-              the creation of the world’s first energy-positive,
-              water-positive, and collective organic farming community. We
-              have the proof of concept to build carbon-pollution-free
-              communities that promote sustainable living (without
-              compromising on the perks of modern lifestyles) and revive
-              natural ecosystems while combating the most urgent changes of
-              the climate crisis.
+              the creation of the world’s first energy-positive, water-positive,
+              and collective organic farming community. We have the proof of
+              concept to build carbon-pollution-free communities that promote
+              sustainable living (without compromising on the perks of modern
+              lifestyles) and revive natural ecosystems while combating the most
+              urgent changes of the climate crisis.
             </p>
             <p>
-              Our all-inclusive approach to each strand of sustainability —
-              air, water, food, soil, shelter, energy, and people — will
-              fundamentally transform the urban lifestyle. Each
-              self-sufficient climate hub will produce sustainably farmed
-              organic food, generate clean energy from renewable resources,
-              improve air quality, recharge the water table, restore soil
-              fertility, support animal health, and nurture biodiversity.
+              Our all-inclusive approach to each strand of sustainability — air,
+              water, food, soil, shelter, energy, and people — will
+              fundamentally transform the urban lifestyle. Each self-sufficient
+              climate hub will produce sustainably farmed organic food, generate
+              clean energy from renewable resources, improve air quality,
+              recharge the water table, restore soil fertility, support animal
+              health, and nurture biodiversity.
             </p>
             <p>
               This fiscally responsible high-impact initiative is built on a
               consistent, sustained growth model and is guaranteed to yield
-              results. CREST Foundation is seeking to raise $100 million for
-              the first demonstration project. The Foundation has a 12-year
-              roadmap to grow its revenue into $1.78 billion, create 620,000
-              jobs, generate 820 MW of clean energy, and produce 6.28 million
-              metric tons of organic food.
+              results. CREST Foundation is seeking to raise $100 million for the
+              first demonstration project. The Foundation has a 12-year roadmap
+              to grow its revenue into $1.78 billion, create 620,000 jobs,
+              generate 820 MW of clean energy, and produce 6.28 million metric
+              tons of organic food.
             </p>
           </div>
         </Container>
-        <Container className="about-sub">
+        <Container className="about-sub" id="ethos">
           <h4 className="mission-heading mb-20">OUR ETHOS</h4>
 
           <div className="ab-overview">
+
           <div className="ab-img">
               <StaticImage src="../../images/about/ethos.png" alt="" className="img-fluid" />
+
             </div>
 
             <div className="ab-content">
@@ -96,10 +99,10 @@ export default function About() {
           </div>
           <div className="ab-main-con">
             <p>
-              Over the last decade, many mega cities have transformed into
-              urban heat islands. City residents breathe polluted air,
-              continuous exposure to which can lead to a dip in immunity and a
-              surge in respiratory illnesses
+              Over the last decade, many mega cities have transformed into urban
+              heat islands. City residents breathe polluted air, continuous
+              exposure to which can lead to a dip in immunity and a surge in
+              respiratory illnesses
             </p>
             <p>
               Planted palettes of oxygenating trees clean and cool the air by
@@ -115,12 +118,14 @@ export default function About() {
             </p>
           </div>
         </Container>
-        <Container className="about-sub">
+        <Container className="about-sub" id="vision">
           <h4 className="mission-heading mb-20">OUR VISION</h4>
 
           <div className="ab-overview">
             <div className="ab-img">
+
               <StaticImage src="../../images/about/vision.png" alt="" className="img-fluid" />
+
             </div>
 
             <div className="ab-content">
@@ -144,14 +149,14 @@ export default function About() {
               track climate change becomes vital.
             </p>
             <p>
-              Today, it’s easier and more convenient for people to work and
-              live in air-conditioned homes and offices. These closed-door
-              living situations increase exposure to indoor air pollutants,
-              which is unhealthy in the long run.
+              Today, it’s easier and more convenient for people to work and live
+              in air-conditioned homes and offices. These closed-door living
+              situations increase exposure to indoor air pollutants, which is
+              unhealthy in the long run.
             </p>
             <p>
-              When plants transpire, they cool the air around and beneath
-              them. Increasing herbal forest density and clean energy reliance
+              When plants transpire, they cool the air around and beneath them.
+              Increasing herbal forest density and clean energy reliance
               facilitates global cooling. Cooling temperatures reduce wildfire
               footprints and air conditioner dependence in the summer months.
               When fewer chlorofluorocarbons are released and more carbon
@@ -160,13 +165,14 @@ export default function About() {
             </p>
           </div>
         </Container>
-        <Container className="about-sub">
+        <Container className="about-sub" id="intention">
           <h4 className="mission-heading mb-20">OUR INTENTION</h4>
 
-
           <div className="ab-overview">
+
           <div className="ab-img">
               <StaticImage src="../../images/about/intenton.png" alt="" className="img-fluid" />
+
             </div>
 
             <div className="ab-content">
@@ -186,32 +192,30 @@ export default function About() {
           <div className="ab-main-con">
             <p>
               Processed foods and global food supply chains have large carbon
-              footprints. Produce that’s farmed with fertilizers and
-              pesticides has a longer shelf-life but is of lower nutritional
-              value. Consuming food with additives and preservatives is
-              harmful, and organic food products remain expensive to produce
-              and consume.
+              footprints. Produce that’s farmed with fertilizers and pesticides
+              has a longer shelf-life but is of lower nutritional value.
+              Consuming food with additives and preservatives is harmful, and
+              organic food products remain expensive to produce and consume.
             </p>
             <p>
-              By relying more on local farms, circular bio-economies become
-              less vulnerable to global supply chain breakdowns. In
-              bio-economies, food is managed in innovative ways. Food waste is
-              converted back into energy and excess food is funneled into
-              organic food processing plants.
+              By relying more on local farms, circular bio-economies become less
+              vulnerable to global supply chain breakdowns. In bio-economies,
+              food is managed in innovative ways. Food waste is converted back
+              into energy and excess food is funneled into organic food
+              processing plants.
             </p>
             <p>
               Easy availability of nutritious, farm-fresh food also decreases
-              reliance on takeout food and reduces waste from takeout
-              packaging. Most importantly, these circular microeconomies
-              contribute to a reduction in food miles, thereby decarbonizing
-              the earth.
+              reliance on takeout food and reduces waste from takeout packaging.
+              Most importantly, these circular microeconomies contribute to a
+              reduction in food miles, thereby decarbonizing the earth.
             </p>
             <p>
               Micro-economies can bolster and support other aspects of the
-              economy besides food production. Providing rural citizens with
-              the same healthcare, education, and employment opportunities
-              usually limited to cities dissuades mass-migration to urban
-              areas and decreases infrastructure and transportation needs
+              economy besides food production. Providing rural citizens with the
+              same healthcare, education, and employment opportunities usually
+              limited to cities dissuades mass-migration to urban areas and
+              decreases infrastructure and transportation needs
             </p>
           </div>
         </Container>
@@ -220,13 +224,12 @@ export default function About() {
           <div className="share-details">
             <h4>Share this page:</h4>
             <ul>
-
               <li>
-                <StaticImage src="../images/facebook-darks.png" alt="" />
+                <StaticImage src="../../images/facebook-darks.png" alt="" />
                 <span>Facebook</span>
               </li>
               <li>
-                <StaticImage src="../images/twitter-dark.png" alt="" />
+                <StaticImage src="../../images/twitter-dark.png" alt="" />
                 <span>Twitter</span>
               </li>
             </ul>
