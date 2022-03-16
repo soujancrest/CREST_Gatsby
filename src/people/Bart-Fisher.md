@@ -4,6 +4,7 @@ name: Bart Fisher
 designation: Founder & President
 category: Board of Trustees
 type: people
+order: 2
 excerpt: Bart Fisher is Listed in Who’s Who in the World,Who’s Who in American Law, and Who’s Who in America, Bart Fisher is an eminent lawyer, investment banker,philanthropist and author
 email: bart@crest.eco
 featuredImage: ../images/team/BART-FISHER.jpg
@@ -24,4 +25,4 @@ Company, The US-Iraq Business Council, Capital Baseball, Inc. , Omni Advisors LL
 big funds, and multinational corporations have retained his counsel on trade disputes and litigations. He is also a
 Board Member of several high-impact organizations such as Aplastic Anemia, MDS International Foundation, Give
 Life Foundation and the Osgood Center for International Studies. He was nominated in 2019 and 2020 for the
-Nobel Prize in Peace and Medicine for his efforts to establish bone marrow transplant registries around the world.
+Nobel Prize in Peace and Medicine for his efforts to establish bone marrow transplant registries around the world

@@ -2,8 +2,9 @@
 slug: venkat-tangirala
 name: Venkat Tangirala
 designation: Director - Clean Tech
-category: Management Team
+category: Management Team - India
 type: people
+order: 9
 excerpt: Venkat Tangirala is striving to contribute to decarbonizing planet Earth. A serial entrepreneur and cross-functional specialist, Venkat has led several successful enterprises in the last 20 years.
 email: venkat@crest.eco
 featuredImage: ../images/team/VENKAT-TANGIRALA.jpg

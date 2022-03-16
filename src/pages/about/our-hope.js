@@ -22,7 +22,11 @@ export default function OurHope() {
 
           <div className="ab-overview">
             <div className="ab-img">
-              <StaticImage src="../images/about/mission.png" alt="sdfds" class="img-fluid" />
+              <StaticImage
+                src="../../images/about/vision.png"
+                alt="sdfds"
+                class="img-fluid"
+              />
             </div>
 
             <div className="ab-content">
@@ -40,20 +44,18 @@ export default function OurHope() {
             </div>
           </div>
           <div className="ab-main-con">
-
             <p>
               Today, many cities suffer from multi-year drought conditions and
               rely on depleting freshwater sources to meet the needs of their
-              residents. Harvesting rainwater and managing runoff in urban
-              areas remain a challenge because most urban surfaces like
-              concrete, metal and asphalt are impervious to water
+              residents. Harvesting rainwater and managing runoff in urban areas
+              remain a challenge because most urban surfaces like concrete,
+              metal and asphalt are impervious to water
             </p>
             <p>
               Focusing on river protection and safe storage moves the needle
               towards zero water waste. Using watershed techniques for
               irrigation and organic farming practices promotes inclusive
-              ecosystems and improves the resilience of forests and
-              rangelands.
+              ecosystems and improves the resilience of forests and rangelands.
             </p>
             <p>
               Climate responsive habitats, comprising high-oxygenating,
@@ -68,13 +70,12 @@ export default function OurHope() {
           <div className="share-details">
             <h4>Share this page:</h4>
             <ul>
-
               <li>
-                <StaticImage src="../images/facebook-darks.png" alt="" />
+                <StaticImage src="../../images/facebook-darks.png" alt="" />
                 <span>Facebook</span>
               </li>
               <li>
-                <StaticImage src="../images/twitter-dark.png" alt="" />
+                <StaticImage src="../../images/twitter-dark.png" alt="" />
                 <span>Twitter</span>
               </li>
             </ul>

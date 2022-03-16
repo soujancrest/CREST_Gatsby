@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 import "../styles/global.scss"
@@ -16,17 +16,24 @@ export default function BlogDetail({ data }) {
     <Layout>
       <GatsbyImage image={image} />
       <Container>
-      {/* <StaticImage src="../images/content.jpg" alt="" /> */}
         <Row className="blog-top">
-          <h6 className="crest-heading mb-20" >{contentType}</h6>
-          <p className="mission-discrption-info">{title}</p>
+          <h6 className="crest-heading mb-20">{title}</h6>
           <p>{excerpt}</p>
         </Row>
-    <div className="blog-border"></div>
+        <div className="blog-border"></div>
 
         <Row>
-          
-          <div className="content-inner" dangerouslySetInnerHTML={{ __html: html }} />
+          <div
+            className="content-inner"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </Row>
+        <Row>
+          <div className="explore-btn">
+            <Link className="explor-btn" to="/blog">
+              Back to our blog
+            </Link>
+          </div>
         </Row>
       </Container>
     </Layout>
@@ -44,7 +51,7 @@ export const query = graphql`
         title
         featuredImage {
           childImageSharp {
-            gatsbyImageData(height:500)
+            gatsbyImageData(height: 500)
           }
         }
       }

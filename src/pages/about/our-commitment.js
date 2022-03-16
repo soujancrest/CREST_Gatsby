@@ -18,7 +18,10 @@ export default function OurCommitment() {
           <h4 className="mission-heading mb-20">OUR COMMITMENT</h4>
           <div className="ab-overview">
             <div className="ab-img">
-              <StaticImage src="../images/about/mission.png" alt="sdfds" />
+              <StaticImage
+                src="../../images/about/commitment.jpg"
+                alt="sdfds"
+              />
             </div>
 
             <div className="ab-content">
@@ -38,39 +41,37 @@ export default function OurCommitment() {
             <p>
               The nutritional quality of food is declining because of
               monocropping and chemical farming. Easy access to and mass
-              production of frozen and processed food has made consuming
-              fresh, organic produce more challenging and expensive.
+              production of frozen and processed food has made consuming fresh,
+              organic produce more challenging and expensive.
             </p>
             <p>
-              Global food transportation is a leading contributor to lower
-              food and nutritional safety standards and higher greenhouse gas
-              emissions. In the time it takes for food to be harvested and
-              reach the customer, fresh, alkaline food turns acidic. Regular
-              consumption of acidic food increases the risk of cancer and
-              other gastroenterological diseases.
+              Global food transportation is a leading contributor to lower food
+              and nutritional safety standards and higher greenhouse gas
+              emissions. In the time it takes for food to be harvested and reach
+              the customer, fresh, alkaline food turns acidic. Regular
+              consumption of acidic food increases the risk of cancer and other
+              gastroenterological diseases.
             </p>
             <p>
-              Investing in climate-smart agriculture, nutritional food
-              security, integrated pest management, and pollinator health and
-              protection restores soil health. Regular access to fresh produce
-              reduces dependence on refrigeration to store food. Improving
-              soil health helps sequester carbon back into the Earth.
+              Investing in climate-smart agriculture, nutritional food security,
+              integrated pest management, and pollinator health and protection
+              restores soil health. Regular access to fresh produce reduces
+              dependence on refrigeration to store food. Improving soil health
+              helps sequester carbon back into the Earth.
             </p>
           </div>
         </Container>
-
 
         <Container>
           <div className="share-details">
             <h4>Share this page:</h4>
             <ul>
-
               <li>
-                <StaticImage src="../images/facebook-darks.png" alt="" />
+                <StaticImage src="../../images/facebook-darks.png" alt="" />
                 <span>Facebook</span>
               </li>
               <li>
-                <StaticImage src="../images/twitter-dark.png" alt="" />
+                <StaticImage src="../../images/twitter-dark.png" alt="" />
                 <span>Twitter</span>
               </li>
             </ul>

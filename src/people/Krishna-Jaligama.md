@@ -2,11 +2,12 @@
 slug: krishna-jaligama
 name: Krishna Jaligama
 designation: Director - Branding & Mar-com
-category: Leadship Team India
+category: Leadership Team India
 type: people
+order: 11
 excerpt: Krishna Rao is the Founder of the well-respected and versatile Branding and Marketing Communication Firm, Dot Matters.
 email: krishna@crest.eco
-featuredImage: ../images/team/KRISHNA-JALIGAMA.jpg    
+featuredImage: ../images/team/KRISHNA-JALIGAMA.jpg
 ---
 
 ### About Krishna Jaligama

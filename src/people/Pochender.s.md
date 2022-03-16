@@ -2,8 +2,9 @@
 slug: pochender-s
 name: Pochender.S
 designation: Director - Sustainable Developments
-category: Management Team
+category: Management Team - India
 type: people
+order: 7
 excerpt: Pochender S. is an accomplished and well-networked, management professional with a Master’s in Environmental Engineering and more than 41 years of experience in the areas of strategy, execution, operations and business transformation.
 email: sp@crest.eco
 featuredImage: ../images/team/POCHENDER-S.jpg

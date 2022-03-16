@@ -1,9 +1,10 @@
 ---
 slug: dr-biksham-gujja
 name: Dr. Biksham Gujja
-designation: Director - Sustainable Agriculture &watershed
-category: Management Team
+designation: Director - Sustainable Agriculture & Watershed
+category: Management Team - India
 type: people
+order: 8
 excerpt: Dr. Biksham Gujja is the Founder and Chairperson of AgSri, a social enterprise that works with farmers on improving the productivity of major irrigated crops Through an innovative process, AgSri significantly reduces the water footprint, and creates jobs in rural areas.
 email: biksham@crest.eco
 featuredImage: ../images/team/Dr. BIKSHAM-GUJJA.jpg
