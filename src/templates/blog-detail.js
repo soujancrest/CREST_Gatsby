@@ -16,7 +16,6 @@ export default function BlogDetail({ data }) {
     <Layout>
       <GatsbyImage image={image} />
       <Container>
-      {/* <StaticImage src="../images/content.jpg" alt="" /> */}
         <Row className="blog-top">
           <h6 className="crest-heading mb-20" >{contentType}</h6>
           <p className="mission-discrption-info">{title}</p>

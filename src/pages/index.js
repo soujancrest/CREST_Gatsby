@@ -29,6 +29,9 @@ export default function IndexPage({ data }) {
           <button className="main-btn">Read more</button>
         </Container>
       </div>
+      <div className="banner-box">
+        <h6>soething</h6>
+      </div>
       <div className="about">
         <Container>
           <Row>

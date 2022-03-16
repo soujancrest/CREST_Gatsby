@@ -25,7 +25,7 @@ export default function About() {
 
           <div className="ab-overview">
           <div className="ab-img">
-              <StaticImage src="../images/about/vision.png" alt="" className="img-fluid" />
+              <StaticImage src="../../images/about/1.png" alt="" className="img-fluid" />
             </div>
 
             <div className="ab-content">
@@ -78,7 +78,7 @@ export default function About() {
 
           <div className="ab-overview">
           <div className="ab-img">
-              <StaticImage src="../images/about/vision.png" alt="" className="img-fluid" />
+              <StaticImage src="../../images/about/ethos.png" alt="" className="img-fluid" />
             </div>
 
             <div className="ab-content">
@@ -120,7 +120,7 @@ export default function About() {
 
           <div className="ab-overview">
             <div className="ab-img">
-              <StaticImage src="../images/about/vision.png" alt="" className="img-fluid" />
+              <StaticImage src="../../images/about/vision.png" alt="" className="img-fluid" />
             </div>
 
             <div className="ab-content">
@@ -166,7 +166,7 @@ export default function About() {
 
           <div className="ab-overview">
           <div className="ab-img">
-              <StaticImage src="../images/about/vision.png" alt="" className="img-fluid" />
+              <StaticImage src="../../images/about/intenton.png" alt="" className="img-fluid" />
             </div>
 
             <div className="ab-content">
@@ -215,12 +215,6 @@ export default function About() {
             </p>
           </div>
         </Container>
-
-        {/* <Container >
-          <div className="ab-border">
-
-          </div>
-        </Container> */}
 
         <Container>
           <div className="share-details">

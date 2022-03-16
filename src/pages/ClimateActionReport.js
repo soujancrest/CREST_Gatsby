@@ -6,70 +6,65 @@ import BlogThumb from "../components/BlogThumb"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import styles from "../styles/global.scss"
+import "../styles/global.scss"
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
 const ClimateActionReport = () => (
   <Layout>
     <Seo title="Climate Action Report" />
     <div>
       <Container>
-        <Row>
-          <Col>
-            <StaticImage src="../images/BackCreek 27_Jan_2022.jpg" />
-          </Col>
-          <Col>
-            <Link to="#">Back to Library</Link>
-            <h1>CLIMATE ACTION REPORT</h1>
-            <p></p>
-            <botton>Download</botton>
-          </Col>
-        </Row>
+        <div className="people-detail-sec">
+          <div className="people-img">
+            <StaticImage src="../images/Back Creek 27_Jan_2022 fin.jpg" />
+          </div>
+
+          <div className="people-details">
+            <Link to="#" className="back-page">Back to Library</Link>
+
+            <h1 >CLIMATE ACTION REPORT</h1>
+            <p>Small Description - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <br></br>
+            <botton className="explor-btn">Download</botton>
+
+          </div>
+        </div>
+
+
       </Container>
-      <Container>
-        <Row>
-          <Col>
-            <p>OVERVIEW</p>
-          </Col>
-          <Col>
-            <p>OUR "ECO"NOMIC MODEL</p>
-          </Col>
-          <Col>
-            <p>OUR APPROACH</p>
-          </Col>
-          <Col>
-            <p>OUR GOALS</p>
-          </Col>
-          <Col>
-            <p>PEOPLE</p>
-          </Col>
-        </Row>
+
+      <Container> 
+     
+        <Tabs defaultActiveKey="overview" id="uncontrolled-tab-example" className="crest-tab ">
+          <Tab eventKey="overview" title="Overview" className="crest-tabs-inner">
+           <div className="tabs-content">
+             <p>
+             Brief introduction - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+
+
+             </p>
+           </div>
+          </Tab>
+          <Tab eventKey="research" title="Research" className="crest-tabs-inner">
+            <div className="tabs-content">
+              <p> This is Research</p>
+            </div>
+           
+          </Tab>
+          <Tab eventKey="targets" title="Targets" className="crest-tabs-inner">
+          <div className="tabs-content">
+              <p> This is Targets</p>
+            </div>
+          </Tab>
+          <Tab eventKey="impact" title="Impact" className="crest-tabs-inner">
+          <div className="tabs-content">
+              <p> This is Impact</p>
+            </div>
+          </Tab>
+        </Tabs>
+      
       </Container>
-      <Container>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expedita sint? Sed quibusdam
-          recusandae alias error harum maxime adipisci amet laborum.
-          Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
-          cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit
-          doloribus tenetur fugiat, temporibus enim commodi iusto libero magni
-          deleniti quod quam consequuntur! Commodi minima excepturi repudiandae
-          velit hic maxime doloremque. Quaerat provident commodi consectetur
-          veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates
-          pariatur est explicabo fugiat, dolorum eligendi quam cupiditate
-          excepturi mollitia maiores labore suscipit quas? Nulla, placeat.
-          Voluptatem quaerat non architecto ab laudantium modi minima sunt esse
-          temporibus sint culpa, recusandae aliquam numquam totam ratione
-          voluptas quod exercitationem fuga. Possimus quis earum veniam quasi
-          aliquam eligendi, placeat qui corporis!
-        </p>
-      </Container>
+
     </div>
   </Layout>
 )

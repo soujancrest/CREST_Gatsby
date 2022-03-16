@@ -39,7 +39,7 @@ export const query = graphql`
           excerpt
           featuredImage{
             childImageSharp{
-              gatsbyImageData(width: 300)
+              gatsbyImageData(width: 500)
             }
           }
         }
