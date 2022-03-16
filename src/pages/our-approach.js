@@ -281,6 +281,23 @@ const OurApproach = () => (
 
       </Container>
     </div>
+
+    <Container>
+    <div className="share-details">
+          <h4>Share this page:</h4>
+          <ul>
+
+            <li>
+              <StaticImage src="../images/facebook-darks.png" alt="" />
+                <span>Facebook</span>
+            </li>
+            <li>
+              <StaticImage src="../images/twitter-dark.png" alt="" />
+                <span>Twitter</span>
+            </li>
+          </ul>
+        </div>
+    </Container>
   </Layout>
 )
 

@@ -7,6 +7,7 @@ focusArea: Circular Economy
 type: blog
 excerpt: Our great grandparents lived to be around 90-100. Most of our grandparents are comfortably living in their 80s. Our lifespan doesn’t look as bright.
 highlight: Come, live with nature at Dhriti Nirvana.
+featuredImage: ../images/blog/06.jpg
 ---
 
 ## Welcome

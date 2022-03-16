@@ -41,7 +41,9 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
+            <div className="goal-img">
             <StaticImage src="../images/goal-1.png" alt="" />
+            </div>
           </Col>
           <Col className="col-8">
             <div className="goal-section">
@@ -76,7 +78,10 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-4">
+            <div className="goal-img">
             <StaticImage src="../images/goal-2.png" alt="" />
+
+            </div>
           </Col>
           <Col className="col-8">
             
@@ -113,7 +118,11 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-4">
+          <div className="goal-img">
             <StaticImage src="../images/goal-3.png" alt="" />
+
+          </div>
+
           </Col>
           <Col className="col-8">
             <div className="goal-section">
@@ -144,6 +153,23 @@ const OurGoal = () => (
           </Col>
         </Row>
       </Container>
+
+      <Container>
+    <div className="share-details">
+          <h4>Share this page:</h4>
+          <ul>
+
+            <li>
+              <StaticImage src="../images/facebook-darks.png" alt="" />
+                <span>Facebook</span>
+            </li>
+            <li>
+              <StaticImage src="../images/twitter-dark.png" alt="" />
+                <span>Twitter</span>
+            </li>
+          </ul>
+        </div>
+    </Container>
     </div>
   </Layout>
 )

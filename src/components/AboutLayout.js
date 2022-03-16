@@ -2,7 +2,6 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
 import styles from "../styles/global.scss"
 
 export default function AboutLayout() {
@@ -12,8 +11,8 @@ export default function AboutLayout() {
         <Container>
           <Row>
             <Col>
-              <h2>ABOUT US</h2>
-              <p>
+              <h2 className="crest-heading mb-20">ABOUT US</h2>
+              <p className="mission-discrption-info">
                 We are on the verge of extinctions, but we don't seem to realise
                 it. To date, Earth has witnessed five mass extinctions, and all
                 five have been caused by natural geological changes
@@ -23,21 +22,19 @@ export default function AboutLayout() {
         </Container>
       </div>
       <div className="tab-sec">
+
+
         <Container>
-          <Row>
-            <Col>
-              <p>OVERVIEW</p>
-            </Col>
-            <Col>
-              <p>COMMITMENT</p>
-            </Col>
-            <Col>
-              <p>HOPE</p>
-            </Col>
-            <Col>
-              <p>PEOPLE</p>
-            </Col>
-          </Row>
+          <ul className="about-Tabs-list">
+            <li className="active">
+
+              <Link>Overview</Link>
+            </li>
+            <li><Link>Commitment</Link></li>
+            <li><Link>hope</Link></li>
+            <li><Link>people</Link></li>
+
+          </ul>
         </Container>
       </div>
     </div>

@@ -6,7 +6,7 @@ category: Management Team
 type: people
 excerpt: Ashutosh Suvarna has over 20 years of experience incubating start-ups and leading cross-functional innovation solutions globally.
 email: ashutosh@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/ASHUTOSH-SUVARNA.jpg
 ---
 
 ### About Ashutosh Suvarna

@@ -6,7 +6,7 @@ category: Board of Trustees
 type: people
 excerpt: Bart Fisher is Listed in Who’s Who in the World,Who’s Who in American Law, and Who’s Who in America, Bart Fisher is an eminent lawyer, investment banker,philanthropist and author
 email: bart@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/BART-FISHER.jpg
 ---
 
 ### About Bart Fisher

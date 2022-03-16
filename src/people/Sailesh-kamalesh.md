@@ -6,7 +6,7 @@ category: Leadership Team India
 type: people
 excerpt: With over 10 years of experience in web technologies, business analytics and digital media industry, sailesh specializes in growing businesses via consultative selling and product development.
 email: sailesh@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/SAILESH-KAMALESH.jpg
 ---
 
 ### About Sailesh Kamalesh

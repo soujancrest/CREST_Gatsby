@@ -1,0 +1,369 @@
+@import "./global.scss";
+
+.tab-sec {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.about-Tabs-list {
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid $theme-btn-bg;
+  border-bottom: 1px solid $theme-btn-bg;
+  li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    font-size: 1rem;
+    font-family: stem-extralight;
+    position: relative;
+    text-transform: uppercase;
+    &:not(:first-child) {
+      padding-left: 4rem;
+
+      @media #{$extra-small} {
+        padding-left: 2rem;
+      }
+    }
+  }
+}
+
+.about-Tabs-list .active {
+  color: $theme-btn-bg;
+  font-family: stem-light;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+    border-top: 10px solid $theme-btn-bg;
+  }
+}
+
+.ab-overview {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  @media #{$extra-small} {
+    flex-direction: column;
+  }
+
+  .ab-img {
+    width: 30%;
+    @media #{$extra-small} {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .ab-content {
+    width: 70%;
+    // padding-left: 5%;
+
+    @media #{$extra-small} {
+      width: 100%;
+      padding-left: 0;
+    }
+
+    h4 {
+      color: $theme-btn-bg;
+      font-family: stem-light;
+    }
+    p {
+      font-family: stem-extralight;
+      font-size: 0.9rem;
+    }
+  }
+}
+.ab-main-con {
+  margin-top: 1.2rem;
+
+  @media #{$extra-small} {
+    margin-top: 0;
+  }
+  p {
+    font-family: stem-extralight;
+    font-size: 0.9rem;
+  }
+}
+.about-sub {
+  margin-top: 4rem;
+  @media #{$extra-small} {
+    margin-top: 0;
+  }
+}
+.about-sub .mb-20 {
+  margin-bottom: 2rem;
+}
+
+.ab-border {
+  width: 100%;
+  height: 2px;
+  background-color: $text-color;
+  margin-bottom: 2rem;
+}
+
+.about-people-heading {
+  font-family: stem-medium;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.people-detail-sec {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2rem;
+
+  @media #{$extra-small} {
+    flex-direction: column;
+  }
+}
+
+.people-img {
+  width: 25%;
+
+  @media #{$extra-small} {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: 370px;
+  }
+}
+
+.people-details {
+  width: 70%;
+  padding-left: 5%;
+
+  @media #{$extra-small} {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 1.2rem;
+  }
+  h1 {
+    font-family: stem-medium;
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: $text-color;
+    text-transform: uppercase;
+
+    @media #{$extra-small} {
+      font-size: 2.5rem;
+    }
+  }
+
+  h3 {
+    font-family: stem-extralight;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  p {
+    font-family: stem-extralight;
+    font-size: 0.9rem;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.people-details-content {
+  margin-top: 2rem;
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.content-inner {
+  h3 {
+    color: $theme-btn-bg;
+    font-family: stem-light;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  h2{
+    color: $theme-btn-bg;
+    font-family: stem-light;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-family: stem-extralight;
+    font-size: 0.9rem;
+  }
+}
+
+.people-border {
+  width: 100%;
+  height: 1px;
+  background-color: $text-color;
+  margin: 2rem 0;
+}
+
+.share-details {
+  border-top: 2px solid $text-color;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+
+  h4 {
+    color: $theme-btn-bg;
+    font-family: stem-light;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      display: inline-flex;
+      align-items: center;
+      &:not(:first-child) {
+        padding-left: 2rem;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.people-thumbs-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 80%);
+  margin-bottom: 2rem;
+
+  @media #{$extra-small} {
+    width: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    h4 {
+      color: $theme-btn-bg !important;
+      font-family: stem-light;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    h6 {
+      font-family: stem-extralight;
+      margin-top: 1rem;
+      color: $text-color;
+    }
+  }
+}
+
+.person-thumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.about-subs{
+  margin-top: 2rem;
+
+  .mission-discrption-info{
+    color: $theme-btn-bg;
+  }
+}
+
+.crest-contact{
+  margin-top: 2rem;
+
+  .contact-list{
+
+    @media #{$extra-small}{
+      flex-direction: column-reverse;
+    }
+  }
+  .contact-heading{
+    font-size: 1.3rem;
+    font-family: stem-light;
+    margin-bottom: 1.5rem;
+  }
+
+  .crest-add{
+    margin-bottom: 2rem;
+    h4{
+      font-family: stem-medium;
+      color: $theme-heading-color;
+      margin-bottom: 1rem;
+    }
+
+   ul{
+     margin: 0;
+     padding: 0;
+     li{
+       display: inline-flex;
+       list-style: none ;
+       align-items: center;
+       width: 100%;
+       margin-bottom: 1rem;
+       p{
+         padding-left: 5%;
+         font-family: stem-extralight;
+         font-size: .8rem;
+       }
+     }
+   }
+  }
+}
+
+
+.crest-contact-form{
+  border: 1px solid $text-color;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 5px;
+
+  @media #{$extra-small}{
+    margin-bottom: 2rem;
+  }
+  h4{
+    font-family: stem-light;
+    color: $theme-btn-bg;
+    margin-bottom: 1rem;
+  }
+
+  .explor-btn{
+    padding: .8rem 2rem;
+  }
+}
+
+.crest-input{
+  border: 1px solid $text-color;
+  padding:0.5rem 1rem ;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.blog-border{
+  width: 100%;
+  height: 2px;
+  background-color: $theme-heading-color;
+  margin-bottom: 1rem;
+}
+
+.blog-top{
+  margin-top: 2rem;
+}

@@ -6,6 +6,7 @@ category: Management Team
 type: people
 excerpt: Venkat Tangirala is striving to contribute to decarbonizing planet Earth. A serial entrepreneur and cross-functional specialist, Venkat has led several successful enterprises in the last 20 years.
 email: venkat@crest.eco
+featuredImage: ../images/team/VENKAT-TANGIRALA.jpg
 ---
 
 ### About Venkat Tangirala

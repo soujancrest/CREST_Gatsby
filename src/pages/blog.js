@@ -12,8 +12,9 @@ export default function Blog({ data }) {
   console.log(blogs)
   return (
     <Layout>
-      <Container>
-        <h1>Blog</h1>
+      <Container className="about-subs">
+        <h1 className="crest-heading mb-20">Blog</h1>
+     
         <div className="blog-thumb">
           {blogs.map(blog => (
             <BlogThumb blog={blog} />
@@ -36,6 +37,11 @@ export const query = graphql`
           contentType
           focusArea
           excerpt
+          featuredImage{
+            childImageSharp{
+              gatsbyImageData(width: 300)
+            }
+          }
         }
       }
     }

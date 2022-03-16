@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage,getImage, StaticImage } from "gatsby-plugin-image"
 
 import styles from "../styles/global.scss"
 
 export default function BlogThumb({ blog }) {
+  const image = getImage(blog.frontmatter.featuredImage)
   return (
     <div>
       <Link
@@ -13,11 +14,11 @@ export default function BlogThumb({ blog }) {
         key={blog.id}
       >
         <div>
-          {/* <h4>{blog.frontmatter.contentType}</h4> */}
-          <StaticImage src="../images/content.jpg" alt="" />
-          {/* <h3>{blog.frontmatter.focusArea}</h3> */}
-          <h2>{blog.frontmatter.title}</h2>
-          <p>{blog.frontmatter.excerpt}</p>
+
+          <GatsbyImage image={image} />
+
+          <h2 className="mission-discrption-info">{blog.frontmatter.title}</h2>
+          <p className="md-subp">{blog.frontmatter.excerpt}</p>
         </div>
       </Link>
     </div>

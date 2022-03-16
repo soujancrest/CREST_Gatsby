@@ -31,7 +31,7 @@ $extra-large: "screen and (min-width: 1920px) and (max-width: 5000px)";
 // font face
 @font-face {
   font-family: "Coco Gothic ExtLt";
-  src: url("../fonts/CocoGothic-UltraLight.woff") format("woff2"),
+  src: url("../fonts/CocoGothic-UltraLight.woff2") format("woff2"),
     url("../fonts/CocoGothic-UltraLight.woff") format("woff");
   font-style: normal;
   font-display: swap;
@@ -498,6 +498,10 @@ p {
 
 .about-sub {
   padding: 2rem 0;
+
+  @media #{$extra-small}{
+    padding: 2rem;
+  }
 }
 
 .about-sub h4 {

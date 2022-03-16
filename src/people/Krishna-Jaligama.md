@@ -6,7 +6,7 @@ category: Leadship Team India
 type: people
 excerpt: Krishna Rao is the Founder of the well-respected and versatile Branding and Marketing Communication Firm, Dot Matters.
 email: krishna@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/KRISHNA-JALIGAMA.jpg    
 ---
 
 ### About Krishna Jaligama

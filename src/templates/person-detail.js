@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 
@@ -13,22 +14,51 @@ export default function PersonDetail({ data }) {
   return (
     <Layout>
       <Container>
-        <Row>
-          <Col>
+
+        <div className="people-detail-sec">
+          <div className="people-img">
             <GatsbyImage image={image} />
-          </Col>
-          <Col>
-            <span>Back to People</span>
-            <h1>{name}</h1>
+          </div>
+          <div className="people-details">
+            <StaticImage src="../images/about/arrow-left.png" alt="" className="img-fluid" />
+
+            <span> Back to People</span>
+            <br></br>
+            <br></br>
+        
+            <h1 >{name}</h1>
             <h3>{designation}</h3>
             <p>{excerpt}</p>
-          </Col>
-        </Row>
-        <Row>
+          </div>
+        </div>
+
+        </Container>
+
+        <div className="people-border"></div>
+
+        <Container>
+        <div className="people-details-content">
           <h1>{title}</h1>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </Row>
-      </Container>
+          <div className="content-inner" dangerouslySetInnerHTML={{ __html: html }} />
+        </div>
+
+        <div className="share-details">
+          <h4>Share this page:</h4>
+          <ul>
+
+            <li>
+              <StaticImage src="../images/facebook-darks.png" alt="" />
+                <span>Facebook</span>
+            </li>
+            <li>
+              <StaticImage src="../images/twitter-dark.png" alt="" />
+                <span>Twitter</span>
+            </li>
+          </ul>
+        </div>
+        </Container>
+
+   
     </Layout>
   )
 }
@@ -45,7 +75,7 @@ export const query = graphql`
         excerpt
         featuredImage {
           childImageSharp {
-            gatsbyImageData(width: 200)
+            gatsbyImageData(width: 400)
           }
         }
       }

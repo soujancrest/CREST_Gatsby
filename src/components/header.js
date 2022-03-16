@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
         }}
       >
         <StaticImage
-          src="../images/CREST_White_Logo.png"
+          src="../images/Crest-Logo.png"
           width={200}
           quality={95}
           formats={["auto", "webp", "avif"]}

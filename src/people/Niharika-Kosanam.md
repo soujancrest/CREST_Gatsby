@@ -6,7 +6,7 @@ category: Leadership Team India
 type: people
 excerpt: Niharika Kosanam is the Founder of Continuum Studio, a firm that strives to achieve sustainability in every aspect of living.
 email: niharika@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/NIHARIKA-KOSANAM.jpg
 ---
 
 ### About Niharika Kosanam

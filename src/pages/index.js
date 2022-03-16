@@ -3,7 +3,7 @@ import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 import BlogThumb from "../components/BlogThumb"
-import styles from "../styles/global.scss"
+import "../styles/global.scss"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
@@ -291,6 +291,7 @@ export default function IndexPage({ data }) {
           <Row>
             <h2 className="crest-heading">OUR BLOG</h2>
           </Row>
+          <br></br>
           <div className="blog-thumb">
             {blogs.map(blog => (
               // <Link className="link" to={"/blog/" + blog.frontmatter.slug} key={blog.id}>

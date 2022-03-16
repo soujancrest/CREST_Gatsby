@@ -1,7 +1,7 @@
 @import './global.scss';
-.mission-discrption-info{
-    color: $theme-btn-bg;
-}
+// .mission-discrption-info{
+//     color: $theme-btn-bg;
+// }
 
 .mb-20{
     margin-bottom: 1rem;
@@ -116,6 +116,7 @@
             font-size: 0.7rem;
         color: $black;
         font-family: stem-extralight;
+        // text-transform: uppercase;
         }
     }
 }
@@ -137,5 +138,11 @@
         &:last-child{
             font-size: 0.9rem;
         }
+    }
+}
+
+.goal-img{
+    img{
+        min-height:400px;
     }
 }

@@ -6,7 +6,7 @@ category: Board of Trustees
 type: people
 excerpt: A successful serial entrepreneur, published author, passionate evangelist of sustainability and respectable mentor on triple bottom-line businesses models. Raj, has over 28 years of extensive hands-on experience in the field of architectural design, real-estate development and the construction industry
 email: raj@crest.eco
-featuredImage: ../images/Cover Page-01.jpg
+featuredImage: ../images/team/RAJENDRA-KUMAR.jpg
 ---
 
 ### About Rajendar Kumar
