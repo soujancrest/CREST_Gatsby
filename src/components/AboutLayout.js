@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import styles from "../styles/global.scss"
+import AboutNavbar from "./AboutNavbar" 
 
 export default function AboutLayout() {
   return (
@@ -21,22 +22,7 @@ export default function AboutLayout() {
           </Row>
         </Container>
       </div>
-      <div className="tab-sec">
-
-
-        <Container>
-          <ul className="about-Tabs-list">
-            <li className="active">
-
-              <Link>Overview</Link>
-            </li>
-            <li><Link>Commitment</Link></li>
-            <li><Link>hope</Link></li>
-            <li><Link>people</Link></li>
-
-          </ul>
-        </Container>
-      </div>
+      <AboutNavbar/>
     </div>
   )
 }

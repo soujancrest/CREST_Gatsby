@@ -34,6 +34,9 @@ export default function IndexPage({ data }) {
           </Link>
         </Container>
       </div>
+      <div className="banner-box">
+        <h6>soething</h6>
+      </div>
       <div className="about">
         <Container>
           <Row>

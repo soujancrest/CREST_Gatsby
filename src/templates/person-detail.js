@@ -19,11 +19,9 @@ export default function PersonDetail({ data }) {
             <GatsbyImage image={image} />
           </div>
           <div className="people-details">
-            <StaticImage
-              src="../images/about/arrow-left.png"
-              alt=""
-              className="img-fluid"
-            />
+
+            <StaticImage src="../../images/about/arrow-left.png" />
+
 
             <Link to="/about/people"> Back to People</Link>
             <br></br>

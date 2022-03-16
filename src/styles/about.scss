@@ -27,22 +27,21 @@
   }
 }
 
-.about-Tabs-list .active {
+.about-Tabs-list li.active {
   color: $theme-btn-bg;
   font-family: stem-light;
+}
 
-  &::after {
-    content: "";
-    position: absolute;
-    top: 70px;
-    left: 30px;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-
-    border-top: 10px solid $theme-btn-bg;
-  }
+.about-Tabs-list li.active:after{
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid $theme-btn-bg;
 }
 
 .ab-overview {
@@ -366,4 +365,58 @@
 
 .blog-top{
   margin-top: 2rem;
+}
+
+.back-page{
+text-decoration: none;
+margin-bottom: 2rem;
+display: block;
+color: $text-color;
+}
+
+.crest-tab{
+  margin-left: 0;
+  margin-top: 2rem;
+  padding: 0.6rem 0;
+  border-top:1px solid red ;
+  border-bottom: 1px solid red;
+
+li{
+  margin-bottom: 0;
+  position: relative;
+  .nav-link{
+    text-transform: uppercase;
+    font-family: stem-light;
+    color: $text-color;
+  }
+}
+}
+
+.crest-tab li .nav-link:hover,
+.crest-tab li .nav-link:focus{
+  outline: none;
+    border: none;
+}
+.crest-tab li .nav-link.active{
+  color: $theme-btn-bg;
+  border: none;
+}
+
+.crest-tab li .nav-link.active::after{
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid $theme-btn-bg;
+}
+
+.tabs-content{
+  margin-top: 4rem;
+
+  p{
+    font-family: stem-extralight;
+    font-size: .8rem;
+  }
 }

@@ -40,9 +40,15 @@ export const query = graphql`
           contentType
           focusArea
           excerpt
+
           thumbImage {
             childImageSharp {
               gatsbyImageData(height: 500)
+
+          featuredImage{
+            childImageSharp{
+              gatsbyImageData(width: 500)
+
             }
           }
         }
