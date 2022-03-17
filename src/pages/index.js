@@ -11,7 +11,14 @@ import Seo from "../components/seo"
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
-  console.log(blogs)
+  const allPublications = [
+    "Blue Dharma",
+    "India Wakes",
+    "The Mother Earth",
+    "The New Worm",
+    "Planet Kriya",
+    "Every Dot Matters",
+  ]
   return (
     <Layout>
       <Seo title="Home" />
@@ -35,7 +42,6 @@ export default function IndexPage({ data }) {
             </Link>
           </div>
         </Container>
-
       </div>
 
       <div className="about">
@@ -50,7 +56,6 @@ export default function IndexPage({ data }) {
                   Foundation is a non-profit environmental and social governance
                   initiative dedicated to people and planet wellbeing.
                 </p>
-
               </div>
             </Col>
           </Row>
@@ -63,8 +68,7 @@ export default function IndexPage({ data }) {
               <h4 className="mission-heading">Our Mission</h4>
               <div className="mission-discrption">
                 <div className="mission-img">
-
-                  <StaticImage src="../images/blog/blogthumb_06.jpg" />
+                  <StaticImage src="../images/mission-thumb.jpg" />
                 </div>
 
                 <p className="mission-discrption-info">
@@ -76,7 +80,6 @@ export default function IndexPage({ data }) {
                   village featuring 64 varieties of sports, a community kitchen,
                   and a preventive care and wellness health centre.
                 </p>
-
               </div>
               <Link className="readmore" to="/about">
                 READ MORE
@@ -159,7 +162,7 @@ export default function IndexPage({ data }) {
                     </Link>
                   </div>
                 </Col>
-                <Col className="mission-inner col-sm-4" >
+                <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
                       src="../../images/about/commitment.jpg"
@@ -175,25 +178,26 @@ export default function IndexPage({ data }) {
       </div>
 
       <div className="climate-sec">
-        <div className="climate-secc-img">
-        </div>
+        <div className="climate-secc-img"></div>
 
         <div className="climate-box">
           <div className="climate-boxes box-1">
             <div className="climate-box-img">
-
               <StaticImage src="../images/climate-book.png" />
             </div>
             <div className="box-right-con">
-              <p>Climate Action Report <br></br>
-                December 20, 2021</p>
-              <span>
-                Creek, West Virginia.
-              </span>
+              <p>
+                Climate Action Report <br></br>
+                December 20, 2021
+              </p>
+              <span>Creek, West Virginia.</span>
               <h6>
-                CREST Foundation is on a mission to build 20 self-sufficient Climate Hubs over the next ten years.
+                CREST Foundation is on a mission to build 20 self-sufficient
+                Climate Hubs over the next ten years.
               </h6>
-              <a href="" className="readmore">Read More</a>
+              <a href="" className="readmore">
+                Read More
+              </a>
             </div>
           </div>
         </div>
@@ -312,9 +316,6 @@ export default function IndexPage({ data }) {
         </Container>
       </div>
 
-
-
-     
       <div className="strip">
         <Container></Container>
       </div>
@@ -379,7 +380,6 @@ export default function IndexPage({ data }) {
           </Row>
         </Container>
       </div>
-     
     </Layout>
   )
 }

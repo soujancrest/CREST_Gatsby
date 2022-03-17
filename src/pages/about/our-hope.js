@@ -23,7 +23,7 @@ export default function OurHope() {
           <div className="ab-overview">
             <div className="ab-img">
               <StaticImage
-                src="../../images/about/vision.png"
+                src="../../images/about/our-hope.jpg"
                 alt="sdfds"
                 class="img-fluid"
               />
@@ -65,8 +65,6 @@ export default function OurHope() {
             </p>
           </div>
         </Container>
-
-    
       </div>
     </Layout>
   )
