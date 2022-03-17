@@ -36,36 +36,6 @@ export default function IndexPage({ data }) {
           </div>
         </Container>
 
-<<<<<<< Updated upstream
-        {/* <div className="banner-box">
-          <Container>
-            <div className="banner-box-inner">
-              <h2>Climate Hubs</h2>
-              <br></br>
-
-              <div className="box-book">
-                <div className="box-bookleft">
-                  <StaticImage src="../images/climate-book.png" />
-                </div>
-                <div className="box-book-right">
-                  <span>
-                    Climate Action Report <br></br>
-                    December 20, 2021
-                  </span>
-                  <p>Creek, West Virginia.</p>
-                  <h6>
-                    CREST Foundation is on a mission to build 20 self-sufficient
-                    Climate Hubs over the next ten years. Each Climate Hub will
-                    consist of 600 eco-homes, 500 acres of organic farms, food
-                    forests, and herbal gardens
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </Container>
-        </div> */}
-=======
->>>>>>> Stashed changes
       </div>
 
       <div className="about">
