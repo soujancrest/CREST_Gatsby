@@ -260,38 +260,62 @@ export default function IndexPage({ data }) {
           </Row>
           <Row className="pub-sec-row2">
             <Col>
-              <div id="pub-left-img-5"></div>
-              <p className="mission-discrption-info">BLUE DHARMA</p>
-              <p className="md-subp">
-                A Way to sustainable Lifestyle for Human Wellbeing
-              </p>
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-5"></div>
+                <div className="publication-dis">
+                <h6 className="mission-discrption-info">BLUE DHARMA</h6>
+                <p className="md-subp">
+                  A Way to sustainable Lifestyle for Human Wellbeing
+                </p>
+
+                <Link className="readmore">Read More</Link>
+                <span className="soon">Coming Soon</span>
+                </div>
+             
+              </div>
+
             </Col>
             <Col>
-              <div id="pub-left-img-1"></div>
-              <p className="mission-discrption-info">PLANET KRIYA</p>
-              <p className="md-subp">
-                A expose of the shocking changes agriculture has endured
-              </p>
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-1"></div>
+                <p className="mission-discrption-info">PLANET KRIYA</p>
+                <p className="md-subp">
+                  A expose of the shocking changes agriculture has endured
+                </p>
+              </div>
+
             </Col>
             <Col>
-              <div id="pub-left-img-2"></div>
-              <p className="mission-discrption-info">INDIA WAKES</p>
-              <p className="md-subp">Post Coronavirus new world order</p>
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-2"></div>
+                <p className="mission-discrption-info">INDIA WAKES</p>
+                <p className="md-subp">Post Coronavirus new world order</p>
+              </div>
+
             </Col>
             <Col>
-              <div id="pub-left-img-3"></div>
-              <p className="mission-discrption-info">EVERY DOT MATTERS</p>
-              <p className="md-subp"></p>
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-3"></div>
+                <p className="mission-discrption-info">EVERY DOT MATTERS</p>
+                <p className="md-subp"></p>
+              </div>
+
             </Col>
             <Col>
-              <div id="pub-left-img-4"></div>
-              <p className="mission-discrption-info">THE NEW NORM</p>
-              <p className="md-subp"></p>
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-4"></div>
+                <p className="mission-discrption-info">THE NEW NORM</p>
+                <p className="md-subp"></p>
+              </div>
+
             </Col>
             <Col>
-              <div id="pub-left-img-6"></div>
+            <div className="crest-publication-sec">
+            <div id="pub-left-img-6"></div>
               <p className="mission-discrption-info">THE MOTHER EARTH</p>
               <p className="md-subp">An alarming wake-up call</p>
+            </div>
+            
             </Col>
           </Row>
         </Container>

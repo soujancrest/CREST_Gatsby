@@ -96,10 +96,12 @@
   @media #{$extra-small} {
     margin-top: 0;
   }
+
+  .mb-20 {
+    margin-bottom: 2rem;
+  }
 }
-.about-sub .mb-20 {
-  margin-bottom: 2rem;
-}
+
 
 .ab-border {
   width: 100%;

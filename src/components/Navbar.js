@@ -11,7 +11,7 @@ function Navbar() {
       <div className="crest-header">
         <Link to="/">
           <StaticImage
-            src="../images/Crest Logo-01-01.jpg"
+            src="../images/Crest Logo-03-01.jpg"
             width={200}
             quality={95}
             formats={["auto", "webp", "avif"]}
@@ -30,48 +30,36 @@ function Navbar() {
                 About us
               </Link>
             </li>
+           
             <li>
-              <Link className="mainNavLink" to="/ClimateActionReport/">
-                Report
-              </Link>
-            </li>
-            <li>
-              <Link className="mainNavLink" >
-                Library
+              <Link className="mainNavLink" to="/our-approach">
+               Our Approach
               </Link>
             </li>
             <li>
               <Link className="mainNavLink" to="/our-goal">
-                Goals
+              Our Goals
               </Link>
             </li>
             <li>
               <Link className="mainNavLink" to="/our-impact">
-                Impact
+              Our Impact
               </Link>
             </li>
-            <li>
-              <Link className="mainNavLink" to="/our-approach">
-                Approach
-              </Link>
-            </li>
+           
             <li>
               <Link className="mainNavLink" to="/blog">
                 Blogs
               </Link>
             </li>
-            <li>
-              <Link className="mainNavLink" >
-                Team
-              </Link>
-            </li>
+          
             <li>
               <Link className="mainNavLink" to="/contact">
                 Contact us
               </Link>
             </li>
             <li>
-              <a className="mainNavLink" >
+              <a href='../images/Crest_Foundation_Book.pdf' className="mainNavLink" >
                 Brochure-PDF
               </a>
             </li>

@@ -305,7 +305,14 @@ a:hover {
 .mission-subheading {
   font-size: 0.833rem;
   line-height: 24px;
-  min-height: 80px;
+  // min-height: 40px;
+  margin-bottom: 1rem;
+  font-family: stem-light;
+}
+
+.mission-side-right p{
+  font-size: 0.8rem;
+  font-family: stem-extralight;
 }
 .mission-side-img {
   width: 150px;
@@ -434,12 +441,28 @@ a:hover {
   }
 }
 
+.crest-publication-sec{
+  .publication-dis{
+    margin-top: 1rem;
+    h6{
+      margin-bottom: 0.5rem;
+    }
+    p{
+      line-height:25px;
+    }
+
+    .soon{
+      color: gray;
+      font-size: 0.8rem;
+    }
+  }
+}
 #pub-left-img-1 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-02.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 
   @media #{$extra-small} {
     background-size: contain;
@@ -449,11 +472,11 @@ a:hover {
 }
 
 #pub-left-img-2 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-06.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size:contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -462,11 +485,11 @@ a:hover {
 }
 
 #pub-left-img-3 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-03.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -475,11 +498,11 @@ a:hover {
 }
 
 #pub-left-img-4 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-05.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -488,11 +511,11 @@ a:hover {
 }
 
 #pub-left-img-5 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-07.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -501,11 +524,11 @@ a:hover {
 }
 
 #pub-left-img-6 {
-  height: 30vh;
+  height: 40vh;
   background-image: url("../images/Cover\ Page-01.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -537,7 +560,7 @@ a:hover {
 }
 
 .about-sub {
-  padding: 2rem 0;
+  // padding: 2rem 0;
 
   @media #{$extra-small} {
     padding: 2rem;

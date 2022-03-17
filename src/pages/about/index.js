@@ -23,11 +23,8 @@ export default function About() {
           <h4 className="mission-heading mb-20">OUR MISSION</h4>
 
           <div className="ab-overview">
-
-          
-          <div className="ab-img">
+            <div className="ab-img">
               <StaticImage src="../../images/about/1.png" alt="" className="img-fluid" />
-
             </div>
 
             <div className="ab-content">
@@ -79,7 +76,7 @@ export default function About() {
 
           <div className="ab-overview">
 
-          <div className="ab-img">
+            <div className="ab-img">
               <StaticImage src="../../images/about/ethos.png" alt="" className="img-fluid" />
 
             </div>
@@ -170,7 +167,7 @@ export default function About() {
 
           <div className="ab-overview">
 
-          <div className="ab-img">
+            <div className="ab-img">
               <StaticImage src="../../images/about/intenton.png" alt="" className="img-fluid" />
 
             </div>
@@ -220,7 +217,8 @@ export default function About() {
           </div>
         </Container>
 
-        <Container>
+{/* share  */}
+        {/* <Container>
           <div className="share-details">
             <h4>Share this page:</h4>
             <ul>
@@ -234,7 +232,7 @@ export default function About() {
               </li>
             </ul>
           </div>
-        </Container>
+        </Container> */}
       </div>
     </Layout>
   )
