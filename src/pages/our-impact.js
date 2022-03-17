@@ -43,7 +43,7 @@ const OurImpact = () => (
           <Col className="mb-20" lg="4" sm="6">
             <div className="impact-cards-bg">
               <div className="impact-img">
-                <StaticImage src="../images/our-impact/Path 55.png" alt="" />
+                <StaticImage src="../images/our-impact/Path 55.png" alt="" backgroundColor="transparent" />
               </div>
               <h3 className="mission-discrption-info mb-20">CLEAN TECHNOLOGIES & INNOVATION</h3>
               <ul>
@@ -153,22 +153,6 @@ const OurImpact = () => (
       </Container>
     </div>
 
-    <Container>
-    <div className="share-details">
-          <h4>Share this page:</h4>
-          <ul>
-
-            <li>
-              <StaticImage src="../images/facebook-darks.png" alt="" />
-                <span>Facebook</span>
-            </li>
-            <li>
-              <StaticImage src="../images/twitter-dark.png" alt="" />
-                <span>Twitter</span>
-            </li>
-          </ul>
-        </div>
-    </Container>
   </Layout>
 )
 

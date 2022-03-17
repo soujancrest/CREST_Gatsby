@@ -36,6 +36,7 @@ export default function IndexPage({ data }) {
           </div>
         </Container>
 
+<<<<<<< Updated upstream
         {/* <div className="banner-box">
           <Container>
             <div className="banner-box-inner">
@@ -63,6 +64,8 @@ export default function IndexPage({ data }) {
             </div>
           </Container>
         </div> */}
+=======
+>>>>>>> Stashed changes
       </div>
 
       <div className="about">
@@ -205,6 +208,32 @@ export default function IndexPage({ data }) {
           </Row>
         </Container>
       </div>
+
+      <div className="climate-sec">
+        <div className="climate-secc-img">
+        </div>
+
+        <div className="climate-box">
+          <div className="climate-boxes box-1">
+            <div className="climate-box-img">
+
+              <StaticImage src="../images/climate-book.png" />
+            </div>
+            <div className="box-right-con">
+              <p>Climate Action Report <br></br>
+                December 20, 2021</p>
+              <span>
+                Creek, West Virginia.
+              </span>
+              <h6>
+                CREST Foundation is on a mission to build 20 self-sufficient Climate Hubs over the next ten years.
+              </h6>
+              <a href="" className="readmore">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="focus-area-sec">
         <Container>
           <Col className="left-col">

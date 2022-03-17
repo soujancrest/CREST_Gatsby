@@ -49,7 +49,7 @@ function Navbar() {
            
             <li>
               <Link className="mainNavLink" to="/blog">
-                Blogs
+                Our Blogs
               </Link>
             </li>
           
@@ -60,7 +60,7 @@ function Navbar() {
             </li>
             <li>
               <a href='../images/Crest_Foundation_Book.pdf' className="mainNavLink" >
-                Brochure-PDF
+               Download Brochure
               </a>
             </li>
           </ul>

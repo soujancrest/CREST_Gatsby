@@ -18,7 +18,8 @@
     text-transform: uppercase;
     a{
       position: relative;
-
+      color: $text-color;
+      text-decoration: none;
     }
     &:not(:first-child) {
       padding-left: 4rem;

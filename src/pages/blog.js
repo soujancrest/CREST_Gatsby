@@ -14,11 +14,19 @@ export default function Blog({ data }) {
     <Layout>
       <Container className="about-subs">
         <h1 className="crest-heading mb-20">OUR BLOG</h1>
-        <p>
+        <h3>Re-engineering the concrete jungle</h3> <br></br>
+        <p className="mission-discrption-info">
           CREST Foundation publishes objective, independent, high-quality
           research, including books, reports, and other materials covering
           sustainable development themes.
         </p>
+
+        <div className="page-border">
+          <Container>
+            <div className="border-crest"></div>
+          </Container>
+        </div>
+        <br></br>
         <div className="blog-thumb">
           {blogs.map(blog => (
             <BlogThumb blog={blog} />

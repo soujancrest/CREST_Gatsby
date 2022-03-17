@@ -45,7 +45,7 @@ const OurGoal = () => (
               <StaticImage src="../images/goal-1.png" alt="" />
             </div>
           </Col>
-          <Col className="col-8">
+          <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
               <h3>Future-Proof Climate Hubs And Inclusivity</h3>
               <p>
@@ -76,12 +76,12 @@ const OurGoal = () => (
       </Container>
       <Container className="about-sub">
         <Row>
-          <Col className="col-4">
+          <Col className="col-lg-4 col-12">
             <div className="goal-img">
               <StaticImage src="../images/goal-2.png" alt="" />
             </div>
           </Col>
-          <Col className="col-8">
+          <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
               <h3>'Walk To Work And' And 'Walk To School' Communities</h3>
               <p>
@@ -114,12 +114,12 @@ const OurGoal = () => (
       </Container>
       <Container className="about-sub">
         <Row>
-          <Col className="col-4">
+          <Col className="col-lg-4 col-12">
             <div className="goal-img">
               <StaticImage src="../images/goal-3.png" alt="" />
             </div>
           </Col>
-          <Col className="col-8">
+          <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
               <h3>Community Living and Social Bonding</h3>
               <p>
@@ -150,21 +150,6 @@ const OurGoal = () => (
         </Row>
       </Container>
 
-      <Container>
-        <div className="share-details">
-          <h4>Share this page:</h4>
-          <ul>
-            <li>
-              <StaticImage src="../images/facebook-darks.png" alt="" />
-              <span>Facebook</span>
-            </li>
-            <li>
-              <StaticImage src="../images/twitter-dark.png" alt="" />
-              <span>Twitter</span>
-            </li>
-          </ul>
-        </div>
-      </Container>
     </div>
   </Layout>
 )

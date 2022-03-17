@@ -8,7 +8,7 @@ function AboutNavbar() {
             <Container>
                 <ul className="about-Tabs-list">
                     <li >
-                        <Link  to="/about" activeClassName="active">Overview</Link>
+                        <Link to="/about" activeClassName="active">Overview</Link>
                     </li>
                     <li ><Link to="/about/our-commitment" activeClassName="active">Commitment</Link></li>
                     <li><Link to="/about/our-hope" activeClassName="active">hope</Link></li>
