@@ -11,7 +11,7 @@ function Navbar() {
       <div className="crest-header">
         <Link to="/">
           <StaticImage
-            src="../images/Crest Logo-03-01.jpg"
+            src="../images/Crest-Logo.png"
             width={200}
             quality={95}
             formats={["auto", "webp", "avif"]}

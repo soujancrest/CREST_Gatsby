@@ -43,13 +43,14 @@ export default function IndexPage({ data }) {
           <Row>
             <Col>
               <div className="about__crest-info">
+                <h6>ABOUT CREST</h6>
                 <p>
                   <span>CREST </span> (Center for Research in Environmental &
                   Sustainable Technologies) <br></br>
                   Foundation is a non-profit environmental and social governance
                   initiative dedicated to people and planet wellbeing.
                 </p>
-                <h6>About CREST</h6>
+
               </div>
             </Col>
           </Row>
@@ -61,6 +62,11 @@ export default function IndexPage({ data }) {
             <Col className="left-col">
               <h4 className="mission-heading">Our Mission</h4>
               <div className="mission-discrption">
+                <div className="mission-img">
+
+                  <StaticImage src="../images/blog/blogthumb_06.jpg" />
+                </div>
+
                 <p className="mission-discrption-info">
                   CREST Foundation is on a mission to build 20 self-sufficient
                   Climate Hubs over the next ten years. Each Climate Hub will
@@ -70,18 +76,7 @@ export default function IndexPage({ data }) {
                   village featuring 64 varieties of sports, a community kitchen,
                   and a preventive care and wellness health centre.
                 </p>
-                <p className="md-subp">
-                  Our practical approach is neither theoretical nor challenging
-                  to implement. The Foundation’s first publication, Blue Dharma,
-                  is a playbook of sustainable practices that have successfully
-                  powered the creation of the world’s first energy-positive,
-                  water-positive, and collective organic farming community. We
-                  have the proof of concept to build carbon-pollution-free
-                  communities that promote sustainable living (without
-                  compromising on the perks of modern lifestyles) and revive
-                  natural ecosystems while combating the most urgent changes of
-                  the climate crisis.
-                </p>
+
               </div>
               <Link className="readmore" to="/about">
                 READ MORE
@@ -89,9 +84,9 @@ export default function IndexPage({ data }) {
             </Col>
             <Col className="right-col">
               <Row className="right-col-1">
-                <Col className="mission-inner">
+                <h4 className="mission-heading">Our Ethos</h4>
+                <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h4 className="mission-heading">Our Ethos</h4>
                     <h5 className="mission-subheading">
                       Climate crisis and Human Wellbeing
                     </h5>
@@ -106,7 +101,7 @@ export default function IndexPage({ data }) {
                     </Link>
                   </div>
                 </Col>
-                <Col className="mission-inner">
+                <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
                       src="../images/about/ethos.png"
@@ -117,9 +112,9 @@ export default function IndexPage({ data }) {
                 </Col>
               </Row>
               <Row className="right-col-1">
-                <Col className="mission-inner">
+                <h4 className="mission-heading">Our Vision</h4>
+                <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h4 className="mission-heading">Our Vision</h4>
                     <h5 className="mission-subheading">
                       Re-imagining the urban lifestyle
                     </h5>
@@ -135,7 +130,7 @@ export default function IndexPage({ data }) {
                     </Link>
                   </div>
                 </Col>
-                <Col className="mission-inner">
+                <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
                       src="../../images/about/vision.png"
@@ -146,9 +141,9 @@ export default function IndexPage({ data }) {
                 </Col>
               </Row>
               <Row className="right-col-1">
-                <Col className="mission-inner">
+                <h4 className="mission-heading">Our Commitment</h4>
+                <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h4 className="mission-heading">Our Commitment</h4>
                     <h5 className="mission-subheading">
                       Launching a witnessed-organic revolution
                     </h5>
@@ -164,7 +159,7 @@ export default function IndexPage({ data }) {
                     </Link>
                   </div>
                 </Col>
-                <Col className="mission-inner">
+                <Col className="mission-inner col-sm-4" >
                   <div className="mission-side">
                     <StaticImage
                       src="../../images/about/commitment.jpg"
@@ -297,6 +292,33 @@ export default function IndexPage({ data }) {
       <div className="strip">
         <Container></Container>
       </div>
+
+      <div className="ourblog-sec">
+        <Container>
+          <Row>
+            <h2 className="crest-heading">OUR BLOG</h2>
+          </Row>
+          <br></br>
+          <div className="blog-thumb">
+            {blogs.map(blog => (
+              <BlogThumb blog={blog} />
+            ))}
+          </div>
+          <div className="explore-btn">
+            <Link className="explor-btn" to="/blog">
+              Explore our blog
+            </Link>
+          </div>
+        </Container>
+      </div>
+
+
+
+     
+      <div className="strip">
+        <Container></Container>
+      </div>
+
       <div className="pub-sec">
         <Container>
           <Row>
@@ -357,27 +379,7 @@ export default function IndexPage({ data }) {
           </Row>
         </Container>
       </div>
-      <div className="strip">
-        <Container></Container>
-      </div>
-      <div className="ourblog-sec">
-        <Container>
-          <Row>
-            <h2 className="crest-heading">OUR BLOG</h2>
-          </Row>
-          <br></br>
-          <div className="blog-thumb">
-            {blogs.map(blog => (
-              <BlogThumb blog={blog} />
-            ))}
-          </div>
-          <div className="explore-btn">
-            <Link className="explor-btn" to="/blog">
-              Explore our blog
-            </Link>
-          </div>
-        </Container>
-      </div>
+     
     </Layout>
   )
 }
