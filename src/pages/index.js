@@ -22,10 +22,10 @@ export default function IndexPage({ data }) {
               An Insight into the harsh truth about survival
             </h1>
             <h4 className="banner__sub-heading">
-              The planet has thrived through five mass extinctions. Surely, it can
-              handle one more. But, humans will not be able to survive even one.
-              In fact, the next mass extinction is going to mark the end of the
-              human race
+              The planet has thrived through five mass extinctions. Surely, it
+              can handle one more. But, humans will not be able to survive even
+              one. In fact, the next mass extinction is going to mark the end of
+              the human race
             </h4>
             <Link
               className="main-btn"
@@ -34,12 +34,10 @@ export default function IndexPage({ data }) {
               Read more
             </Link>
           </div>
-
         </Container>
 
-        <div className="banner-box">
+        {/* <div className="banner-box">
           <Container>
-
             <div className="banner-box-inner">
               <h2>Climate Hubs</h2>
               <br></br>
@@ -49,19 +47,22 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/climate-book.png" />
                 </div>
                 <div className="box-book-right">
-                  <span>Climate Action Report <br></br>
-                    December 20, 2021</span>
-                  <p>
-                    Creek, West Virginia.
-                  </p>
+                  <span>
+                    Climate Action Report <br></br>
+                    December 20, 2021
+                  </span>
+                  <p>Creek, West Virginia.</p>
                   <h6>
-                    CREST Foundation is on a mission to build 20 self-sufficient Climate Hubs over the next ten years. Each Climate Hub will consist of 600 eco-homes, 500 acres of organic farms, food forests, and herbal gardens
+                    CREST Foundation is on a mission to build 20 self-sufficient
+                    Climate Hubs over the next ten years. Each Climate Hub will
+                    consist of 600 eco-homes, 500 acres of organic farms, food
+                    forests, and herbal gardens
                   </h6>
                 </div>
               </div>
             </div>
           </Container>
-        </div>
+        </div> */}
       </div>
 
       <div className="about">
@@ -119,9 +120,14 @@ export default function IndexPage({ data }) {
                   <div className="mission-side-right">
                     <h4 className="mission-heading">Our Ethos</h4>
                     <h5 className="mission-subheading">
-                      CLIMATE CRISIS AND HUMAN WELLBEING
+                      Climate crisis and Human Wellbeing
                     </h5>
-                    <p>Human Wellbeing can save the planet</p>
+                    <p>
+                      Human Wellbeing can save the planet,CREST Foundation will
+                      create climate-resilient eco-habitats that combine the
+                      luxuries of modern life with the benefits of living in
+                      nature.{" "}
+                    </p>
                     <Link className="readmore" to="/about/#ethos">
                       READ MORE
                     </Link>
@@ -142,9 +148,15 @@ export default function IndexPage({ data }) {
                   <div className="mission-side-right">
                     <h4 className="mission-heading">Our Vision</h4>
                     <h5 className="mission-subheading">
-                      RE-IMAGINING THE URBAN LIFESTYLE
+                      Re-imagining the urban lifestyle
                     </h5>
-                    <p>Energy Positive cities and global cooling</p>
+                    <p>
+                      Energy Positive cities and global cooling, To meet the
+                      2050 net-zero emission goals, CREST Foundation intends to
+                      create energy-positive communities that produce clean
+                      energy from renewable resources and facilitate zero
+                      maintenance and zero waste living.
+                    </p>
                     <Link className="readmore" to="/about/#vision">
                       READ MORE
                     </Link>
@@ -165,9 +177,15 @@ export default function IndexPage({ data }) {
                   <div className="mission-side-right">
                     <h4 className="mission-heading">Our Commitment</h4>
                     <h5 className="mission-subheading">
-                      LAUNCHING A WITNESSED-ORGANIC REVOLUTION
+                      Launching a witnessed-organic revolution
                     </h5>
-                    <p>Nutrition, Soil Health and Closed Loop Cycles</p>
+                    <p>
+                      Nutrition, soil health and closed loop cycles, CREST
+                      Foundation will create circular economies through its
+                      sustainable communities by implementing a ‘buy local, eat
+                      local’ model of food production that dramatically reduces
+                      food miles.
+                    </p>
                     <Link className="readmore" to="/about/our-commitment">
                       READ MORE
                     </Link>
@@ -298,9 +316,7 @@ export default function IndexPage({ data }) {
                   <Link className="readmore">Read More</Link>
                   <span className="soon">Coming Soon</span>
                 </div>
-
               </div>
-
             </Col>
             <Col>
               <div className="crest-publication-sec">
@@ -310,7 +326,6 @@ export default function IndexPage({ data }) {
                   A expose of the shocking changes agriculture has endured
                 </p>
               </div>
-
             </Col>
             <Col>
               <div className="crest-publication-sec">
@@ -318,7 +333,6 @@ export default function IndexPage({ data }) {
                 <p className="mission-discrption-info">INDIA WAKES</p>
                 <p className="md-subp">Post Coronavirus new world order</p>
               </div>
-
             </Col>
             <Col>
               <div className="crest-publication-sec">
@@ -326,7 +340,6 @@ export default function IndexPage({ data }) {
                 <p className="mission-discrption-info">EVERY DOT MATTERS</p>
                 <p className="md-subp"></p>
               </div>
-
             </Col>
             <Col>
               <div className="crest-publication-sec">
@@ -334,7 +347,6 @@ export default function IndexPage({ data }) {
                 <p className="mission-discrption-info">THE NEW NORM</p>
                 <p className="md-subp"></p>
               </div>
-
             </Col>
             <Col>
               <div className="crest-publication-sec">
@@ -342,7 +354,6 @@ export default function IndexPage({ data }) {
                 <p className="mission-discrption-info">THE MOTHER EARTH</p>
                 <p className="md-subp">An alarming wake-up call</p>
               </div>
-
             </Col>
           </Row>
         </Container>

@@ -25,10 +25,9 @@ export default function People({ data }) {
   const leadershipTeamUAE = people.filter(
     person => person.frontmatter.category == "Leadership Team UAE"
   )
-  console.log(managementTeamUSA)
-  console.log(boardOfTrustees)
-  console.log(people)
-  console.log(managementTeamIndia)
+  const executiveTeamIndia = people.filter(
+    person => person.frontmatter.category == "Executive Team India"
+  )
   return (
     <Layout>
       <Seo title="People" />
@@ -70,6 +69,14 @@ export default function People({ data }) {
           <h4 className="about-people-heading">LEADERSHIP TEAM - INDIA</h4>
           <div className="person-thumbs">
             {leadershipTeamIndia.map(item => (
+              <PeopleThumb person={item} key={item.id} />
+            ))}
+          </div>
+        </Container>
+        <Container className="about-sub">
+          <h4 className="about-people-heading">EXECUTIVE TEAM - INDIA</h4>
+          <div className="person-thumbs">
+            {executiveTeamIndia.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
