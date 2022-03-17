@@ -17,26 +17,53 @@ export default function IndexPage({ data }) {
       <Seo title="Home" />
       <div className="banner">
         <Container>
-          <h1 className="banner__heading">
-            An Insight into the harsh truth about survival
-          </h1>
-          <h4 className="banner__sub-heading">
-            The planet has thrived through five mass extinctions. Surely, it can
-            handle one more. But, humans will not be able to survive even one.
-            In fact, the next mass extinction is going to mark the end of the
-            human race
-          </h4>
-          <Link
-            className="main-btn"
-            to="/blog/an-insight-into-the-harsh-truth-about-survival"
-          >
-            Read more
-          </Link>
+          <div className="crest-banner-text">
+            <h1 className="banner__heading">
+              An Insight into the harsh truth about survival
+            </h1>
+            <h4 className="banner__sub-heading">
+              The planet has thrived through five mass extinctions. Surely, it can
+              handle one more. But, humans will not be able to survive even one.
+              In fact, the next mass extinction is going to mark the end of the
+              human race
+            </h4>
+            <Link
+              className="main-btn"
+              to="/blog/an-insight-into-the-harsh-truth-about-survival"
+            >
+              Read more
+            </Link>
+          </div>
+
         </Container>
+
+        <div className="banner-box">
+          <Container>
+
+            <div className="banner-box-inner">
+              <h2>Climate Hubs</h2>
+              <br></br>
+
+              <div className="box-book">
+                <div className="box-bookleft">
+                  <StaticImage src="../images/climate-book.png" />
+                </div>
+                <div className="box-book-right">
+                  <span>Climate Action Report <br></br>
+                    December 20, 2021</span>
+                  <p>
+                    Creek, West Virginia.
+                  </p>
+                  <h6>
+                    CREST Foundation is on a mission to build 20 self-sufficient Climate Hubs over the next ten years. Each Climate Hub will consist of 600 eco-homes, 500 acres of organic farms, food forests, and herbal gardens
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </div>
       </div>
-      <div className="banner-box">
-        <h6>soething</h6>
-      </div>
+
       <div className="about">
         <Container>
           <Row>
@@ -263,15 +290,15 @@ export default function IndexPage({ data }) {
               <div className="crest-publication-sec">
                 <div id="pub-left-img-5"></div>
                 <div className="publication-dis">
-                <h6 className="mission-discrption-info">BLUE DHARMA</h6>
-                <p className="md-subp">
-                  A Way to sustainable Lifestyle for Human Wellbeing
-                </p>
+                  <h6 className="mission-discrption-info">BLUE DHARMA</h6>
+                  <p className="md-subp">
+                    A Way to sustainable Lifestyle for Human Wellbeing
+                  </p>
 
-                <Link className="readmore">Read More</Link>
-                <span className="soon">Coming Soon</span>
+                  <Link className="readmore">Read More</Link>
+                  <span className="soon">Coming Soon</span>
                 </div>
-             
+
               </div>
 
             </Col>
@@ -310,12 +337,12 @@ export default function IndexPage({ data }) {
 
             </Col>
             <Col>
-            <div className="crest-publication-sec">
-            <div id="pub-left-img-6"></div>
-              <p className="mission-discrption-info">THE MOTHER EARTH</p>
-              <p className="md-subp">An alarming wake-up call</p>
-            </div>
-            
+              <div className="crest-publication-sec">
+                <div id="pub-left-img-6"></div>
+                <p className="mission-discrption-info">THE MOTHER EARTH</p>
+                <p className="md-subp">An alarming wake-up call</p>
+              </div>
+
             </Col>
           </Row>
         </Container>

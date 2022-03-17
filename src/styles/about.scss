@@ -15,8 +15,11 @@
     margin: 0;
     font-size: 1rem;
     font-family: stem-extralight;
-    position: relative;
     text-transform: uppercase;
+    a{
+      position: relative;
+
+    }
     &:not(:first-child) {
       padding-left: 4rem;
 
@@ -27,12 +30,12 @@
   }
 }
 
-.about-Tabs-list li.active {
+.about-Tabs-list li a.active {
   color: $theme-btn-bg;
   font-family: stem-light;
 }
 
-.about-Tabs-list li.active:after{
+.about-Tabs-list li a.active:after{
   content: "";
   position: absolute;
   top: 70px;

@@ -163,20 +163,21 @@ a:hover {
 }
 
 .banner {
-  height: 90vh;
+  height: 160vh;
   background-image: url("../images/Content.jpg");
   @include bg-cover;
   background-attachment: fixed;
+  position: relative;
   // position: sticky;
   // top: 0;
   // z-index: -1;
 
 }
 
-.banner .container {
-  position: relative;
-  top: 35%;
-}
+// .banner .container {
+//   position: relative;
+//   top: 35%;
+// }
 
 .banner {
   &__heading {
@@ -871,8 +872,40 @@ li {
 
 .banner-box{
   width: 80%;
-  background-color: red;
-  height: 400px;
-  margin: 0 auto;
+  background-color: #FFFFFF;
+  min-height: 400px;
+  height: auto;
+  // margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  left: 10%;
+  opacity: 8;
 }
 
+.crest-banner-text{
+  position:relative;
+  top: 200px;
+}
+
+.banner-box-inner{
+  padding: 2rem;
+
+  h2{
+    color: $theme-heading-color;
+    font-size: 1.5rem;
+  }
+
+  .box-book{
+    display: flex;
+    margin-top: 1rem;
+
+    .box-book-right{
+      // width: 60%;
+      padding-left: 3%;
+
+      h6{
+        width: 80%;
+      }
+    }
+  }
+}

@@ -7,12 +7,12 @@ function AboutNavbar() {
         <div>
             <Container>
                 <ul className="about-Tabs-list">
-                    <li className="active">
-                        <Link to="/about">Overview</Link>
+                    <li >
+                        <Link  to="/about" activeClassName="active">Overview</Link>
                     </li>
-                    <li><Link to="/about/our-commitment">Commitment</Link></li>
-                    <li><Link to="/about/our-hope">hope</Link></li>
-                    <li><Link to="/about/people">people</Link></li>
+                    <li ><Link to="/about/our-commitment" activeClassName="active">Commitment</Link></li>
+                    <li><Link to="/about/our-hope" activeClassName="active">hope</Link></li>
+                    <li><Link to="/about/people" activeClassName="active">people</Link></li>
 
                 </ul>
             </Container>
