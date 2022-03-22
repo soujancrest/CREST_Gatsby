@@ -1,8 +1,8 @@
 ---
 slug: maruthi-prasad-S
 name: Maruthi Prasad S
-designation: Finance Head
-category: Executive Team India
+designation: Finance Manager
+category: Finance
 type: people
 order: 32
 email: maruthi@crest.eco

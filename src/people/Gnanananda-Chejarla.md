@@ -1,8 +1,8 @@
 ---
 slug: gnanananda-chejarla
 name: Gnanananda Chejarla
-designation: Senior Graphic Designer
-category: Executive Team India
+designation: Senior Designer - Graphic
+category: Design
 type: people
 order: 36
 email: nanda@crest.eco

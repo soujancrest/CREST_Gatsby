@@ -1,8 +1,8 @@
 ---
 slug: md-khaled-mahemood
 name: Md Khaled Mahemood
-designation: Frontend Developer
-category: Executive Team India
+designation: Senior - Front End Developer
+category: Web Tech
 type: people
 order: 35
 email: khaled@crest.eco

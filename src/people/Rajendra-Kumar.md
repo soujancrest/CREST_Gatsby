@@ -1,7 +1,7 @@
 ---
 slug: rajendar-kumar
 name: Rajendar Kumar
-designation: Founder & CEO
+designation: Founder & Managing Director
 category: Board of Trustees
 type: people
 order: 3

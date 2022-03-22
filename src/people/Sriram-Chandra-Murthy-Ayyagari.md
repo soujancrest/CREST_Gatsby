@@ -1,8 +1,8 @@
 ---
 slug: sriram-chandra-murthy-ayyagari
 name: Sriram Chandra Murthy Ayyagari
-designation: Sales & CRM Executive
-category: Executive Team India
+designation: Sales & CRM Manager
+category: Sales & CRM
 type: people
 order: 38
 email: sriram@dhritilivespaces.com

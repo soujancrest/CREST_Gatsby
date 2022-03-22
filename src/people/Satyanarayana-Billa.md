@@ -2,7 +2,7 @@
 slug: satyanarayana-billa
 name: Satyanarayana Billa
 designation: Art Director
-category: Executive Team India
+category: Design
 type: people
 order: 31
 email: satya@crest.eco

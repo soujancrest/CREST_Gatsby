@@ -2,7 +2,7 @@
 slug: dr-sravan-kumar
 name: Dr.Sravan Kumar
 designation: Director - Preventive care & Wellness
-category: Leadership Team India
+category: Management Team - India
 type: people
 order: 12
 excerpt: Dr. Sravan is a qualified medical professional and a passionate social entrepreneur whose work impacted over 300,000 low income farmers in over two decades.

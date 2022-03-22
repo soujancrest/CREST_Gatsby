@@ -1,8 +1,8 @@
 ---
 slug: soujan-kumar
 name: Soujan Kumar
-designation: Web Developer
-category: Executive Team India
+designation: Senior - Web Developer
+category: Web Tech
 type: people
 order: 36
 email: soujan@crest.eco

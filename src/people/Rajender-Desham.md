@@ -1,8 +1,8 @@
 ---
 slug: rajender-desham
 name: Rajender Desham
-designation: Senior Project Manager
-category: Executive Team India
+designation: Senior - Project Manager
+category: Project Management
 type: people
 order: 40
 email:

@@ -164,6 +164,130 @@ const OurImpact = () => (
           </Col>
         </Row>
       </Container>
+      <Container>
+        <h3>Our Primary Focus</h3>
+      </Container>
+      <Container>
+        <div className="approach-cards">
+          <Row>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/air.png" alt="" />
+                </div>
+
+                <div className="">
+                  <h3 className="mission-discrption-info mb-20">AIR</h3>
+                  <p className="md-subp">
+                    Herbal forests absorb toxins and produce clean, medicinal
+                    air that improves air quality, the immunity of residents and
+                    promotes biodiversity.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/water.png" alt="" />
+                </div>
+                <div>
+                  <h3 className="mission-discrption-info mb-20">Water</h3>
+                  <p className="md-subp">
+                    Watershed management, collected runoff, and harvested
+                    rainwater are used to replenish groundwater and recharge
+                    deep aquifers and treated sewage water is used for
+                    agriculture, enabling the development to become water
+                    positive.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/soil.png" alt="" />
+                </div>
+
+                <h3 className="mission-discrption-info mb-20">SOIL</h3>
+                <p className="md-subp">
+                  Closed loop systems and organic practices detoxify and improve
+                  soil health while promoting a thriving biodiversity.
+                </p>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/food.png" alt="" />
+                </div>
+                <h3 className="mission-discrption-info mb-20">FOOD</h3>
+                <p className="md-subp">
+                  Witnessed organic food production establishes the highest
+                  nutritional and food safety standards. Farm-fresh,
+                  farm-to-fork produce is distributed to residents and excess
+                  produce is sold outside the community, generating a sustained
+                  revenue that compensates for maintenance costs.
+                </p>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/energy.png" alt="" />
+                </div>
+                <h3 className="mission-discrption-info mb-20">Energy</h3>
+                <p className="md-subp">
+                  The project will use solar winds, low wind turbines, biogas
+                  plants and biofuel to create an energy positive development.
+                </p>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/eco.png" alt="" />
+                </div>
+                <h3 className="mission-discrption-info mb-20">Eco Habitats</h3>
+                <p className="md-subp">
+                  Daylight integrated, positive air pressure homes eliminate
+                  indoor toxins and produce clean energy. Herbal gardens and
+                  food forests enable zero-refrigeration, which reduces carbon
+                  footprints.
+                </p>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/people.png" alt="" />
+                </div>
+                <h3 className="mission-discrption-info mb-20">People</h3>
+                <p className="md-subp">
+                  All-inclusive living systems promote a sound rural
+                  socio-economic fabric and several opportunities for social
+                  bonding.
+                </p>
+              </div>
+            </Col>
+            <Col className="mb-20" lg="3" sm="6">
+              <div className="app-cards">
+                <div className="app-img">
+                  <StaticImage src="../images/our-approach/animal.png" alt="" />
+                </div>
+                <h3 className="mission-discrption-info mb-20">Animals</h3>
+                <p className="md-subp">
+                  All animals farmed in the community are fed organic produce.
+                  Consequently, all meat and dairy produced on the farms meet
+                  the highest food and nutritional safety standards. Bio manure
+                  from animals is used to improve soil fertility and aids in
+                  producing zero-adulteration food
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </Container>
     </div>
   </Layout>
 )

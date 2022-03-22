@@ -1,10 +1,10 @@
 ---
 slug: sailesh-kamalesh
 name: Sailesh Kamalesh
-designation: Director - Web tech & Anlaytics
+designation: Director - Research & Analytics
 category: Leadership Team India
 type: people
-order: 19
+order: 15
 excerpt: With over 10 years of experience in web technologies, business analytics and digital media industry, sailesh specializes in growing businesses via consultative selling and product development.
 email: sailesh@crest.eco
 featuredImage: ../images/team/SAILESH-KAMALESH.jpg

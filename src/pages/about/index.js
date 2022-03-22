@@ -40,17 +40,17 @@ export default function About() {
                 energy from renewable resources and facilitate zero maintenance
                 and zero waste living.
               </p>
-              <p>
-                60% of the world’s population will live in cities by 2030.
-                Buildings consume a lot of energy and, together with the
-                construction industry, contribute to 40% of the world’s carbon
-                dioxide emissions. As wildfires, hurricanes, and other dramatic
-                climatic events become the norm, establishing baseline data to
-                track climate change becomes vital.
-              </p>
             </div>
           </div>
           <div className="ab-main-con">
+            <p>
+              60% of the world’s population will live in cities by 2030.
+              Buildings consume a lot of energy and, together with the
+              construction industry, contribute to 40% of the world’s carbon
+              dioxide emissions. As wildfires, hurricanes, and other dramatic
+              climatic events become the norm, establishing baseline data to
+              track climate change becomes vital.
+            </p>
             <p>
               Today, it’s easier and more convenient for people to work and live
               in air-conditioned homes and offices. These closed-door living
@@ -149,15 +149,15 @@ export default function About() {
                 to safe drinking water, fresh air, and farm fresh witnessed
                 organic food
               </p>
-              <p>
-                Over the last decade, many mega cities have transformed into
-                urban heat islands. City residents breathe polluted air,
-                continuous exposure to which can lead to a dip in immunity and a
-                surge in respiratory illnesses
-              </p>
             </div>
           </div>
           <div className="ab-main-con">
+            <p>
+              Over the last decade, many mega cities have transformed into urban
+              heat islands. City residents breathe polluted air, continuous
+              exposure to which can lead to a dip in immunity and a surge in
+              respiratory illnesses
+            </p>
             <p>
               Planted palettes of oxygenating trees clean and cool the air by
               accelerating the absorption of greenhouse gases from the

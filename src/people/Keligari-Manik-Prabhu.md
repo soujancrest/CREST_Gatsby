@@ -2,7 +2,7 @@
 slug: keligari-manik-prabhu
 name: Keligari Manik Prabhu
 designation: Vice President - Design
-category: Leadership Team India
+category: Design
 type: people
 order: 21
 email:

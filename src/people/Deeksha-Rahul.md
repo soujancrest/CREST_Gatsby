@@ -2,7 +2,7 @@
 slug: deeksha-rahul
 name: Deeksha Rahul
 designation: Research Analyst
-category: Executive Team India
+category: Research & Analytics
 type: people
 order: 37
 email: deeksha@crest.eco
