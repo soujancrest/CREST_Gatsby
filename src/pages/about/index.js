@@ -112,7 +112,7 @@ export default function About() {
               fundamentally transform the urban lifestyle. Each self-sufficient
               climate hub will produce sustainably farmed organic food, generate
               clean energy from renewable resources, improve air quality,
-              recharge the water table, restore soil fertility, support animal
+              recharge the deep aquifer, restore soil health, support animal
               health, and nurture biodiversity.
             </p>
             <p>
@@ -120,7 +120,7 @@ export default function About() {
               consistent, sustained growth model and is guaranteed to yield
               results. CREST Foundation is seeking to raise $100 million for the
               first demonstration project. The Foundation has a 12-year roadmap
-              to grow its revenue into $1.78 billion, create 620,000 jobs,
+              to grow its revenue to $1.78 billion, create 620,000 jobs,
               generate 820 MW of clean energy, and produce 6.28 million metric
               tons of organic food.
             </p>
@@ -189,11 +189,11 @@ export default function About() {
               <br></br>
               <p>
                 CREST Foundation aims to reduce the global carbon footprint by
-                establishing circular micro-economies. CREST Foundation will
-                transform the US agricultural landscape by nurturing forest
-                ecosystems and agroforestry, investing in sustainable
-                agricultural research facilities, promoting innovations in
-                nutritional security, and fuelling sustained economic growth.
+                establishing Climate Hubs. CREST Foundation will transform the
+                global agricultural landscape by nurturing forest ecosystems and
+                agroforestry, investing in sustainable agricultural research
+                facilities, promoting innovations in nutritional security, and
+                fuelling sustained economic growth.
               </p>
             </div>
           </div>

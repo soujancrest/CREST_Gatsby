@@ -101,13 +101,13 @@ const Footer = () => (
           <div className="footer-address">
             <h4>Regions</h4>
             <p>
-              UNITED STATES
+              UNITED STATES - HQ
               <br />
               <a
                 href="https://maps.app.goo.gl/3fYcLdjfibAvFiJC8"
                 target="_blank"
               >
-                HQ 700 12th Street, N.W. , Suite 700, Washington DC - 20005.
+                700 12th Street, N.W. , Suite 700, Washington DC - 20005.
               </a>
               <br />
               <a href="tel:+12023449558" target="_blank">

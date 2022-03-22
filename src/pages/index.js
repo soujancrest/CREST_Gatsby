@@ -89,7 +89,7 @@ export default function IndexPage({ data }) {
                   <span>CREST </span> (Center for Research in Environmental &
                   Sustainable Technologies) <br></br>
                   Foundation is a non-profit environmental and social governance
-                  initiative dedicated to people and planet wellbeing.
+                  initiative dedicated for People and Planet wellbeing.
                 </p>
               </div>
             </Col>
@@ -108,17 +108,13 @@ export default function IndexPage({ data }) {
 
                 <p className="mission-discrption-info">
                   CREST Foundation is on a mission to build 20 self-sufficient
-                  Climate Hubs over the next ten years. Each Climate Hub will
-                  consist of 600 eco-homes, 500 acres of organic farms, food
-                  forests, and herbal gardens, an organic shopping market,
-                  corporate offices, green schools, a sports and entertainment
-                  village featuring 64 varieties of sports, a community kitchen,
-                  and a preventive care and wellness health centre.
+                  Climate Hubs over the next ten years. Each climate hub will be
+                  responsible to save endangered species, restore ecological
+                  balance by promoting biodiversity, improving the quality of
+                  air, water, soil, nutrition safety and support human &
+                  planet’s well being.
                 </p>
               </div>
-              <Link className="readmore" to="/about">
-                Read more
-              </Link>
             </Col>
             <Col className="right-col">
               <Row className="right-col-1">
@@ -235,14 +231,12 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/climate-book.png" />
                 </Col>
                 <Col className="box-right-con">
-                  <p>
-                    Climate Action Report <br></br>
-                    December 20, 2021
-                  </p>
-                  <span>Creek, West Virginia.</span>
+                  <span>Backcreek, Monroe County, West Virginia.</span>
                   <h6>
-                    CREST Foundation is on a mission to build 20 self-sufficient
-                    Climate Hubs over the next ten years.
+                    A consolidation of gross study based on online research from
+                    several authentic sources with focus on current situation
+                    due to several man-made developments across state of West
+                    Verginia boiling down to Monroe county.
                   </h6>
                   <a href="" className="readmore">
                     Read More
@@ -254,14 +248,11 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/NEOM 01-02-22.jpg" />
                 </Col>
                 <Col className="box-right-con">
-                  <p>
-                    Climate Action Report <br></br>
-                    December 20, 2021
-                  </p>
                   <span>Neom, Saudi Arabia.</span>
                   <h6>
-                    CREST Foundation is on a mission to build 20 self-sufficient
-                    Climate Hubs over the next ten years.
+                    Climate Action Report designed by CREST Foundation is a
+                    scientific framework to build Climate Hubs to combat both
+                    climate and lifecycle disasters.
                   </h6>
                   <a href="" className="readmore">
                     Read More
@@ -270,18 +261,11 @@ export default function IndexPage({ data }) {
               </Row>
               <Row className="climate-inner-row">
                 <Col className="climate-box-img col-sm-3">
-                  <StaticImage src="../images/climate-book.png" />
+                  <StaticImage src="../images/Dhriti_Climate Hub_cover.png" />
                 </Col>
                 <Col className="box-right-con">
-                  <p>
-                    Climate Action Report <br></br>
-                    December 20, 2021
-                  </p>
-                  <span>Creek, West Virginia.</span>
-                  <h6>
-                    CREST Foundation is on a mission to build 20 self-sufficient
-                    Climate Hubs over the next ten years.
-                  </h6>
+                  <span>Zaheerabad, Hyderabad</span>
+                  <h6></h6>
                   <a href="" className="readmore">
                     Read More
                   </a>

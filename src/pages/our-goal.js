@@ -83,7 +83,7 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3>'Walk To Work And' And 'Walk To School' Communities</h3>
+              <h3>Communities with Walkability</h3>
               <p>
                 CREST Foundation’s ‘Walk to Work’ and ‘Walk to School’ living
                 situations remove the need to commute every day and help
@@ -149,7 +149,6 @@ const OurGoal = () => (
           </Col>
         </Row>
       </Container>
-
     </div>
   </Layout>
 )
