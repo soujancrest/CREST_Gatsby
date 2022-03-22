@@ -8,17 +8,9 @@ import "./main.scss"
 import Navbar from "./Navbar"
 
 export default function Header() {
-<<<<<<< Updated upstream
-  return (
-    <header>
-      <Navbar />
-    </header>
-  )
-=======
   return <header>
     <Navbar />
     </header>
->>>>>>> Stashed changes
 }
 Header.propTypes = {
   siteTitle: PropTypes.string,

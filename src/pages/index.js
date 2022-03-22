@@ -118,12 +118,9 @@ export default function IndexPage({ data }) {
                   planet’s well being.
                 </p>
               </div>
-<<<<<<< Updated upstream
-=======
               {/* <Link className="readmore" to="/about">
                 Read more
               </Link> */}
->>>>>>> Stashed changes
             </Col>
             <Col className="right-col">
               <h4 className="heading-bg crest-left">Our Ethos</h4>
