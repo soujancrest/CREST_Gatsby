@@ -7,8 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../styles/global.scss"
-import Tabs from 'react-bootstrap/Tabs'
-import Tab from 'react-bootstrap/Tab'
+import Tabs from "react-bootstrap/Tabs"
+import Tab from "react-bootstrap/Tab"
 const ClimateActionReport = () => (
   <Layout>
     <Seo title="Climate Action Report" />
@@ -16,24 +16,30 @@ const ClimateActionReport = () => (
       <Container>
         <div className="people-detail-sec">
           <div className="people-img">
-            <StaticImage src="../images/Back Creek 27_Jan_2022 fin.jpg" />
+            <StaticImage src="../images/Dhriti_Climate Hub_cover.png" />
           </div>
 
           <div className="people-details">
-            <Link to="#" className="back-page">Back to Library</Link>
+            <Link to="/" className="back-page">
+              Back to Home
+            </Link>
 
-            <h1 >CLIMATE ACTION REPORT</h1>
-            <p>Small Description - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <h4 className="heading-bg crest-left">CLIMATE ACTION REPORT</h4>
+            <h5 className="mission-subheading heading-color">
+              Zaheerabad, Hyderabad.
+            </h5>
+            <p className="mission-sub-text">
+              Small Description - Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s,
+            </p>
             <br></br>
             <botton className="explor-btn">Download</botton>
-
           </div>
         </div>
-
-
       </Container>
 
-      <Container> 
+      {/* <Container> 
      
         <Tabs defaultActiveKey="overview" id="uncontrolled-tab-example" className="crest-tab ">
           <Tab eventKey="overview" title="Overview" className="crest-tabs-inner">
@@ -63,8 +69,7 @@ const ClimateActionReport = () => (
           </Tab>
         </Tabs>
       
-      </Container>
-
+      </Container> */}
     </div>
   </Layout>
 )
