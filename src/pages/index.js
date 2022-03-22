@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 import BlogThumb from "../components/BlogThumb"
 import "../styles/global.scss"
-import PublicationList from "../components/PublicationList"
+import PublicationList2 from "../components/PublicationList2"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
@@ -58,27 +58,24 @@ export default function IndexPage({ data }) {
       <div className="banner">
         <Container>
           <div className="creast-inner">
-          <div className="crest-banner-text">
-            <h1 className="banner__heading">
-             An Insight into the harsh truth about survival
-            </h1>
-            <h4 className="banner__sub-heading">
-           
+            <div className="crest-banner-text">
+              <h1 className="banner__heading">
+                An Insight into the harsh truth about survival
+              </h1>
+              <h4 className="banner__sub-heading">
                 The planet has thrived through five mass extinctions. Surely, it
                 can handle one more. But, humans will not be able to survive
                 even one. In fact, the next mass extinction is going to mark the
                 end of the human race
-             
-            </h4>
-            {/* <Link
+              </h4>
+              {/* <Link
               className="main-btn"
               to="/blog/an-insight-into-the-harsh-truth-about-survival"
             >
               Read more
             </Link> */}
+            </div>
           </div>
-          </div>
-         
         </Container>
       </div>
 
@@ -103,9 +100,7 @@ export default function IndexPage({ data }) {
         <Container>
           <Row className="our-mission-row">
             <Col className="left-col">
-              <h4 className="heading-bg">
-                Our Mission
-              </h4>
+              <h4 className="heading-bg">Our Mission</h4>
 
               <div className="mission-discrption">
                 <div className="mission-img">
@@ -399,7 +394,7 @@ export default function IndexPage({ data }) {
         <Container></Container>
       </div>
 
-      <PublicationList />
+      <PublicationList2 />
     </Layout>
   )
 }
