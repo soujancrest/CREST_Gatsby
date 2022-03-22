@@ -64,7 +64,7 @@ footer .container .col-3,
   // align-items: center;
   // justify-content: center;
   position: relative;
-  padding: 0.8rem 0;
+  padding: 0.9rem 0;
   background-color: $white;
 }
 
@@ -130,6 +130,14 @@ footer a {
 
 .crest-left-logo{
   img{
-    width: 150px;
+    width: 200px;
   }
+}
+
+.creast-inner{
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 85vh;
 }

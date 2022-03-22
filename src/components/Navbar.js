@@ -8,13 +8,13 @@ function Navbar() {
   const handleSidebar = () => setSidebar(!sideBar)
   return (
     <div className="crest-navbar">
-      <div className="crest-header">
+      <div className="crest-header ">
         <Container>
           <div className="crest-nav">
             <div className="crest-left-logo">
               <Link to="/">
                 <StaticImage
-                  src="../images/CREST - Exact_Logo.png"
+                  src="https://crest.eco/assets/img/Logo-05.png"
                   alt="CREST Logo"
                 />
               </Link>
@@ -51,17 +51,12 @@ function Navbar() {
                     </Link>
                   </li>
 
-                  {/* <li>
-                    <Link className="mainNavLink" to="/contact">
-                      Contact us
-                    </Link>
-                  </li> */}
-              
               </ul>
             </div>
 
           </div>
-          {/* <nav>
+
+          <nav>
           <ul
             className="mainNav"
             style={sideBar ? { transform: "translateX(0)" } : null}
@@ -122,7 +117,7 @@ function Navbar() {
         <div
           onClick={handleSidebar}
           className={`overlay ${sideBar ? "open" : ""}`}
-        /> */}
+        />
 
         </Container>
       </div>

@@ -22,7 +22,7 @@ $extra-large: "screen and (min-width: 1920px) and (max-width: 5000px)";
 
 // Mixins
 @mixin bg-cover {
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -157,7 +157,7 @@ a:hover {
   color: $text-color;
 }
 .mission-discrption-info {
-  color: $text-color;
+  color: $black;
   font-size: 0.9rem;
   font-family: stem;
 }
@@ -169,13 +169,12 @@ a:hover {
 
 .banner {
   height: 100vh;
-  background-image: url("../images/Website Banner-02.jpg");
+  background-image: url("../images/Website_Banner_Trail-06-06.jpg");
   @include bg-cover;
   // background-attachment: fixed;
-  // position: relative;
-  position: sticky;
-  top: 0;
-  z-index: -1;
+  position: relative;
+  padding: 4rem 0 0;
+
 }
 
 // .banner .container {
@@ -323,16 +322,18 @@ a:hover {
   line-height: 24px;
   // min-height: 40px;
   margin-bottom: 0.3rem;
-  font-family: stem-medium;
+  font-family: stem-bold;
+  text-transform: uppercase;
 }
 .heading-color{
   color: $theme-heading-color;
 }
 
-.mission-side-right p {
-  font-size: 0.7rem;
+.mission-sub-text {
+  font-size: 0.8rem;
   font-family: stem;
-  line-height: 22px;
+  line-height: 18px;
+  color: $black;
 }
 .mission-side-img {
   width: 150px;
@@ -905,7 +906,8 @@ li {
 
 .crest-banner-text {
   position: relative;
-  top: 280px;
+  top: 0;
+  left: 3%;
   z-index: 0;
 }
 

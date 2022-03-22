@@ -57,25 +57,28 @@ export default function IndexPage({ data }) {
       <Seo title="Home" />
       <div className="banner">
         <Container>
+          <div className="creast-inner">
           <div className="crest-banner-text">
             <h1 className="banner__heading">
-              <mark>An Insight into the harsh truth about survival</mark>
+             An Insight into the harsh truth about survival
             </h1>
             <h4 className="banner__sub-heading">
-              <mark>
+           
                 The planet has thrived through five mass extinctions. Surely, it
                 can handle one more. But, humans will not be able to survive
                 even one. In fact, the next mass extinction is going to mark the
                 end of the human race
-              </mark>
+             
             </h4>
-            <Link
+            {/* <Link
               className="main-btn"
               to="/blog/an-insight-into-the-harsh-truth-about-survival"
             >
               Read more
-            </Link>
+            </Link> */}
           </div>
+          </div>
+         
         </Container>
       </div>
 
@@ -109,7 +112,7 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/mission-thumb.jpg" />
                 </div>
 
-                <p className="mission-discrption-info">
+                <p className="mission-sub-text">
                   CREST Foundation is on a mission to build 20 self-sufficient
                   Climate Hubs over the next ten years. Each climate hub will be
                   responsible to save endangered species, restore ecological
@@ -130,7 +133,7 @@ export default function IndexPage({ data }) {
                     <h5 className="mission-subheading heading-color">
                       Climate crisis and Human Wellbeing
                     </h5>
-                    <p>
+                    <p className="mission-sub-text">
                       Human Wellbeing can save the planet,CREST Foundation will
                       create climate-resilient eco-habitats that combine the
                       luxuries of modern life with the benefits of living in
@@ -158,7 +161,7 @@ export default function IndexPage({ data }) {
                     <h5 className="mission-subheading heading-color">
                       Re-imagining the urban lifestyle
                     </h5>
-                    <p>
+                    <p className="mission-sub-text">
                       Energy Positive cities and global cooling, To meet the
                       2050 net-zero emission goals, CREST Foundation intends to
                       create energy-positive communities that produce clean
@@ -187,7 +190,7 @@ export default function IndexPage({ data }) {
                     <h5 className="mission-subheading heading-color">
                       Launching a witnessed-organic revolution
                     </h5>
-                    <p>
+                    <p className="mission-sub-text">
                       Nutrition, soil health and closed loop cycles, CREST
                       Foundation will create circular economies through its
                       sustainable communities by implementing a ‘buy local, eat
