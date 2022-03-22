@@ -106,7 +106,7 @@ function Navbar() {
           </ul>
         </nav>
 
-        <button
+        {/* <button
           onClick={handleSidebar}
           className={`navToggle ${sideBar ? "open" : null}`}
         >
@@ -117,7 +117,7 @@ function Navbar() {
         <div
           onClick={handleSidebar}
           className={`overlay ${sideBar ? "open" : ""}`}
-        />
+        /> */}
 
         </Container>
       </div>

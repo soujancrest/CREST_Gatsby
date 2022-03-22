@@ -40,7 +40,8 @@
   content: "";
   position: absolute;
   top: 70px;
-  left: 30px;
+  left: 50%;
+  transform: translate(-50%,0);
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -251,7 +252,7 @@
   justify-content: space-between;
   align-items: center;
   width: calc(100% - 80%);
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
 
   @media #{$extra-small} {
     width: 50%;
@@ -269,11 +270,16 @@
 
   h6 {
     font-family: stem-extralight;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     color: $text-color;
   }
 }
-
+.about-people-sub{
+  margin-bottom: 1rem;
+  color: $theme-heading-color;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 .person-thumbs {
   display: flex;
   flex-wrap: wrap;

@@ -67,6 +67,7 @@ export default function IndexPage({ data }) {
                 can handle one more. But, humans will not be able to survive
                 even one. In fact, the next mass extinction is going to mark the
                 end of the human race
+
               </h4>
               {/* <Link
               className="main-btn"
@@ -76,6 +77,7 @@ export default function IndexPage({ data }) {
             </Link> */}
             </div>
           </div>
+
         </Container>
       </div>
 
@@ -84,7 +86,7 @@ export default function IndexPage({ data }) {
           <Row>
             <Col>
               <div className="about__crest-info">
-                <h6>ABOUT CREST</h6>
+                {/* <h6>ABOUT CREST</h6> */}
                 <p>
                   <span>CREST </span> (Center for Research in Environmental &
                   Sustainable Technologies) <br></br>
@@ -114,6 +116,9 @@ export default function IndexPage({ data }) {
                   balance by promoting biodiversity, improving the quality of
                   air, water, soil, nutrition safety and support human &
                   planet’s well being.
+                </p>
+                <p className="mission-sub-text">
+                  Our practical approach is neither theoretical nor challenging to implement. The Foundation’s first publication, Blue Dharma, is a playbook of sustainable practices that have successfully powered the creation of the world’s first energy-positive, water-positive, and collective organic farming community.
                 </p>
               </div>
               {/* <Link className="readmore" to="/about">
@@ -213,37 +218,37 @@ export default function IndexPage({ data }) {
       </div>
       <div className="climate-sec">
         <Container>
-          <Row>
-            <Col className="climate-text col-sm-6">
-              <h1>Introducing Climate Hubs</h1>
+          <div className="climate-sec-inner">
+            <div className="climate-box-inner">
+              <h6>
+                INDRODUCING
+              </h6>
+              <h2>
+                CLIMATE HUBS
+              </h2>
+
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+
               </p>
-            </Col>
-            <Col className="col-sm-6">
+
+            </div>
+            <div className="climate-box-books">
               <Row className="climate-inner-row">
                 <Col className="climate-box-img col-sm-3">
                   <StaticImage src="../images/climate-book.png" />
                 </Col>
                 <Col className="box-right-con">
-                  <span>Backcreek, Monroe County, West Virginia.</span>
-                  <h6>
+                  <h2 className="mission-subheading heading-color">Backcreek, Monroe County, West Virginia.</h2>
+                  <h6 className="mission-sub-text">
                     A consolidation of gross study based on online research from
                     several authentic sources with focus on current situation
                     due to several man-made developments across state of West
                     Verginia boiling down to Monroe county.
                   </h6>
                   <a href="" className="readmore">
-                    Read More
+                    Read More...
                   </a>
                 </Col>
               </Row>
@@ -252,14 +257,14 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/NEOM 01-02-22.jpg" />
                 </Col>
                 <Col className="box-right-con">
-                  <span>Neom, Saudi Arabia.</span>
-                  <h6>
+                  <h2 className="mission-subheading heading-color">Neom, Saudi Arabia.</h2>
+                  <h6 className="mission-sub-text">
                     Climate Action Report designed by CREST Foundation is a
                     scientific framework to build Climate Hubs to combat both
                     climate and lifecycle disasters.
                   </h6>
                   <a href="" className="readmore">
-                    Read More
+                    Read More...
                   </a>
                 </Col>
               </Row>
@@ -268,15 +273,20 @@ export default function IndexPage({ data }) {
                   <StaticImage src="../images/Dhriti_Climate Hub_cover.png" />
                 </Col>
                 <Col className="box-right-con">
-                  <span>Zaheerabad, Hyderabad</span>
-                  <h6></h6>
+                  <h2 className="mission-subheading heading-color">Zaheerabad, Hyderabad</h2>
+                  <h6 className="mission-sub-text">
+                    Climate Action Report designed by CREST Foundation is a
+                    scientific framework to build Climate Hubs to combat both
+                    climate and lifecycle disasters.
+                  </h6>
                   <a href="" className="readmore">
-                    Read More
+                    Read More...
                   </a>
                 </Col>
               </Row>
-            </Col>
-          </Row>
+            </div>
+          </div>
+
         </Container>
       </div>
 

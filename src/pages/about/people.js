@@ -91,55 +91,69 @@ export default function People({ data }) {
         </Container>
         <Container className="about-sub">
           <h4 className="about-people-heading">EXECUTIVE TEAM</h4>
-          <h5>RESEARCH & ANALYTICS</h5>
+          <h5 className="about-people-sub">RESEARCH & ANALYTICS</h5>
           <div className="person-thumbs">
             {researchAnalytics.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>SUSTAINABILITY</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">SUSTAINABILITY</h5>
           <div className="person-thumbs">
             {sustainability.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>MARKETING</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">MARKETING</h5>
           <div className="person-thumbs">
             {marketing.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>SALES & CRM</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">SALES & CRM</h5>
           <div className="person-thumbs">
             {salesCRM.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>FINANCE & ACCOUNTS</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">FINANCE & ACCOUNTS</h5>
           <div className="person-thumbs">
             {finance.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>DESIGN</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">DESIGN</h5>
           <div className="person-thumbs">
             {design.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>WEB TECH</h5>
+          <h5 className="about-people-sub">WEB TECH</h5>
           <div className="person-thumbs">
             {webTech.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>CORPORATE COMMUNICATIONS</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">CORPORATE COMMUNICATIONS</h5>
           <div className="person-thumbs">
             {corporate.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <h5>PROJECT MANAGEMENT</h5>
+          <br></br>
+          <hr></hr>
+          <h5 className="about-people-sub">PROJECT MANAGEMENT</h5>
           <div className="person-thumbs">
             {projectManagement.map(item => (
               <PeopleThumb person={item} key={item.id} />

@@ -15,8 +15,18 @@ export default function BlogDetail({ data }) {
   return (
     <Layout>
       <GatsbyImage image={image} />
+
       <Container>
         <Row className="blog-top">
+
+          <nav aria-label="breadcrumb" className="crest-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+              <li class="breadcrumb-item"><Link to="/blog">Blog</Link></li>
+              <li class="breadcrumb-item active" aria-current="page">{title}</li>
+            </ol>
+          </nav>
+
           <h6 className="crest-heading mb-20">{title}</h6>
           <p>{excerpt}</p>
         </Row>
