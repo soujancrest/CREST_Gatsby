@@ -134,10 +134,81 @@ footer a {
   }
 }
 
-.creast-inner {
-  border: 1px solid red;
+.creast-inner{
+  border: 2px solid #ff6600;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 85vh;
+}
+
+.crest-logo-left{
+  border-right: 1px solid $white;
+  height: 100%;
+}
+
+.footer-heading{
+  font-family: stem-bold;
+  font-size: 1rem;
+  span{
+    color: #ff6600;
+
+  }
+}
+
+.crest-media{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #000;
+  margin: 2rem 0;
+  a{
+    padding: 0 6px;
+  }
+  p{
+    padding-left: 12px;
+    margin: 0;
+    font-family: stem-medium;
+    span{
+      color: #ff6600;
+    }
+  }
+}
+
+.pdt{
+  padding-right: 10px;
+}
+
+.crest-add{
+  margin: 2rem 0;
+
+  address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h6{
+      font-family: stem-medium;
+      width: 18%;
+    }
+    p{
+      margin: 0 0 0 4rem;
+      font-size: 0.9rem;
+      font-family: stem-extralight;
+      width: 82%;
+      span{
+        color: #ff6600;
+      }
+    }
+  }
+}
+
+.crest-copy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  p{
+    margin: 0;
+  }
 }

@@ -9,6 +9,7 @@ import PublicationList2 from "../components/PublicationList2"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import BackgroundImage from 'gatsby-background-image'
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
@@ -55,26 +56,21 @@ export default function IndexPage({ data }) {
   return (
     <Layout>
       <Seo title="Home" />
+      
       <div className="banner">
         <Container>
           <div className="creast-inner">
             <div className="crest-banner-text">
               <h1 className="banner__heading">
-                An Insight into the harsh truth about survival
+                CREST CLIMATE HUBS <br></br>
+                COULD BE THE SOLUTION
               </h1>
               <h4 className="banner__sub-heading">
-                The planet has thrived through five mass extinctions. Surely, it
-                can handle one more. But, humans will not be able to survive
-                even one. In fact, the next mass extinction is going to mark the
-                end of the human race
-
+               The planet earth has witnessed five mass extinctions <br>
+               </br>
+               Human race could be next! 
               </h4>
-              {/* <Link
-              className="main-btn"
-              to="/blog/an-insight-into-the-harsh-truth-about-survival"
-            >
-              Read more
-            </Link> */}
+         
             </div>
           </div>
 
@@ -383,8 +379,8 @@ export default function IndexPage({ data }) {
 
       <div className="ourblog-sec">
         <Container>
+            <h2 className="heading-bg">OUR BLOG</h2>
           <Row>
-            <h2 className="crest-heading">OUR BLOG</h2>
           </Row>
           <br></br>
           <div className="blog-thumb">

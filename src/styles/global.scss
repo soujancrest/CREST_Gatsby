@@ -22,7 +22,7 @@ $extra-large: "screen and (min-width: 1920px) and (max-width: 5000px)";
 
 // Mixins
 @mixin bg-cover {
-  background-position: top;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -169,7 +169,7 @@ a:hover {
 
 .banner {
   height: 100vh;
-  background-image: url("../images/Website_Banner_Trail-06-06.jpg");
+  background-image: url("../images/crest-3.jpg");
   @include bg-cover;
   // background-attachment: fixed;
   position: relative;
@@ -243,7 +243,7 @@ a:hover {
     p {
       font-size: 1rem;
       font-weight: normal;
-      line-height: 25px;
+      line-height: 32px;
 
       @media #{$extra-small} {
         font-size: 0.8rem;
@@ -320,11 +320,12 @@ a:hover {
 
 .mission-subheading {
   font-size: 1rem;
-  line-height: 24px;
+  line-height: 28px;
   // min-height: 40px;
   margin-bottom: 0.3rem;
   font-family: stem-bold;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .heading-color{
   color: $theme-heading-color;
@@ -333,7 +334,7 @@ a:hover {
 .mission-sub-text {
   font-size: 0.8rem;
   font-family: stem;
-  line-height: 18px;
+  line-height: 24px;
   color: $black;
 }
 .mission-side-img {
@@ -1057,7 +1058,7 @@ li {
 
   .climate-inner-row {
     background-color: #ffffff;
-    margin: 0 0 0.8rem;
+    margin: 0 0 3rem;
     padding: 0.5rem;
     align-items: flex-start;
 
@@ -1069,12 +1070,12 @@ li {
     .climate-box-img {
       padding: 0;
       img{
-        height: 180px;
+        height: 150px;
       }
     }
 
     .box-right-con {
-      margin-left: -22px;
+      margin-left: -40px;
       @media #{$extra-small}{
         margin-top: 1rem;
       }

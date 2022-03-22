@@ -16,7 +16,7 @@ const Footer = () => (
     }}
   >
     <Container>
-      <Row>
+      {/* <Row>
         <Col className="col-2" id="footer-col-1">
           <Link className="link" to="/">
             <StaticImage src="../images/Crest-Logo.png" />
@@ -163,7 +163,82 @@ const Footer = () => (
             </p>
           </div>
         </Col>
+      </Row> */}
+
+
+      <Row>
+        <Col className="col-lg-4">
+          <div className="crest-logo-left">
+          <Link className="link " to="/">
+            <StaticImage src="../images/Crest-Logo.png" />
+          </Link>
+          </div>
+          
+        </Col>
+        <Col className="col-lg-8">
+          <div className="crest-footer-dis">
+            <h4 className="footer-heading">
+              <span>CREST</span> - CREST FOR RESEARCH IN ENVIRONMENT & SUSTAINABLE TECHNOLOGIES
+            </h4>
+            <div className="crest-media">
+              <p className="pdt">CONNECT WITH US</p> 
+              <Link to="/">
+                <StaticImage src="../images/instagram_icon.png" />
+              </Link>
+              <Link to="/">
+                <StaticImage src="../images/facebook_icon.png" />
+              </Link>
+              <Link to="/">
+                <StaticImage src="../images/Dark_Blue.png" />
+              </Link>
+              <Link to="/">
+                <StaticImage src="../images/linkedin_icon.png" />
+              </Link> 
+              <p>
+
+              <span>/CREST</span>FOUNDATION
+              </p>
+            </div>
+
+            <div className="crest-add">
+              <address>
+                <h6>UNITED STATE-HQ</h6> 
+                
+                <p><span>:</span> 700 12th Street, N.W. , Suite 700, Washington DC - 20005.</p>
+              </address>
+              <address>
+                <h6>INDIA</h6> 
+                
+                <p><span>:</span>   Sri Vishnu Elite, 5th floor, Jayabheri Enclave, Gachibowli,
+                Hyderabad - 500032.</p>
+              </address>
+              <address>
+                <h6>SINGAPORE</h6> 
+                
+                <p><span>:</span> 1 Shenton Way, #10-04, Singapore - 068803.</p>
+              </address>
+              <address>
+                <h6> AUSTRALIA</h6> 
+                
+                <p><span>:</span>  8 Brookside Dr, Wyndham Vale, VIC, Australia - 3024.</p>
+              </address>
+            </div>
+
+      <div className="crest-copy">
+        <p>
+          All rights are reserved to crest foundation
+        </p>
+        
+        <p>
+          Privacy & Policy
+        </p>
+      </div>
+          </div>
+        </Col>
+
       </Row>
+
+
     </Container>
   </footer>
 )
