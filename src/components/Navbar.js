@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -6,8 +6,7 @@ function Navbar() {
   const [sideBar, setSidebar] = useState(false)
   const handleSidebar = () => setSidebar(!sideBar)
   return (
-    <div className='crest-navbar'>
-
+    <div className="crest-navbar">
       <div className="crest-header">
         <Link to="/">
           <StaticImage
@@ -17,7 +16,6 @@ function Navbar() {
             formats={["auto", "webp", "avif"]}
             alt="CREST Logo"
           />
-
         </Link>
 
         <nav>
@@ -26,41 +24,45 @@ function Navbar() {
             style={sideBar ? { transform: "translateX(0)" } : null}
           >
             <li>
-              <Link to="/about" className="mainNavLink" >
+              <Link to="/about" className="mainNavLink">
                 About us
               </Link>
             </li>
-           
+
             <li>
               <Link className="mainNavLink" to="/our-approach">
-               Our Approach
+                Our Approach
               </Link>
             </li>
             <li>
               <Link className="mainNavLink" to="/our-goal">
-              Our Goals
+                Our Goal
               </Link>
             </li>
             <li>
               <Link className="mainNavLink" to="/our-impact">
-              Our Impact
+                Our Impact
               </Link>
             </li>
-           
+
             <li>
               <Link className="mainNavLink" to="/blog">
-                Our Blogs
+                Our Blog
               </Link>
             </li>
-          
+
             <li>
               <Link className="mainNavLink" to="/contact">
                 Contact us
               </Link>
             </li>
             <li>
-              <a href='../images/Crest_Foundation_Book.pdf' className="mainNavLink" >
-               Download Brochure
+              <a
+                href="../images/Crest_Foundation_Book.pdf"
+                className="mainNavLink"
+                target="_blank"
+              >
+                Download Brochure
               </a>
             </li>
           </ul>
@@ -68,7 +70,8 @@ function Navbar() {
 
         <button
           onClick={handleSidebar}
-          className={`navToggle ${sideBar ? "open" : null}`}>
+          className={`navToggle ${sideBar ? "open" : null}`}
+        >
           <span />
           <span />
           <span />

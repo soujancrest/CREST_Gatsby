@@ -16,7 +16,7 @@
     font-size: 1rem;
     font-family: stem-extralight;
     text-transform: uppercase;
-    a{
+    a {
       position: relative;
       color: $text-color;
       text-decoration: none;
@@ -36,7 +36,7 @@
   font-family: stem-light;
 }
 
-.about-Tabs-list li a.active:after{
+.about-Tabs-list li a.active:after {
   content: "";
   position: absolute;
   top: 70px;
@@ -105,7 +105,6 @@
     margin-bottom: 2rem;
   }
 }
-
 
 .ab-border {
   width: 100%;
@@ -193,7 +192,7 @@
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-  h2{
+  h2 {
     color: $theme-btn-bg;
     font-family: stem-light;
     font-size: 1rem;
@@ -260,18 +259,18 @@
 
   a {
     text-decoration: none;
-    h4 {
-      color: $theme-btn-bg !important;
-      font-family: stem-light;
-      font-size: 1rem;
-      margin-top: 1.5rem;
-    }
+  }
+  h4 {
+    color: $theme-btn-bg !important;
+    font-family: stem-light;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+  }
 
-    h6 {
-      font-family: stem-extralight;
-      margin-top: 1rem;
-      color: $text-color;
-    }
+  h6 {
+    font-family: stem-extralight;
+    margin-top: 1rem;
+    color: $text-color;
   }
 }
 
@@ -282,133 +281,130 @@
   align-items: flex-start;
 }
 
-
-.about-subs{
+.about-subs {
   margin-top: 2rem;
 
-  .mission-discrption-info{
+  .mission-discrption-info {
     color: $theme-btn-bg;
   }
 }
 
-.crest-contact{
+.crest-contact {
   margin-top: 2rem;
 
-  .contact-list{
-
-    @media #{$extra-small}{
+  .contact-list {
+    @media #{$extra-small} {
       flex-direction: column-reverse;
     }
   }
-  .contact-heading{
+  .contact-heading {
     font-size: 1.3rem;
     font-family: stem-light;
     margin-bottom: 1.5rem;
   }
 
-  .crest-add{
+  .crest-add {
     margin-bottom: 2rem;
-    h4{
+    h4 {
       font-family: stem-medium;
       color: $theme-heading-color;
       margin-bottom: 1rem;
     }
 
-   ul{
-     margin: 0;
-     padding: 0;
-     li{
-       display: inline-flex;
-       list-style: none ;
-       align-items: center;
-       width: 100%;
-       margin-bottom: 1rem;
-       p{
-         padding-left: 5%;
-         font-family: stem-extralight;
-         font-size: .8rem;
-       }
-     }
-   }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-flex;
+        list-style: none;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1rem;
+        p {
+          padding-left: 5%;
+          font-family: stem-extralight;
+          font-size: 0.8rem;
+        }
+      }
+    }
   }
 }
 
-
-.crest-contact-form{
+.crest-contact-form {
   border: 1px solid $text-color;
   padding: 2rem;
   text-align: center;
   border-radius: 5px;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     margin-bottom: 2rem;
   }
-  h4{
+  h4 {
     font-family: stem-light;
     color: $theme-btn-bg;
     margin-bottom: 1rem;
   }
 
-  .explor-btn{
-    padding: .8rem 2rem;
+  .explor-btn {
+    padding: 0.8rem 2rem;
   }
 }
 
-.crest-input{
+.crest-input {
   border: 1px solid $text-color;
-  padding:0.5rem 1rem ;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   width: 100%;
   margin-bottom: 1.2rem;
 }
 
-.blog-border{
+.blog-border {
   width: 100%;
   height: 2px;
   background-color: $theme-heading-color;
   margin-bottom: 1rem;
 }
 
-.blog-top{
+.blog-top {
   margin-top: 2rem;
 }
 
-.back-page{
-text-decoration: none;
-margin-bottom: 2rem;
-display: block;
-color: $text-color;
+.back-page {
+  text-decoration: none;
+  margin-bottom: 2rem;
+  display: block;
+  color: $text-color;
 }
 
-.crest-tab{
+.crest-tab {
   margin-left: 0;
   margin-top: 2rem;
   padding: 0.6rem 0;
-  border-top:1px solid red ;
+  border-top: 1px solid red;
   border-bottom: 1px solid red;
 
-li{
-  margin-bottom: 0;
-  position: relative;
-  .nav-link{
-    text-transform: uppercase;
-    font-family: stem-light;
-    color: $text-color;
+  li {
+    margin-bottom: 0;
+    position: relative;
+    .nav-link {
+      text-transform: uppercase;
+      font-family: stem-light;
+      color: $text-color;
+    }
   }
-}
 }
 
 .crest-tab li .nav-link:hover,
-.crest-tab li .nav-link:focus{
+.crest-tab li .nav-link:focus {
   outline: none;
-    border: none;
+  border: none;
 }
-.crest-tab li .nav-link.active{
+.crest-tab li .nav-link.active {
   color: $theme-btn-bg;
   border: none;
 }
 
-.crest-tab li .nav-link.active::after{
+.crest-tab li .nav-link.active::after {
   content: "";
   position: absolute;
   top: 70px;
@@ -418,11 +414,11 @@ li{
   border-top: 10px solid $theme-btn-bg;
 }
 
-.tabs-content{
+.tabs-content {
   margin-top: 4rem;
 
-  p{
+  p {
     font-family: stem-extralight;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }

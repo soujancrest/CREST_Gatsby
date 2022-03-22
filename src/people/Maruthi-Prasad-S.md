@@ -6,5 +6,5 @@ category: Executive Team India
 type: people
 order: 32
 email: maruthi@crest.eco
-featuredImage: ../images/team/MARUTHI-PRASAD-S.jpg
+featuredImage: ../images/team/MARUTHI-PRASAD.jpg
 ---

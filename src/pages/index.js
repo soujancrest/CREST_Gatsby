@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 import BlogThumb from "../components/BlogThumb"
 import "../styles/global.scss"
+import PublicationList from "../components/PublicationList"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
@@ -11,14 +12,46 @@ import Seo from "../components/seo"
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
-  const allPublications = [
-    "Blue Dharma",
-    "India Wakes",
-    "The Mother Earth",
-    "The New Worm",
-    "Planet Kriya",
-    "Every Dot Matters",
-  ]
+  // const allPublications = [
+  //   {
+  //     title: "Blue Dharma",
+  //     featuredImage: "../../images/Content.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: "http://bluedharma.in/",
+  //   },
+  //   {
+  //     title: "India Wakes",
+  //     featuredImage: "../images/Cover Page-02.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: "",
+  //   },
+  //   {
+  //     title: "The Mother Earth",
+  //     featuredImage: "../images/Cover Page-03.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: "",
+  //   },
+  //   {
+  //     title: "The New Worm",
+  //     featuredImage: "../images/Cover Page-05.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: null,
+  //   },
+  //   {
+  //     title: "Planet Kriya",
+  //     featuredImage: "../images/Cover Page-06.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: null,
+  //   },
+  //   {
+  //     title: "Every Dot Matters",
+  //     featuredImage: "../images/Cover Page-07.jpg",
+  //     excerpt: "An insight into how we can prolong our stay on Earth",
+  //     Url: "",
+  //   },
+  // ]
+  console.log(blogs)
+  // console.log(allPublication)
   return (
     <Layout>
       <Seo title="Home" />
@@ -26,13 +59,15 @@ export default function IndexPage({ data }) {
         <Container>
           <div className="crest-banner-text">
             <h1 className="banner__heading">
-              An Insight into the harsh truth about survival
+              <mark>An Insight into the harsh truth about survival</mark>
             </h1>
             <h4 className="banner__sub-heading">
-              The planet has thrived through five mass extinctions. Surely, it
-              can handle one more. But, humans will not be able to survive even
-              one. In fact, the next mass extinction is going to mark the end of
-              the human race
+              <mark>
+                The planet has thrived through five mass extinctions. Surely, it
+                can handle one more. But, humans will not be able to survive
+                even one. In fact, the next mass extinction is going to mark the
+                end of the human race
+              </mark>
             </h4>
             <Link
               className="main-btn"
@@ -82,7 +117,7 @@ export default function IndexPage({ data }) {
                 </p>
               </div>
               <Link className="readmore" to="/about">
-                READ MORE
+                Read more
               </Link>
             </Col>
             <Col className="right-col">
@@ -100,7 +135,7 @@ export default function IndexPage({ data }) {
                       nature.{" "}
                     </p>
                     <Link className="readmore" to="/about/#ethos">
-                      READ MORE
+                      Read more
                     </Link>
                   </div>
                 </Col>
@@ -129,7 +164,7 @@ export default function IndexPage({ data }) {
                       maintenance and zero waste living.
                     </p>
                     <Link className="readmore" to="/about/#vision">
-                      READ MORE
+                      Read more
                     </Link>
                   </div>
                 </Col>
@@ -158,7 +193,7 @@ export default function IndexPage({ data }) {
                       food miles.
                     </p>
                     <Link className="readmore" to="/about/our-commitment">
-                      READ MORE
+                      Read more
                     </Link>
                   </div>
                 </Col>
@@ -176,34 +211,88 @@ export default function IndexPage({ data }) {
           </Row>
         </Container>
       </div>
-
       <div className="climate-sec">
-        <div className="climate-secc-img"></div>
-
-        <div className="climate-box">
-          <div className="climate-boxes box-1">
-            <div className="climate-box-img">
-              <StaticImage src="../images/climate-book.png" />
-            </div>
-            <div className="box-right-con">
+        <Container>
+          <Row>
+            <Col className="climate-text col-sm-6">
+              <h1>Introducing Climate Hubs</h1>
               <p>
-                Climate Action Report <br></br>
-                December 20, 2021
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum
               </p>
-              <span>Creek, West Virginia.</span>
-              <h6>
-                CREST Foundation is on a mission to build 20 self-sufficient
-                Climate Hubs over the next ten years.
-              </h6>
-              <a href="" className="readmore">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
+            </Col>
+            <Col className="col-sm-6">
+              <Row className="climate-inner-row">
+                <Col className="climate-box-img col-sm-3">
+                  <StaticImage src="../images/climate-book.png" />
+                </Col>
+                <Col className="box-right-con">
+                  <p>
+                    Climate Action Report <br></br>
+                    December 20, 2021
+                  </p>
+                  <span>Creek, West Virginia.</span>
+                  <h6>
+                    CREST Foundation is on a mission to build 20 self-sufficient
+                    Climate Hubs over the next ten years.
+                  </h6>
+                  <a href="" className="readmore">
+                    Read More
+                  </a>
+                </Col>
+              </Row>
+              <Row className="climate-inner-row">
+                <Col className="climate-box-img col-sm-3">
+                  <StaticImage src="../images/NEOM 01-02-22.jpg" />
+                </Col>
+                <Col className="box-right-con">
+                  <p>
+                    Climate Action Report <br></br>
+                    December 20, 2021
+                  </p>
+                  <span>Neom, Saudi Arabia.</span>
+                  <h6>
+                    CREST Foundation is on a mission to build 20 self-sufficient
+                    Climate Hubs over the next ten years.
+                  </h6>
+                  <a href="" className="readmore">
+                    Read More
+                  </a>
+                </Col>
+              </Row>
+              <Row className="climate-inner-row">
+                <Col className="climate-box-img col-sm-3">
+                  <StaticImage src="../images/climate-book.png" />
+                </Col>
+                <Col className="box-right-con">
+                  <p>
+                    Climate Action Report <br></br>
+                    December 20, 2021
+                  </p>
+                  <span>Creek, West Virginia.</span>
+                  <h6>
+                    CREST Foundation is on a mission to build 20 self-sufficient
+                    Climate Hubs over the next ten years.
+                  </h6>
+                  <a href="" className="readmore">
+                    Read More
+                  </a>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
       </div>
 
-      <div className="focus-area-sec">
+      {/* <div className="focus-area-sec">
         <Container>
           <Col className="left-col">
             <h2 className="crest-heading-border">FOCUS AREAS</h2>
@@ -292,10 +381,7 @@ export default function IndexPage({ data }) {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className="strip">
-        <Container></Container>
-      </div>
+      </div> */}
 
       <div className="ourblog-sec">
         <Container>
@@ -320,66 +406,7 @@ export default function IndexPage({ data }) {
         <Container></Container>
       </div>
 
-      <div className="pub-sec">
-        <Container>
-          <Row>
-            <h2 className="crest-heading">PUBLICATIONS</h2>
-          </Row>
-          <Row className="pub-sec-row2">
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-5"></div>
-                <div className="publication-dis">
-                  <h6 className="mission-discrption-info">BLUE DHARMA</h6>
-                  <p className="md-subp">
-                    A Way to sustainable Lifestyle for Human Wellbeing
-                  </p>
-
-                  <Link className="readmore">Read More</Link>
-                  <span className="soon">Coming Soon</span>
-                </div>
-              </div>
-            </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-1"></div>
-                <p className="mission-discrption-info">PLANET KRIYA</p>
-                <p className="md-subp">
-                  A expose of the shocking changes agriculture has endured
-                </p>
-              </div>
-            </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-2"></div>
-                <p className="mission-discrption-info">INDIA WAKES</p>
-                <p className="md-subp">Post Coronavirus new world order</p>
-              </div>
-            </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-3"></div>
-                <p className="mission-discrption-info">EVERY DOT MATTERS</p>
-                <p className="md-subp"></p>
-              </div>
-            </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-4"></div>
-                <p className="mission-discrption-info">THE NEW NORM</p>
-                <p className="md-subp"></p>
-              </div>
-            </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <div id="pub-left-img-6"></div>
-                <p className="mission-discrption-info">THE MOTHER EARTH</p>
-                <p className="md-subp">An alarming wake-up call</p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      <PublicationList />
     </Layout>
   )
 }
@@ -388,6 +415,13 @@ export default function IndexPage({ data }) {
 
 export const query = graphql`
   query BlogThumb {
+    allPublication {
+      nodes {
+        featuredImage
+        title
+        excerpt
+      }
+    }
     allMarkdownRemark(filter: { frontmatter: { type: { eq: "blog" } } }) {
       nodes {
         frontmatter {

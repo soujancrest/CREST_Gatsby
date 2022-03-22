@@ -162,7 +162,7 @@ a:hover {
   font-family: stem-extralight, sans-serif;
 }
 
-.mission-img{
+.mission-img {
   margin-bottom: 1.2rem;
   display: block;
 }
@@ -176,7 +176,6 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: -1;
-
 }
 
 // .banner .container {
@@ -204,6 +203,10 @@ a:hover {
     line-height: 36px;
     margin-bottom: 2rem;
   }
+}
+
+.banner mark {
+  background-color: #e8e5df;
 }
 
 .about {
@@ -282,7 +285,7 @@ a:hover {
   border: unset;
   outline: none;
   align-self: end;
-  &:hover{
+  &:hover {
     color: $theme-heading-color;
     text-decoration: underline;
   }
@@ -300,7 +303,7 @@ a:hover {
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
 
-  &:not(:last-child){
+  &:not(:last-child) {
     // opacity: 0.5;
     border-bottom: 1px solid $theme-heading-color;
   }
@@ -323,7 +326,7 @@ a:hover {
   font-family: stem-light;
 }
 
-.mission-side-right p{
+.mission-side-right p {
   font-size: 0.7rem;
   font-family: stem-extralight;
   line-height: 22px;
@@ -455,17 +458,19 @@ a:hover {
   }
 }
 
-.crest-publication-sec{
-  .publication-dis{
+.crest-publication-sec {
+  .publication-dis {
     margin-top: 1rem;
-    h6{
+    h6 {
       margin-bottom: 0.5rem;
+      font-family: stem-light;
     }
-    p{
-      line-height:25px;
+    p {
+      line-height: 25px;
+      font-family: stem-extralight;
     }
 
-    .soon{
+    .soon {
       color: gray;
       font-size: 0.8rem;
     }
@@ -490,7 +495,7 @@ a:hover {
   background-image: url("../images/Cover\ Page-06.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:contain;
+  background-size: contain;
   @media #{$extra-small} {
     background-size: contain;
     height: 70vh;
@@ -628,12 +633,14 @@ a:hover {
 .blog-thumb h2,
 .person-thumb h2 {
   margin: 20px 0px 0 0;
+  font-family: stem-light;
 }
 
 .blog-thumb p,
 .person-thumb p {
   text-align: left;
   margin: 20px 0px 0px;
+  font-family: stem-extralight;
   @media #{$extra-small} {
     margin: 10px 0 0;
   }
@@ -781,7 +788,6 @@ a:hover {
   }
 }
 
-
 // navbar
 ul {
   padding: 0;
@@ -824,22 +830,22 @@ li {
   border-radius: 5px;
   transition: all 0.3s cubic-bezier(1, 0.13, 0.35, 1.09);
 }
-.navToggle.open span{
-  background:#fff;
+.navToggle.open span {
+  background: #fff;
 }
 
 .navToggle span:last-child {
   margin-bottom: 0;
 }
-.wrapper{
-  z-index:-1;
-  position:fixed;
-  height:100vh;
+.wrapper {
+  z-index: -1;
+  position: fixed;
+  height: 100vh;
   background: linear-gradient(to right, rgb(185, 43, 39), rgb(21, 101, 192));
-  width:100%;
-  left:0;
-  right:0;
-  bottom:0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .mainNav {
   position: fixed;
@@ -877,15 +883,14 @@ li {
   transition: opacity 1s ease 0.1s;
 }
 .overlay.open {
-  opacity: .3;
+  opacity: 0.3;
   width: 100%;
   height: 120%;
 }
 
-
-.banner-box{
+.banner-box {
   width: 80%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   min-height: 400px;
   height: auto;
   // margin: 0 auto;
@@ -895,125 +900,160 @@ li {
   opacity: 8;
 }
 
-.crest-banner-text{
-  position:relative;
+.crest-banner-text {
+  position: relative;
   top: 280px;
   z-index: 0;
 }
 
-.banner-box-inner{
+.banner-box-inner {
   padding: 2rem;
 
-  h2{
+  h2 {
     color: $theme-heading-color;
     font-size: 1.5rem;
   }
 
-  .box-book{
+  .box-book {
     display: flex;
     margin-top: 1rem;
 
-    .box-book-right{
+    .box-book-right {
       // width: 60%;
       padding-left: 3%;
 
-      h6{
+      h6 {
         width: 80%;
       }
     }
   }
 }
 
-.books-section{
+.books-section {
   display: flex;
   justify-content: space-between;
 }
 
-.about{
+.about {
   z-index: 999;
 }
 .our-mission,
 .focus-area-sec,
 .strip,
 .pub-sec,
-.ourblog-sec{
-      z-index: 99;
-    
+.ourblog-sec {
+  z-index: 99;
 }
 
-.goal-section{
- @media #{$extra-small}{
-   margin-top: 1.2rem;
- }
-}
-
-
-.climate-sec{
-  position: relative;
-  min-height: 100vh;
-  margin-bottom: 2rem;
-
-  .climate-secc-img{
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background-image: url('../images/cliamet-sec.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.goal-section {
+  @media #{$extra-small} {
+    margin-top: 1.2rem;
   }
 }
 
-.climate-box{
-  position: relative;
+// CAR Page by Khaled
+// .climate-sec {
+//   position: relative;
+//   min-height: 100vh;
+//   margin-bottom: 2rem;
 
-  .climate-boxes{
-    display: flex;
-    justify-content: space-between;
-    background-color: $white;
-    opacity: .9;
-    padding: 1rem;
-    border-radius: 5px;
-    position: absolute;
-    // min-width: 400px;
-    .climate-box-img{
-      width: 60%;
-      img{
-      width: 100%;
-        height: 210px;
-      }
+//   .climate-secc-img {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 100vh;
+//     overflow: hidden;
+//     background-image: url("../images/cliamet-sec.jpg");
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//   }
+// }
+
+// .climate-box {
+//   position: relative;
+
+//   .climate-boxes {
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: $white;
+//     opacity: 0.9;
+//     padding: 1rem;
+//     border-radius: 5px;
+//     position: absolute;
+//     // min-width: 400px;
+//     .climate-box-img {
+//       width: 60%;
+//       img {
+//         width: 100%;
+//         height: 210px;
+//       }
+//     }
+//   }
+// }
+
+// .box-right-con {
+//   display: flex;
+//   flex-direction: column;
+//   padding-left: 1%;
+//   width: 40%;
+
+//   p {
+//     font-family: stem-light;
+//     font-size: 0.8rem;
+//     color: $theme-btn-bg;
+//     margin-bottom: 0.8rem;
+//   }
+//   span {
+//     color: $theme-border-color;
+//   }
+//   h6 {
+//     width: 50%;
+//   }
+// }
+
+// .box-1 {
+//   right: 15%;
+//   top: 100px;
+// }
+
+// CAR Page by Soujan
+.climate-sec {
+  background-image: url("../images/cliamet-sec.jpg");
+  // height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+
+  .climate-text {
+    padding: 0;
+
+    h1 {
+      color: #ffffff;
+      font-weight: bold;
+      padding: 7rem 0 0 0;
     }
 
-   
+    p {
+      color: #ffffff;
+      margin-top: 2rem;
+    }
   }
 
+  .climate-inner-row {
+    background-color: #ffffff;
+    margin: 2rem 0;
+    padding: 1rem;
 
-}
+    .climate-box-img {
+      padding: 0;
+    }
 
-.box-right-con{
-  display: flex;
-  flex-direction: column;
-  padding-left: 1%;
-  width: 40%;
-
-  p{
-    font-family: stem-light;
-    font-size: .8rem;
-    color: $theme-btn-bg;
-    margin-bottom: .8rem;
+    .box-right-con {
+      p {
+        margin: 0;
+      }
+    }
   }
-  span{
-    color: $theme-border-color;
-  }
-  h6{
-    width: 50%;
-  }
-}
-
-.box-1{
-  right: 15%;
-  top: 100px;
 }

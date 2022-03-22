@@ -6,5 +6,5 @@ category: Executive Team India
 type: people
 order: 41
 email: ritesh@crest.eco
-featuredImage: ../images/team/.jpg
+featuredImage: ../images/team/RITESH-DHIBAR.jpg
 ---

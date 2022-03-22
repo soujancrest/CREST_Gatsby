@@ -57,14 +57,14 @@ export default function People({ data }) {
             ))}
           </div>
         </Container>
-        <Container className="about-sub">
+        {/* <Container className="about-sub">
           <h4 className="about-people-heading">LEADERSHIP TEAM - UAE</h4>
           <div className="person-thumbs">
             {leadershipTeamUAE.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-        </Container>
+        </Container> */}
         <Container className="about-sub">
           <h4 className="about-people-heading">LEADERSHIP TEAM - INDIA</h4>
           <div className="person-thumbs">

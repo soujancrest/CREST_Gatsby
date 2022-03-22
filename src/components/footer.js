@@ -101,47 +101,62 @@ const Footer = () => (
           <div className="footer-address">
             <h4>Regions</h4>
             <p>
+              UNITED STATES
+              <br />
               <a
                 href="https://maps.app.goo.gl/3fYcLdjfibAvFiJC8"
                 target="_blank"
               >
-                UNITED STATES - HQ 700 12th Street, N.W. , Suite 700 Washington
-                DC - 20005.
+                HQ 700 12th Street, N.W. , Suite 700, Washington DC - 20005.
               </a>
+              <br />
               <a href="tel:+12023449558" target="_blank">
                 +1 202 344 9558
               </a>
             </p>
             <p>
+              INDIA
+              <br />
               <a
                 href="https://maps.google.com/?cid=3990962621001398421&entry=gps"
                 target="_blank"
               >
-                INDIA - Sri Vishnu Elite, 5th floor, Jayabheri Enclave,
-                Gachibowli, Hyderabad - 500032.
+                Sri Vishnu Elite, 5th floor, Jayabheri Enclave, Gachibowli,
+                Hyderabad - 500032.
               </a>
+              <br />
               <a href="tel:+919866657462" target="_blank">
                 +91 98666 57462
               </a>
             </p>
+          </div>
+        </Col>
+        <Col className="col-3">
+          <div className="footer-address">
             <p>
+              SINGAPORE
+              <br />
               <a
                 href="https://maps.google.com/?q=1+Shenton+Way%2C+10+04+One+Shenton+Way%2C+Singapore+068803&ftid=0x31da1911ff0cbdc1:0x7756d6cb3c76fab6&entry=gps"
                 target="_blank"
               >
-                SINGAPORE - 1 Shenton Way, #10-04, Singapore - 068803.
+                1 Shenton Way, #10-04, Singapore - 068803.
               </a>
+              <br />
               <a href="tel:+6597537487" target="_blank">
                 +65 9753 7487
               </a>
             </p>
             <p>
+              AUSTRALIA
+              <br />
               <a
                 href="https://maps.google.com/?q=8+Brookside+Dr%2C+Wyndham+Vale+VIC+3024%2C+Australia&ftid=0x6ad69aa06c791b4d:0xfffdc9436c681c70&entry=gps"
                 target="_blank"
               >
-                AUSTRALIA - 8 Brookside Dr, Wyndham Vale, VIC, Australia - 3024.
+                8 Brookside Dr, Wyndham Vale, VIC, Australia - 3024.
               </a>
+              <br />
               <a href="tel:+61403983113" target="_blank">
                 +61 403983113
               </a>

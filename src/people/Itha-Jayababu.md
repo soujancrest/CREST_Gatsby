@@ -1,10 +1,10 @@
 ---
 slug: itha-jayababu
 name: Itha Jayababu
-designation: Office Boy
+designation: Admin Assistant
 category: Executive Team India
 type: people
 order: 99
 email:
-featuredImage: ../images/team/.jpg
+featuredImage: ../images/team/ITHA-JAYABABU.jpg
 ---

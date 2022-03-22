@@ -1,7 +1,7 @@
 ---
 slug: lakshmi-battula
 name: Lakshmi Battula
-designation: Vice President Community farming
+designation: Vice President - Community farming
 category: Leadership Team India
 type: people
 order: 18

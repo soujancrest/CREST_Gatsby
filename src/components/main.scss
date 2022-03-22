@@ -1,74 +1,86 @@
-@import '../styles/global.scss';
-footer p{
-    font-size: 0.8rem;
-    margin-bottom: 0.5rem;
+@import "../styles/global.scss";
+footer p {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
-footer h4{
-    margin-bottom: 1rem;
-}
-
-footer .container .row .link{
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
+footer h4 {
+  margin-bottom: 1rem;
 }
 
-footer .container .col-3, .col-1, .col-2{
-    padding: 0;
-
-    @media #{$extra-small}{
-        width: 100%;
-        padding: 1rem;
-    }
+footer .container .row .link {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.footer-address{
-    border-left: 1px solid #ffffff;
-    padding-left: 1rem;
+footer .container .col-3,
+.col-1,
+.col-2 {
+  padding: 0;
 
-    p{
-        font-size: 0.6rem !important;
-    }
+  @media #{$extra-small} {
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
-#footer-col-2{
-    margin: 0 2rem 0 2rem;
-    @media #{$extra-small}{
-        margin: 0;
-    }
+.footer-address {
+  border-left: 1px solid #ffffff;
+  padding-left: 1rem;
+
+  p {
+    font-size: 0.6rem !important;
+  }
 }
 
-#footer-col-3, #footer-col-4, #footer-col-5{
-    margin: 0 -2rem 0 0;
+#footer-col-2 {
+  margin: 0 2rem 0 2rem;
+  @media #{$extra-small} {
+    margin: 0;
+  }
 }
 
-.footer-copy{
-    margin-top: 30%;
-
-    .footer-contact{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        P{
-            font-size: 0.7rem;
-        }
-    }
+#footer-col-3,
+#footer-col-4,
+#footer-col-5 {
+  margin: 0 -2rem 0 0;
 }
-.crest-header{
+
+.footer-copy {
+  margin-top: 30%;
+
+  .footer-contact {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 1rem 0;
-    background-color: $text-color;
+
+    P {
+      font-size: 0.7rem;
+    }
+  }
+}
+.crest-header {
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  position: relative;
+  padding: 1rem 0;
+  background-color: $text-color;
 }
 
-.crest-menu{
-    position:absolute;
-    right: 0px;
-    top: 30%;
-    .menu-btn{
-        width: 40px;
-    }
+.crest-menu {
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  .menu-btn {
+    width: 40px;
+  }
+}
+
+footer {
+  margin-top: 5rem;
+}
+
+footer a {
+  color: #ffffff;
 }

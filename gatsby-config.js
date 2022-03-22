@@ -2,13 +2,24 @@ module.exports = {
   siteMetadata: {
     title: `CREST Foundation`,
     description: `Center for Research in Environmental & Sustainable Technologies`,
-    author: `@gatsbyjs`,
+    author: `Rajendra Kumar`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-remark`,
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          // formats: [`auto`, `webp`],
+          placeholder: `none`,
+        },
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,18 +41,7 @@ module.exports = {
         path: `${__dirname}/src/people`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        defaults: {
-          // formats: [`auto`, `webp`],
-          placeholder: `none`,
-        },
-      },
-    },
-   
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

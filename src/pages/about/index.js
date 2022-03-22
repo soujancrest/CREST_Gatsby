@@ -19,12 +19,65 @@ export default function About() {
       <Seo title="About" />
       <AboutLayout />
       <div>
+        <Container className="about-sub" id="vision">
+          <h4 className="mission-heading mb-20">OUR VISION</h4>
+
+          <div className="ab-overview">
+            <div className="ab-img">
+              <StaticImage
+                src="../../images/about/vision.png"
+                alt=""
+                className="img-fluid"
+              />
+            </div>
+
+            <div className="ab-content">
+              <h4>Energy Positive Cities and Global Cooling</h4>
+              <br></br>
+              <p>
+                To meet the 2050 net-zero emission goals, CREST Foundation
+                intends to create energy-positive communities that produce clean
+                energy from renewable resources and facilitate zero maintenance
+                and zero waste living.
+              </p>
+              <p>
+                60% of the world’s population will live in cities by 2030.
+                Buildings consume a lot of energy and, together with the
+                construction industry, contribute to 40% of the world’s carbon
+                dioxide emissions. As wildfires, hurricanes, and other dramatic
+                climatic events become the norm, establishing baseline data to
+                track climate change becomes vital.
+              </p>
+            </div>
+          </div>
+          <div className="ab-main-con">
+            <p>
+              Today, it’s easier and more convenient for people to work and live
+              in air-conditioned homes and offices. These closed-door living
+              situations increase exposure to indoor air pollutants, which is
+              unhealthy in the long run.
+            </p>
+            <p>
+              When plants transpire, they cool the air around and beneath them.
+              Increasing herbal forest density and clean energy reliance
+              facilitates global cooling. Cooling temperatures reduce wildfire
+              footprints and air conditioner dependence in the summer months.
+              When fewer chlorofluorocarbons are released and more carbon
+              monoxide is absorbed, the planet goes into a virtuous cycle of
+              global cooling.
+            </p>
+          </div>
+        </Container>
         <Container className="about-sub" id="mission">
           <h4 className="mission-heading mb-20">OUR MISSION</h4>
 
           <div className="ab-overview">
             <div className="ab-img">
-              <StaticImage src="../../images/about/1.png" alt="" className="img-fluid" />
+              <StaticImage
+                src="../../images/about/1.png"
+                alt=""
+                className="img-fluid"
+              />
             </div>
 
             <div className="ab-content">
@@ -37,19 +90,21 @@ export default function About() {
                 village featuring 64 varieties of sports, a community kitchen,
                 and a preventive care and wellness health centre
               </p>
+              <p>
+                Our practical approach is neither theoretical nor challenging to
+                implement. The Foundation’s first publication, Blue Dharma, is a
+                playbook of sustainable practices that have successfully powered
+                the creation of the world’s first energy-positive,
+                water-positive, and collective organic farming community.
+              </p>
             </div>
           </div>
           <div className="ab-main-con">
             <p>
-              Our practical approach is neither theoretical nor challenging to
-              implement. The Foundation’s first publication, Blue Dharma, is a
-              playbook of sustainable practices that have successfully powered
-              the creation of the world’s first energy-positive, water-positive,
-              and collective organic farming community. We have the proof of
-              concept to build carbon-pollution-free communities that promote
-              sustainable living (without compromising on the perks of modern
-              lifestyles) and revive natural ecosystems while combating the most
-              urgent changes of the climate crisis.
+              We have the proof of concept to build carbon-pollution-free
+              communities that promote sustainable living (without compromising
+              on the perks of modern lifestyles) and revive natural ecosystems
+              while combating the most urgent changes of the climate crisis.
             </p>
             <p>
               Our all-inclusive approach to each strand of sustainability — air,
@@ -75,10 +130,12 @@ export default function About() {
           <h4 className="mission-heading mb-20">OUR ETHOS</h4>
 
           <div className="ab-overview">
-
             <div className="ab-img">
-              <StaticImage src="../../images/about/ethos.png" alt="" className="img-fluid" />
-
+              <StaticImage
+                src="../../images/about/ethos.png"
+                alt=""
+                className="img-fluid"
+              />
             </div>
 
             <div className="ab-content">
@@ -92,15 +149,15 @@ export default function About() {
                 to safe drinking water, fresh air, and farm fresh witnessed
                 organic food
               </p>
+              <p>
+                Over the last decade, many mega cities have transformed into
+                urban heat islands. City residents breathe polluted air,
+                continuous exposure to which can lead to a dip in immunity and a
+                surge in respiratory illnesses
+              </p>
             </div>
           </div>
           <div className="ab-main-con">
-            <p>
-              Over the last decade, many mega cities have transformed into urban
-              heat islands. City residents breathe polluted air, continuous
-              exposure to which can lead to a dip in immunity and a surge in
-              respiratory illnesses
-            </p>
             <p>
               Planted palettes of oxygenating trees clean and cool the air by
               accelerating the absorption of greenhouse gases from the
@@ -115,61 +172,16 @@ export default function About() {
             </p>
           </div>
         </Container>
-        <Container className="about-sub" id="vision">
-          <h4 className="mission-heading mb-20">OUR VISION</h4>
-
-          <div className="ab-overview">
-            <div className="ab-img">
-
-              <StaticImage src="../../images/about/vision.png" alt="" className="img-fluid" />
-
-            </div>
-
-            <div className="ab-content">
-              <h4>Energy Positive Cities and Global Cooling</h4>
-              <br></br>
-              <p>
-                To meet the 2050 net-zero emission goals, CREST Foundation
-                intends to create energy-positive communities that produce clean
-                energy from renewable resources and facilitate zero maintenance
-                and zero waste living.
-              </p>
-            </div>
-          </div>
-          <div className="ab-main-con">
-            <p>
-              60% of the world’s population will live in cities by 2030.
-              Buildings consume a lot of energy and, together with the
-              construction industry, contribute to 40% of the world’s carbon
-              dioxide emissions. As wildfires, hurricanes, and other dramatic
-              climatic events become the norm, establishing baseline data to
-              track climate change becomes vital.
-            </p>
-            <p>
-              Today, it’s easier and more convenient for people to work and live
-              in air-conditioned homes and offices. These closed-door living
-              situations increase exposure to indoor air pollutants, which is
-              unhealthy in the long run.
-            </p>
-            <p>
-              When plants transpire, they cool the air around and beneath them.
-              Increasing herbal forest density and clean energy reliance
-              facilitates global cooling. Cooling temperatures reduce wildfire
-              footprints and air conditioner dependence in the summer months.
-              When fewer chlorofluorocarbons are released and more carbon
-              monoxide is absorbed, the planet goes into a virtuous cycle of
-              global cooling.
-            </p>
-          </div>
-        </Container>
         <Container className="about-sub" id="intention">
           <h4 className="mission-heading mb-20">OUR INTENTION</h4>
 
           <div className="ab-overview">
-
             <div className="ab-img">
-              <StaticImage src="../../images/about/intenton.png" alt="" className="img-fluid" />
-
+              <StaticImage
+                src="../../images/about/intenton.png"
+                alt=""
+                className="img-fluid"
+              />
             </div>
 
             <div className="ab-content">
@@ -217,7 +229,7 @@ export default function About() {
           </div>
         </Container>
 
-{/* share  */}
+        {/* share  */}
         {/* <Container>
           <div className="share-details">
             <h4>Share this page:</h4>

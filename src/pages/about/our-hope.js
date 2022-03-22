@@ -41,15 +41,18 @@ export default function OurHope() {
                 communities will contribute to rainfall regulation and global
                 cooling.
               </p>
+              <p>
+                Today, many cities suffer from multi-year drought conditions and
+                rely on depleting freshwater sources to meet the needs of their
+                residents.
+              </p>
             </div>
           </div>
           <div className="ab-main-con">
             <p>
-              Today, many cities suffer from multi-year drought conditions and
-              rely on depleting freshwater sources to meet the needs of their
-              residents. Harvesting rainwater and managing runoff in urban areas
-              remain a challenge because most urban surfaces like concrete,
-              metal and asphalt are impervious to water
+              Harvesting rainwater and managing runoff in urban areas remain a
+              challenge because most urban surfaces like concrete, metal and
+              asphalt are impervious to water
             </p>
             <p>
               Focusing on river protection and safe storage moves the needle

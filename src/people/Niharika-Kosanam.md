@@ -1,7 +1,7 @@
 ---
 slug: niharika-kosanam
 name: Niharika Kosanam
-designation: Vice President Sustainable design
+designation: Vice President - Sustainable design
 category: Leadership Team India
 type: people
 order: 17

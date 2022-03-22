@@ -35,15 +35,15 @@ export default function OurCommitment() {
                 support a farm-to-fork-to-farm model, allowing
                 zero-refrigeration to become a reality.
               </p>
+              <p>
+                The nutritional quality of food is declining because of
+                monocropping and chemical farming. Easy access to and mass
+                production of frozen and processed food has made consuming
+                fresh, organic produce more challenging and expensive.
+              </p>
             </div>
           </div>
           <div className="ab-main-con">
-            <p>
-              The nutritional quality of food is declining because of
-              monocropping and chemical farming. Easy access to and mass
-              production of frozen and processed food has made consuming fresh,
-              organic produce more challenging and expensive.
-            </p>
             <p>
               Global food transportation is a leading contributor to lower food
               and nutritional safety standards and higher greenhouse gas
@@ -61,7 +61,6 @@ export default function OurCommitment() {
             </p>
           </div>
         </Container>
-
       </div>
     </Layout>
   )
