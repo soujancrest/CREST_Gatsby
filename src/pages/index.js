@@ -100,7 +100,10 @@ export default function IndexPage({ data }) {
         <Container>
           <Row className="our-mission-row">
             <Col className="left-col">
-              <h4 className="mission-heading">Our Mission</h4>
+              <h4 className="heading-bg">
+                Our Mission
+              </h4>
+
               <div className="mission-discrption">
                 <div className="mission-img">
                   <StaticImage src="../images/mission-thumb.jpg" />
@@ -115,13 +118,19 @@ export default function IndexPage({ data }) {
                   planet’s well being.
                 </p>
               </div>
+<<<<<<< Updated upstream
+=======
+              {/* <Link className="readmore" to="/about">
+                Read more
+              </Link> */}
+>>>>>>> Stashed changes
             </Col>
             <Col className="right-col">
+              <h4 className="heading-bg crest-left">Our Ethos</h4>
               <Row className="right-col-1">
-                <h4 className="mission-heading">Our Ethos</h4>
                 <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h5 className="mission-subheading">
+                    <h5 className="mission-subheading heading-color">
                       Climate crisis and Human Wellbeing
                     </h5>
                     <p>
@@ -131,7 +140,7 @@ export default function IndexPage({ data }) {
                       nature.{" "}
                     </p>
                     <Link className="readmore" to="/about/#ethos">
-                      Read more
+                      Read more...
                     </Link>
                   </div>
                 </Col>
@@ -145,11 +154,11 @@ export default function IndexPage({ data }) {
                   </div>
                 </Col>
               </Row>
+              <h4 className="heading-bg crest-left">Our Vision</h4>
               <Row className="right-col-1">
-                <h4 className="mission-heading">Our Vision</h4>
                 <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h5 className="mission-subheading">
+                    <h5 className="mission-subheading heading-color">
                       Re-imagining the urban lifestyle
                     </h5>
                     <p>
@@ -160,7 +169,7 @@ export default function IndexPage({ data }) {
                       maintenance and zero waste living.
                     </p>
                     <Link className="readmore" to="/about/#vision">
-                      Read more
+                      Read more...
                     </Link>
                   </div>
                 </Col>
@@ -174,11 +183,11 @@ export default function IndexPage({ data }) {
                   </div>
                 </Col>
               </Row>
+              <h4 className="heading-bg crest-left">Our Commitment</h4>
               <Row className="right-col-1">
-                <h4 className="mission-heading">Our Commitment</h4>
                 <Col className="mission-inner col-sm-8">
                   <div className="mission-side-right">
-                    <h5 className="mission-subheading">
+                    <h5 className="mission-subheading heading-color">
                       Launching a witnessed-organic revolution
                     </h5>
                     <p>
@@ -189,7 +198,7 @@ export default function IndexPage({ data }) {
                       food miles.
                     </p>
                     <Link className="readmore" to="/about/our-commitment">
-                      Read more
+                      Read more....
                     </Link>
                   </div>
                 </Col>

@@ -64,8 +64,8 @@ footer .container .col-3,
   // align-items: center;
   // justify-content: center;
   position: relative;
-  padding: 1rem 0;
-  background-color: $text-color;
+  padding: 0.8rem 0;
+  background-color: $white;
 }
 
 .crest-menu {
@@ -83,4 +83,53 @@ footer {
 
 footer a {
   color: #ffffff;
+}
+
+// navbar
+
+.crest-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.crest-right-nav {
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-flex;
+      margin: 0;
+      position: relative;
+      padding: 0 1.5rem;
+    
+      &:not(:last-child)::after {
+        position: absolute;
+        content: "";
+        right: 0px;
+        top: 0;
+        height: 100%;
+        width: 2px;
+        background: $text-color;
+      }
+
+      a {
+        color: $text-color;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        position: relative;
+
+        &:hover {
+          color: $theme-btn-bg;
+        }
+      }
+    }
+  }
+}
+
+
+.crest-left-logo{
+  img{
+    width: 150px;
+  }
 }
