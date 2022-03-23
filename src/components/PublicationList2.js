@@ -14,7 +14,7 @@ export default function PublicationThumb({ publication }) {
     <Container>
       <div className="pub-sec">
         <Container>
-            <h2 className="heading-bg">PUBLICATIONS</h2>
+            <h2 className="crest-text-heading">PUBLICATIONS</h2>
           <Row>
           </Row>
           <Row className="pub-sec-row2">

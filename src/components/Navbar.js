@@ -14,7 +14,7 @@ function Navbar() {
             <div className="crest-left-logo">
               <Link to="/">
                 <StaticImage
-                  src="https://crest.eco/assets/img/Logo-05.png"
+                  src="../images/CREST - Exact_Logo.png"
                   alt="CREST Logo"
                 />
               </Link>

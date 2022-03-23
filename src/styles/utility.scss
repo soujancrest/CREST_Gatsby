@@ -83,8 +83,12 @@
 
 .app-img {
   // width: 100px;
-  height: 160px;
+  height: 100px;
   vertical-align: middle;
+
+  img{
+      width: 70px;
+  }
 }
 
 .approach-cards {
@@ -123,32 +127,32 @@
 }
 
 .goal-section {
-  h3 {
-    font-family: stem-light;
+  .goal-heading {
+    font-family: stem-medium;
     color: $theme-btn-bg;
     margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
-
-  p {
-    color: $black;
-    font-family: stem-extralight;
-    &:first-child {
-      font-size: 1.2rem;
-    }
-    &:last-child {
-      font-size: 0.9rem;
-    }
-  }
+}
+.goal-dis{
+  color: $black;
+  font-family: stem-extralight;
+  // font-size: 1.2rem;
+  line-height: 32px;
 }
 
 .goal-img {
+  @media #{$extra-small}{
+    margin-bottom: 1rem;
+  }
   img {
     min-height: 400px;
   }
 }
 
 .heading-bg {
-  background-color: #ff6600;
+  background-color: $theme-btn-bg;
   color: #fff;
   display: inline-block;
   padding: 0.3rem;
@@ -161,9 +165,9 @@
 .crest-left {
   margin-left: -12px;
 }
-// .mission-discrption {
-//   margin-top: 0.7rem;
-// }
+.mission-discrption {
+  margin-top: 0.2rem;
+}
 
 
 .crest-breadcrumb{
@@ -189,7 +193,7 @@
 }
 .climate-box-inner{
   background-color: rgba(0,0,0,.8);
-  padding: 4rem 4rem;
+  padding: 4rem 2rem;
   color: $white;
 
   @media #{$extra-small}{
@@ -206,7 +210,7 @@
   h2{
     font-size: 2rem;
     font-family: stem-bold;
-    color: #ff6600;
+    color: $theme-btn-bg;
     margin-bottom: 1rem;
   }
 
@@ -242,6 +246,14 @@
     width: 55%;
     @media #{$extra-small}{
      width: 100%;
+    }
+  }
+}
+
+.pub-sec-row2{
+  .row{
+    .col{
+      padding: 0;
     }
   }
 }

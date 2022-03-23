@@ -14,17 +14,16 @@ const OurGoal = () => (
     <div className="page-head">
       <Container>
         <Row>
-          <Col>
+          <Col className="col-lg-4 col-12">
             <h2 className="crest-heading mb-20">OUR GOAL</h2>
-            <h3>Re-engineering the concrete jungle</h3> <br></br>
+            </Col>
+            <Col className="col-lg-8 col-12">
             <p className="mission-discrption-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem.
+            To create 20 climate hubs in the next 10 years and create a paradigm shift to reduce urban loads through De-urbanization, Afforestation, Biodiversity, Walk to Work, Farm and Folk, Net Zero Carbon Neutral Communities.
             </p>
-          </Col>
+            </Col>
+           
+        
         </Row>
       </Container>
     </div>
@@ -47,15 +46,18 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3>Future-Proof Climate Hubs And Inclusivity</h3>
-              <p>
+              <h3 className="mission-subheading heading-color">Future-Proof Climate Hubs And Inclusivity</h3>
+              <p className="mission-sub-text" style={{
+                fontStyle:"italic",
+                color:"#595757"
+              }}>
                 Energy-efficient and climate-resilient design features are a
                 standard component of CREST Foundation’s infrastructure plan.
                 CREST Foundation’s all-inclusive schools and workspaces will
                 offer better ROI to residents in terms of air, water, food,
                 health, and mental wellbeing.
               </p>
-              <p>
+              <p className="mission-sub-text">
                 Although little changes in terms of the landscape, amenities, or
                 access to fresh air or drinking water, demand for urban housing
                 continues to rise exponentially, skyrocketing prices. Urban
@@ -83,14 +85,17 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3>Communities with Walkability</h3>
-              <p>
+              <h3 className="mission-subheading heading-color">Communities with Walkability</h3>
+              <p className="mission-sub-text" style={{
+                fontStyle:"italic",
+                color:"#595757"
+              }}>
                 CREST Foundation’s ‘Walk to Work’ and ‘Walk to School’ living
                 situations remove the need to commute every day and help
                 dramatically cut down on emissions from transportation, global
                 warming’s leading contributor.
               </p>
-              <p>
+              <p className="mission-sub-text">
                 Cities are crumbling under the weight of supporting their
                 residents. Whether it is increasing the stock of affordable
                 housing for low-income families, often from marginalized
@@ -121,15 +126,18 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3>Community Living and Social Bonding</h3>
-              <p>
+              <h3 className="mission-subheading heading-color">Community Living and Social Bonding</h3>
+              <p className="mission-sub-text" style={{
+                fontStyle:"italic",
+                color:"#595757"
+              }}>
                 CREST Foundation’s integrated townships will include green
                 schools and open workspaces, a sports and entertainment village,
                 a hospital and wellness centre, herb gardens and community
                 kitchens, and other public assets geared towards enhancing the
                 physical and mental quality of life
               </p>
-              <p>
+              <p className="mission-sub-text">
                 Urban housing does not facilitate the forming of meaningful
                 connections with neighbors or the community at large. In an
                 increasingly individualistic society, a lack of social bonding

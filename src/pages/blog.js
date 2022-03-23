@@ -13,7 +13,7 @@ export default function Blog({ data }) {
   return (
     <Layout>
       <Container className="about-subs">
-        <h1 className="crest-heading mb-20">OUR BLOG</h1>
+        <h1 className="crest-heading blog-bg mb-20">OUR BLOG</h1>
         <h3>Re-engineering the concrete jungle</h3> <br></br>
         <p className="mission-discrption-info">
           CREST Foundation publishes objective, independent, high-quality

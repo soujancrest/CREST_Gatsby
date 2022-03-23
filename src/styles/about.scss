@@ -6,9 +6,12 @@
 }
 .about-Tabs-list {
   margin: 0;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   border-top: 1px solid $theme-btn-bg;
   border-bottom: 1px solid $theme-btn-bg;
+  @media #{$extra-small}{
+    margin-bottom: 1rem;
+  }
   li {
     list-style: none;
     display: inline-flex;
@@ -16,10 +19,14 @@
     font-size: 1rem;
     font-family: stem-extralight;
     text-transform: uppercase;
+    @media #{$extra-small}{
+     font-size: 0.8rem;
+    }
     a {
       position: relative;
       color: $text-color;
       text-decoration: none;
+    
     }
     &:not(:first-child) {
       padding-left: 4rem;
@@ -39,7 +46,7 @@
 .about-Tabs-list li a.active:after {
   content: "";
   position: absolute;
-  top: 70px;
+  top: 36px;
   left: 50%;
   transform: translate(-50%,0);
   width: 0;
@@ -47,6 +54,9 @@
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid $theme-btn-bg;
+  @media #{$extra-small}{
+    top: 37px;
+   }
 }
 
 .ab-overview {
@@ -103,7 +113,10 @@
   }
 
   .mb-20 {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
+    @media #{$extra-small} {
+      margin-bottom: 1rem;
+    }
   }
 }
 
@@ -290,9 +303,9 @@
 .about-subs {
   margin-top: 2rem;
 
-  .mission-discrption-info {
-    color: $theme-btn-bg;
-  }
+  // .mission-discrption-info {
+  //   color: $theme-btn-bg;
+  // }
 }
 
 .crest-contact {
@@ -427,4 +440,21 @@
     font-family: stem-extralight;
     font-size: 0.8rem;
   }
+}
+
+
+.over-heading{
+  font-family: stem-medium;
+  text-transform: uppercase;
+}
+
+.blog-bg{
+  color: $theme-btn-bg !important;
+}
+
+.crest-text-heading{
+  font-size: 1.3rem;
+  font-family: stem-medium;
+  letter-spacing: 1px;
+  color: $theme-btn-bg;
 }

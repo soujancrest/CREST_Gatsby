@@ -157,9 +157,10 @@ a:hover {
   color: $text-color;
 }
 .mission-discrption-info {
-  color: $black;
-  font-size: 0.9rem;
+  color: $black !important;
+  font-size: 0.8rem;
   font-family: stem;
+  line-height: 28px;
 }
 
 .mission-img {
@@ -167,42 +168,16 @@ a:hover {
   display: block;
 }
 
-.banner {
-  height: 100vh;
-  background-image: url("../images/crest-3.jpg");
-  @include bg-cover;
-  // background-attachment: fixed;
-  position: relative;
-  padding: 4rem 0 0;
-
-}
-
-// .banner .container {
+// .banner {
+//   height: 88vh;
+//   background-image: url("../images/crest-3.jpg");
+//   @include bg-cover;
+//   background-attachment: fixed;
 //   position: relative;
-//   top: 35%;
+//   padding: 4rem 0 0;
+
 // }
 
-.banner {
-  &__heading {
-    font-family: "Coco Gothic ExtLt";
-    color: $white;
-    font-size: 2.5rem;
-    line-height: 60px;
-
-    @media #{$extra-small} {
-      font-size: 1.8rem;
-      line-height: 40px;
-      font-weight: bold;
-    }
-  }
-
-  &__sub-heading {
-    color: #e4e4e4;
-    max-width: 800px;
-    line-height: 36px;
-    margin-bottom: 2rem;
-  }
-}
 
 .banner mark {
   background-color: #e8e5df;
@@ -216,7 +191,9 @@ a:hover {
   @media #{$extra-small} {
     padding: 1rem 2rem;
   }
-
+@media #{$small}{
+  padding: 1rem 0rem;
+}
   &__crest-info {
     position: relative;
     padding-left: 8rem;
@@ -244,6 +221,7 @@ a:hover {
       font-size: 1rem;
       font-weight: normal;
       line-height: 32px;
+      letter-spacing: 0.5px;
 
       @media #{$extra-small} {
         font-size: 0.8rem;
@@ -303,6 +281,10 @@ a:hover {
   padding-bottom: 0.8rem;
   margin-bottom: 0.8rem;
 
+  @media #{$extra-small}{
+    flex-direction: column-reverse;
+  }
+
   &:not(:last-child) {
     // opacity: 0.5;
     border-bottom: 1px solid $theme-heading-color;
@@ -316,6 +298,12 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+
+  @media #{$extra-small}{
+    justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  }
 }
 
 .mission-subheading {
@@ -465,6 +453,7 @@ a:hover {
 }
 
 .crest-publication-sec {
+  margin-bottom: 1.2rem;
   .publication-dis {
     margin-top: 1rem;
     h6 {
@@ -571,13 +560,15 @@ a:hover {
 }
 
 .page-head h2 {
-  color: #787b31;
+  color: $theme-btn-bg;
 }
 
 .page-head p {
-  color: #e86241;
+  color: #595757;
 }
-
+.page-head h3{
+  color: #787b31;
+}
 .tab-sec .container p {
   margin: 0;
   padding: 1rem 0;
@@ -588,7 +579,7 @@ a:hover {
   // padding: 2rem 0;
 
   @media #{$extra-small} {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -642,7 +633,7 @@ a:hover {
   font-family: stem-light;
 }
 
-.blog-thumb p,
+
 .person-thumb p {
   text-align: left;
   margin: 20px 0px 0px;
@@ -661,8 +652,18 @@ a:hover {
 }
 
 .explore-btn {
-  text-align: center;
-  margin: 3rem 0;
+  // text-align: center;
+  margin: 1rem 0 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.explor-blog{
+  text-decoration: underline;
+  color: $theme-btn-bg;
+}
+.explor-blog:hover{
+  color: #787b31;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -688,7 +689,7 @@ a:hover {
   }
 
   .our-mission .right-col {
-    padding: 0;
+    padding: 1rem;
   }
 
   .focus-area-sec .container {
@@ -910,9 +911,31 @@ li {
 
 .crest-banner-text {
   position: relative;
-  top: 0;
-  left: 3%;
-  z-index: 0;
+  padding-left: 3%;
+  height: 100%;
+  width: 100%;
+
+  .banner-heading{
+    position: relative;
+    top: 60%;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    font-size: 2.2rem;
+
+    @media #{$extra-small}{
+      font-size: 1.8rem;
+    }
+  }
+ 
+  .banner-sub-heading{
+    position: absolute;
+    top: 10%;
+    font-size: 1.3rem;
+    font-family: stem-light;
+    line-height: 28px;
+    color: #000;
+  }
 }
 
 .banner-box-inner {
@@ -956,7 +979,7 @@ li {
 
 .goal-section {
   @media #{$extra-small} {
-    margin-top: 1.2rem;
+    margin-top: 0rem;
   }
 }
 
@@ -1039,6 +1062,7 @@ li {
 
   @media #{$extra-small}{
     padding: 2rem 0;
+    background-image: unset;
   }
 
   .climate-text {
@@ -1071,6 +1095,10 @@ li {
       padding: 0;
       img{
         height: 150px;
+        @media #{$extra-small}{
+          height: 400px;
+          // width: 400px;
+        }
       }
     }
 
@@ -1078,6 +1106,7 @@ li {
       margin-left: -40px;
       @media #{$extra-small}{
         margin-top: 1rem;
+        margin-left: 0px;
       }
       h2{
         margin-bottom: 1rem;

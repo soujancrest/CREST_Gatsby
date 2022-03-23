@@ -14,15 +14,12 @@ const OurImpact = () => (
     <div className="page-head">
       <Container>
         <Row>
-          <Col>
+          <Col className="col-lg-4 col-12">
             <h2 className="crest-heading mb-20">OUR IMPACT</h2>
-            <h3>Transforming cities to climate hubs</h3> <br></br>
+         </Col>
+         <Col className="col-lg-8 col-12">
             <p className="mission-discrption-info">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem.
+            Periodic assessment of sustainability parameters defines impact through number of Jobs Created, trees planted by Afforestation, amount of Carbon Sequestered, avoided CO2 Emissions, amount of Waste managed, Improved Air Quality, Renewable Energy generated, Vulnerable Species protected and Highest Returns for everyone involved.
             </p>
           </Col>
         </Row>
