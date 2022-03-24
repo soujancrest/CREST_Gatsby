@@ -9,7 +9,7 @@ import Seo from "../components/seo"
 // import "./global.css"
 
 const Library = () => (
-  <Layout>
+  <div>
     <Seo title="Library" />
     <div>
       <Container>
@@ -362,7 +362,7 @@ const Library = () => (
         </Row>
       </Container>
     </div>
-  </Layout>
+  </div>
 )
 
 export default Library

@@ -10,7 +10,7 @@ import "../styles/global.scss"
 import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 const ClimateActionReport = () => (
-  <Layout>
+  <div>
     <Seo title="Climate Action Report" />
     <div>
       <Container>
@@ -83,6 +83,6 @@ const ClimateActionReport = () => (
       
       </Container> */}
     </div>
-  </Layout>
+  </div>
 )
 export default ClimateActionReport

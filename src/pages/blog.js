@@ -11,7 +11,7 @@ export default function Blog({ data }) {
 
   console.log(blogs)
   return (
-    <Layout>
+    <div>
       <Container className="about-subs">
         <h1 className="crest-heading blog-bg mb-20">OUR BLOG</h1>
         <h3>Re-engineering the concrete jungle</h3> <br></br>
@@ -20,7 +20,6 @@ export default function Blog({ data }) {
           research, including books, reports, and other materials covering
           sustainable development themes.
         </p>
-
         <div className="page-border">
           <Container>
             <div className="border-crest"></div>
@@ -33,7 +32,7 @@ export default function Blog({ data }) {
           ))}
         </div>
       </Container>
-    </Layout>
+    </div>
   )
 }
 

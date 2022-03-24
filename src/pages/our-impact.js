@@ -9,17 +9,22 @@ import Seo from "../components/seo"
 import styles from "../styles/global.scss"
 
 const OurImpact = () => (
-  <Layout>
+  <div>
     <Seo title="Our Impact" />
     <div className="page-head">
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
             <h2 className="crest-heading mb-20">OUR IMPACT</h2>
-         </Col>
-         <Col className="col-lg-8 col-12">
+          </Col>
+          <Col className="col-lg-8 col-12">
             <p className="mission-discrption-info">
-            Periodic assessment of sustainability parameters defines impact through number of Jobs Created, trees planted by Afforestation, amount of Carbon Sequestered, avoided CO2 Emissions, amount of Waste managed, Improved Air Quality, Renewable Energy generated, Vulnerable Species protected and Highest Returns for everyone involved.
+              Periodic assessment of sustainability parameters defines impact
+              through number of Jobs Created, trees planted by Afforestation,
+              amount of Carbon Sequestered, avoided CO2 Emissions, amount of
+              Waste managed, Improved Air Quality, Renewable Energy generated,
+              Vulnerable Species protected and Highest Returns for everyone
+              involved.
             </p>
           </Col>
         </Row>
@@ -286,7 +291,7 @@ const OurImpact = () => (
         </div>
       </Container>
     </div>
-  </Layout>
+  </div>
 )
 
 export default OurImpact

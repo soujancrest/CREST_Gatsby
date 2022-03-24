@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const Solution = () => (
-  <Layout>
+  <div>
     <Seo title="Contact" />
     <h1>This is solution page</h1>
     <p>Welcome to solution</p>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  </div>
 )
 
 export default Solution

@@ -10,7 +10,7 @@ import "../styles/global.scss"
 import "../styles/about.scss"
 
 const Contact = () => (
-  <Layout>
+  <div>
     <Seo title="Contact" />
     <Container className="about-subs">
       <Row>
@@ -169,7 +169,7 @@ const Contact = () => (
         </Row>
       </div>
     </Container>
-  </Layout>
+  </div>
 )
 
 export default Contact

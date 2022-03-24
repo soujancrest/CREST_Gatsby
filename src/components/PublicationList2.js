@@ -14,9 +14,8 @@ export default function PublicationThumb({ publication }) {
     <Container>
       <div className="pub-sec">
         <Container>
-            <h2 className="crest-text-heading">PUBLICATIONS</h2>
-          <Row>
-          </Row>
+          <h2 className="crest-text-heading">PUBLICATIONS</h2>
+          <Row></Row>
           <Row className="pub-sec-row2">
             <Col>
               <div className="crest-publication-sec">
@@ -66,9 +65,10 @@ export default function PublicationThumb({ publication }) {
             </Col>
             <Col>
               <div className="crest-publication-sec">
+                {/* <StaticImage src="../images/Nirvana.jpg" /> */}
                 <StaticImage src="../images/Nirvana.jpg" />
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">Nirvana</h6>
+                  <h6 className="mission-discrption-info">NIRVANA</h6>
                   <p className="md-subp"></p>
                   <span className="readmore">Coming Soon</span>
                 </div>

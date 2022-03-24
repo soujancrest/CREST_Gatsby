@@ -11,23 +11,26 @@ import styles from "../styles/global.scss"
 import utility from "../styles/utility.scss"
 
 const OurApproach = () => (
-  <Layout>
+  <div>
     <Seo title="Our Approach" />
     <div className="page-head">
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
-          <h2 className="crest-heading mb-20">OUR APPROACH</h2>
+            <h2 className="crest-heading mb-20">OUR APPROACH</h2>
           </Col>
           <Col className="col-lg-8 col-12">
-          <p className="mission-discrption-info">
-          To map the status of vulnerable species and impact of urbanization on natural resources such as Air, Water, Food, Soil etc. and design a corrective roadmap for implementing best practices to restore environmental balance contributing to global cooling and people wellbeing
-        </p>
+            <p className="mission-discrption-info">
+              To map the status of vulnerable species and impact of urbanization
+              on natural resources such as Air, Water, Food, Soil etc. and
+              design a corrective roadmap for implementing best practices to
+              restore environmental balance contributing to global cooling and
+              people wellbeing
+            </p>
           </Col>
         </Row>
-       
+
         {/* <h3>Lorem Ipsum is a dummy text</h3> <br></br> */}
-       
       </Container>
     </div>
 
@@ -58,7 +61,6 @@ const OurApproach = () => (
       </Container>
     </div>
     <div>
-
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
@@ -72,15 +74,15 @@ const OurApproach = () => (
                 Our Roadmap To Sustained Growth
               </h3>
               <p className="mission-sub-text">
-                With a robust financial plan to recuperate funds allocated to each
-                part of the Impact Fund, CREST Foundation will not need to secure
-                additional funding beyond the first $100 million. Using this model
-                of sustained economic growth, in 12 years, CREST Foundation
-                expects to grow its revenue into $1.780 billion
+                With a robust financial plan to recuperate funds allocated to
+                each part of the Impact Fund, CREST Foundation will not need to
+                secure additional funding beyond the first $100 million. Using
+                this model of sustained economic growth, in 12 years, CREST
+                Foundation expects to grow its revenue into $1.780 billion
               </p>
               <p className="mission-sub-text">
-                CREST Foundation’s sustained, robust economic model is structured
-                to generate revenue from the very first project.
+                CREST Foundation’s sustained, robust economic model is
+                structured to generate revenue from the very first project.
               </p>
               <p className="mission-sub-text">
                 By sparking a clean energy and an organic food revolution,
@@ -94,20 +96,18 @@ const OurApproach = () => (
         </Row>
       </Container>
 
-
       <Container>
         <Row>
-          <Col className="col-lg-4 col-12">
-          </Col>
+          <Col className="col-lg-4 col-12"></Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="approch-1">
               <h3 className="mission-subheading heading-color mb-20">
                 Our Solution Framework
               </h3>
               <p className="mission-sub-text">
-                CREST Foundation aims to create sustainable, carbon neutral, built
-                environments with climate responsive habitats that contribute to
-                people and planet wellbeing.
+                CREST Foundation aims to create sustainable, carbon neutral,
+                built environments with climate responsive habitats that
+                contribute to people and planet wellbeing.
               </p>
               <p className="mission-sub-text">
                 The project establishes a closed loop cycle where waste from one
@@ -119,10 +119,9 @@ const OurApproach = () => (
             </div>
           </Col>
         </Row>
-
       </Container>
     </div>
-  </Layout>
+  </div>
 )
 
 export default OurApproach

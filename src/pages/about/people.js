@@ -53,7 +53,7 @@ export default function People({ data }) {
     person => person.frontmatter.category == "Project Management"
   )
   return (
-    <Layout>
+    <div>
       <Seo title="People" />
       <AboutLayout />
       <div>
@@ -163,7 +163,7 @@ export default function People({ data }) {
           </div>
         </Container>
       </div>
-    </Layout>
+    </div>
   )
 }
 export const query = graphql`

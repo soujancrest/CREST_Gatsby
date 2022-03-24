@@ -9,21 +9,22 @@ import Seo from "../components/seo"
 import styles from "../styles/global.scss"
 
 const OurGoal = () => (
-  <Layout>
+  <div>
     <Seo title="Our Goal" />
     <div className="page-head">
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
             <h2 className="crest-heading mb-20">OUR GOAL</h2>
-            </Col>
-            <Col className="col-lg-8 col-12">
+          </Col>
+          <Col className="col-lg-8 col-12">
             <p className="mission-discrption-info">
-            To create 20 climate hubs in the next 10 years and create a paradigm shift to reduce urban loads through De-urbanization, Afforestation, Biodiversity, Walk to Work, Farm and Folk, Net Zero Carbon Neutral Communities.
+              To create 20 climate hubs in the next 10 years and create a
+              paradigm shift to reduce urban loads through De-urbanization,
+              Afforestation, Biodiversity, Walk to Work, Farm and Folk, Net Zero
+              Carbon Neutral Communities.
             </p>
-            </Col>
-           
-        
+          </Col>
         </Row>
       </Container>
     </div>
@@ -46,11 +47,16 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color">Future-Proof Climate Hubs And Inclusivity</h3>
-              <p className="mission-sub-text" style={{
-                fontStyle:"italic",
-                color:"#595757"
-              }}>
+              <h3 className="mission-subheading heading-color">
+                Future-Proof Climate Hubs And Inclusivity
+              </h3>
+              <p
+                className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}
+              >
                 Energy-efficient and climate-resilient design features are a
                 standard component of CREST Foundation’s infrastructure plan.
                 CREST Foundation’s all-inclusive schools and workspaces will
@@ -85,11 +91,16 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color">Communities with Walkability</h3>
-              <p className="mission-sub-text" style={{
-                fontStyle:"italic",
-                color:"#595757"
-              }}>
+              <h3 className="mission-subheading heading-color">
+                Communities with Walkability
+              </h3>
+              <p
+                className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}
+              >
                 CREST Foundation’s ‘Walk to Work’ and ‘Walk to School’ living
                 situations remove the need to commute every day and help
                 dramatically cut down on emissions from transportation, global
@@ -126,11 +137,16 @@ const OurGoal = () => (
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color">Community Living and Social Bonding</h3>
-              <p className="mission-sub-text" style={{
-                fontStyle:"italic",
-                color:"#595757"
-              }}>
+              <h3 className="mission-subheading heading-color">
+                Community Living and Social Bonding
+              </h3>
+              <p
+                className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}
+              >
                 CREST Foundation’s integrated townships will include green
                 schools and open workspaces, a sports and entertainment village,
                 a hospital and wellness centre, herb gardens and community
@@ -158,7 +174,7 @@ const OurGoal = () => (
         </Row>
       </Container>
     </div>
-  </Layout>
+  </div>
 )
 
 export default OurGoal

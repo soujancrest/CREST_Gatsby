@@ -68,6 +68,12 @@ footer .container .col-3,
   background-color: $white;
   // border-bottom: 2px solid #787b31;
 }
+.crest-header-grey {
+  display: flex;
+  position: relative;
+  padding: 0.9rem 0;
+  background-color: #595757;
+}
 
 .crest-menu {
   position: absolute;
@@ -124,7 +130,7 @@ footer a {
   }
 }
 
-.creast-inner{
+.creast-inner {
   border: 2px solid $theme-btn-bg;
   display: flex;
   justify-content: flex-start;
@@ -132,117 +138,114 @@ footer a {
   height: 70vh;
 }
 
-.crest-logo-left{
+.crest-logo-left {
   // border-right: 1px solid $white;
   // height: 100%;
 }
 
-.footer-heading{
+.footer-heading {
   font-family: stem-medium;
   font-size: 1rem;
   text-align: center;
-  span{
+  span {
     color: $theme-btn-bg;
-
   }
 }
 
-.crest-media{
+.crest-media {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #000;
   margin: 2rem 0;
-  a{
+  a {
     padding: 0 6px;
   }
-  p{
+  p {
     padding-left: 12px;
     margin: 0;
     font-family: stem-medium;
-    span{
+    span {
       color: $theme-btn-bg;
     }
   }
 }
 
-.pdt{
+.pdt {
   padding-right: 10px;
 }
 
-.crest-add{
+.crest-add {
   margin: 2rem 0;
 
-  address{
+  address {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 1rem;
-    h6{
+    h6 {
       font-family: stem-medium;
       width: 18%;
     }
-    a{
+    a {
       margin: 0 0 0 4rem;
       font-size: 0.9rem;
       font-family: stem-extralight;
       width: 82%;
-      &:hover{
+      &:hover {
         color: #fff;
         text-decoration: underline;
       }
-      span{
+      span {
         color: $theme-btn-bg;
       }
     }
   }
 }
 
-.crest-copy{
+.crest-copy {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 50%;
   margin: 0 auto;
-  p{
+  p {
     margin: 0;
   }
 }
 
-
-.crest-footer-dis{
-  @media #{$extra-small}{
-
+.crest-footer-dis {
+  @media #{$extra-small} {
     margin-top: 1rem;
 
-    h4{
+    h4 {
       line-height: 30px;
     }
   }
 }
 
-.crest-logo-bot{
+.crest-logo-bot {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  img{
+  img {
     width: 150px;
     display: block;
     margin: 0 auto;
     text-align: center;
-    @media #{$extra-small}{
+    @media #{$extra-small} {
       width: 60px;
     }
   }
 }
 
-.crest-logo-left{
+.crest-logo-left {
   display: flex;
   justify-content: center;
   align-items: center;
   // margin-top: 1rem;
-  img{
+  img {
     width: 300px;
     display: block;
     margin: 0 auto;
@@ -250,11 +253,11 @@ footer a {
   }
 }
 
-.footer-logos{
+.footer-logos {
   border-right: 1px solid #fff;
   height: 100%;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     border-right: unset;
   }
 }

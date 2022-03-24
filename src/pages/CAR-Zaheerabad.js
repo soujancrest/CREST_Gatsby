@@ -10,13 +10,13 @@ import "../styles/global.scss"
 import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 const ClimateActionReport = () => (
-  <Layout>
+  <div>
     <Seo title="Climate Action Report" />
     <div>
       <Container>
         <div className="people-detail-sec">
           <div className="people-img">
-            <StaticImage src="../images/Dhriti_Climate Hub_cover.png" />
+            <StaticImage src="../images/Dhriti_Climate Hub_cover.jpg" />
           </div>
 
           <div className="people-details">
@@ -71,6 +71,6 @@ const ClimateActionReport = () => (
       
       </Container> */}
     </div>
-  </Layout>
+  </div>
 )
 export default ClimateActionReport
