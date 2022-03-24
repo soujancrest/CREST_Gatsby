@@ -85,7 +85,7 @@ body {
   font-family: $body-fonts;
   font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
-  overflow-y: hidden;
+  overflow-y: hidden !important;
 }
 
 h1,
@@ -201,7 +201,7 @@ a:hover {
     position: relative;
 
     @media #{$extra-small} {
-      padding-left: 2rem;
+      padding-left: 1rem;
     }
 
     &::before {
@@ -456,19 +456,6 @@ a:hover {
   margin-bottom: 1.2rem;
   .publication-dis {
     margin-top: 1rem;
-    h6 {
-      margin-bottom: 0.5rem;
-      font-family: stem-light;
-    }
-    p {
-      line-height: 25px;
-      font-family: stem-extralight;
-    }
-
-    .soon {
-      color: gray;
-      font-size: 0.8rem;
-    }
   }
 }
 #pub-left-img-1 {
@@ -630,7 +617,7 @@ a:hover {
 .blog-thumb h2,
 .person-thumb h2 {
   margin: 20px 0px 0 0;
-  font-family: stem-light;
+  // font-family: stem-light;
 }
 
 
@@ -806,7 +793,7 @@ li {
   list-style: none;
 }
 .navToggle {
-  display: block;
+  display: none;
   background-color: transparent;
   border: none;
   height: 38px;
@@ -816,8 +803,13 @@ li {
   outline: none;
   cursor: pointer;
   z-index: 10;
-  position: fixed;
+  position: absolute;
   right: 30px;
+  top: 25px;
+
+  @media #{$extra-small}{
+    display: block;
+  }
 }
 .navToggle.open span:first-child {
   transform: rotate(45deg) translate(4.4px, 4.4px);
@@ -833,9 +825,9 @@ li {
   position: relative;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   margin-bottom: 4px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 5px;
   transition: all 0.3s cubic-bezier(1, 0.13, 0.35, 1.09);
 }

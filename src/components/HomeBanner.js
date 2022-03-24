@@ -23,7 +23,6 @@ export default function HomeBanner() {
   )
   const image = getImage(placeholderImage)
 
-  // Use like this:
   const bgImage = convertToBgImage(image)
   return (
     <BackgroundImage
@@ -31,11 +30,11 @@ export default function HomeBanner() {
       // Spread bgImage into BackgroundImage:
       {...bgImage}
       preserveStackingContext
+      className="crestbanner"
     >
-      {/* <div style={{ minHeight: 1000, minWidth: 1000 }}>
-        <GatsbyImage image={image} alt={"testimage"} />
-      </div> */}
-     <Container>
+
+      <div className="crest-banner-home">
+        <Container>
           <div className="creast-inner">
             <div className="crest-banner-text">
               <h1 className="banner-heading">
@@ -52,7 +51,7 @@ export default function HomeBanner() {
           </div>
 
         </Container>
-        
+      </div>
     </BackgroundImage>
   )
 }

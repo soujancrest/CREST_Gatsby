@@ -13,7 +13,8 @@ export default function BlogDetail({ data }) {
     data.markdownRemark.frontmatter
   const image = getImage(featuredImage)
   return (
-    <Layout>
+    <div>
+
       <GatsbyImage image={image} />
 
       <Container>
@@ -46,7 +47,7 @@ export default function BlogDetail({ data }) {
           </div>
         </Row>
       </Container>
-    </Layout>
+    </div>
   )
 }
 

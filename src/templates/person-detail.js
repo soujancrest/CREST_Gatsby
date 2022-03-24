@@ -12,7 +12,8 @@ export default function PersonDetail({ data }) {
     data.markdownRemark.frontmatter
   const image = getImage(featuredImage)
   return (
-    <Layout>
+    <div>
+
       <Container>
         <div className="people-detail-sec">
           <div className="people-img">
@@ -45,7 +46,7 @@ export default function PersonDetail({ data }) {
           />
         </div>
       </Container>
-    </Layout>
+    </div>
   )
 }
 

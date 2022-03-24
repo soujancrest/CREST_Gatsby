@@ -40,7 +40,8 @@ export default function IndexPage({ data }) {
       </div> */}
 
       {/* banckground */}
-      <HomeBanner />
+
+      <HomeBanner  />
 
       <div className="about">
         <Container>
@@ -112,7 +113,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-lg-4 col-12">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/about/ethos.png"
+                      src="../images/about/Our-Ethos.png"
                       atl=""
                       className="mission-side-img"
                     />
@@ -141,7 +142,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
-                      src="../../images/about/vision.png"
+                      src="../images/about/Our-Vision.png"
                       atl=""
                       className="mission-side-img"
                     />
@@ -170,7 +171,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
-                      src="../../images/about/commitment.jpg"
+                      src="../images/about/Our- Commitment.png"
                       atl=""
                       className="mission-side-img"
                     />
@@ -218,9 +219,7 @@ export default function IndexPage({ data }) {
                     situation due to several man-made developments across Monroe
                     County boiling down to Back Creek. This includes mapping of
                     climatic and geological changes that occurred over a period
-                    and its impact on natural resources. Fact remains that West
-                    Virginia ranks 49 out of 50 states in the United States
-                    Sustainability Development Index.
+                    and its impact on natural resources.
                   </h6>
                   <a href="" className="readmore">
                     Read More...
@@ -260,8 +259,7 @@ export default function IndexPage({ data }) {
                     Telangana along with understanding the surrounding
                     ecosystems and analyzing how this affects the living
                     conditions of humans, Flora, and Fauna throughout the
-                    district to come up with best practices for enhancing
-                    biodiversity and bringing about ecological balance.
+                    district.
                   </h6>
                   <a href="" className="readmore">
                     Read More...
@@ -272,6 +270,13 @@ export default function IndexPage({ data }) {
           </div>
         </Container>
       </div>
+
+      <PublicationList2 />
+      
+      <div className="strip">
+        <Container></Container>
+      </div>
+
       <div className="ourblog-sec">
         <Container>
           <h2 className="crest-text-heading">OUR BLOG</h2>
@@ -290,11 +295,9 @@ export default function IndexPage({ data }) {
         </Container>
       </div>
 
-      <div className="strip">
-        <Container></Container>
-      </div>
+      
 
-      <PublicationList2 />
+    
     </div>
   )
 }

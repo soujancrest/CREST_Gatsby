@@ -458,3 +458,34 @@
   letter-spacing: 1px;
   color: $theme-btn-bg;
 }
+
+.crest-publication-sec{
+  position: relative;
+}
+
+.no-more{
+  position: absolute;
+  right:0px;
+  bottom: 36px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.2rem 0.3rem ;
+  font-size: .7rem;
+  span{
+    color: $text-color;
+  }
+  img{
+    margin-left: 10px;
+    width: 15px;
+  }
+}
+
+.pub-heading{
+  font-family: stem-medium;
+  color: $text-color;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

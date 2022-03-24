@@ -2,12 +2,12 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
-import BlogThumb from "./BlogThumb"
+// import BlogThumb from "./BlogThumb"
 import "../styles/global.scss"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import Layout from "./layout"
-import Seo from "./seo"
+// import Layout from "./layout"
+// import Seo from "./seo"
 
 export default function PublicationThumb({ publication }) {
   return (
@@ -17,71 +17,87 @@ export default function PublicationThumb({ publication }) {
           <h2 className="crest-text-heading">PUBLICATIONS</h2>
           <Row></Row>
           <Row className="pub-sec-row2">
-            <Col>
+            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/BlueDharma.jpg" />
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">BLUE DHARMA</h6>
-                  <p className="md-subp">
-                    A Way to sustainable Lifestyle for Human Wellbeing
-                  </p>
+                  <h6 className="pub-heading">BLUE DHARMA</h6>
 
-                  <Link className="readmore">Read More</Link>
                 </div>
+
+                <Link to="/" className="no-more">
+                  <span>Know More</span>
+                  <StaticImage src="../images/right-arrow.png" />
+                </Link>
               </div>
             </Col>
-            <Col>
-              <div className="crest-publication-sec">
-                <StaticImage src="../images/Planet_Kriya.jpg" />
-                <div className="publication-dis">
-                  <h6 className="mission-discrption-info">PLANET KRIYA</h6>
-                  <p className="md-subp">
-                    A expose of the shocking changes agriculture has endured
-                  </p>
-                  <span className="readmore">Coming Soon</span>
-                </div>
-              </div>
-            </Col>
-            <Col>
+            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/India_Wakes.jpg" />
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">INDIA WAKES</h6>
-                  <p className="md-subp">Post Coronavirus new world order</p>
-                  <span className="readmore">Coming Soon</span>
+                  <h6 className="pub-heading">INDIA WAKES</h6>
+
                 </div>
+
+                <Link to="/" className="no-more">
+                  <span>Coming Soon</span>
+                  {/* <StaticImage src="../images/right-arrow.png" /> */}
+                </Link>
               </div>
             </Col>
-            <Col>
+            <Col className="col-lg-2 col-md-3 ">
+              <div className="crest-publication-sec">
+                <StaticImage src="../images/Planet_Kriya.jpg" />
+                <div className="publication-dis">
+                  <h6 className="pub-heading">PLANET KRIYA</h6>
+
+                </div>
+                <Link to="/" className="no-more">
+                  <span>Coming Soon</span>
+                  {/* <StaticImage src="../images/right-arrow.png" /> */}
+                </Link>
+              </div>
+            </Col>
+
+            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/Every_Dot_Matters.jpg" />
-                {/* <StaticImage src="../images/" /??/> */}
+
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">EVERY DOT MATTERS</h6>
-                  <p className="md-subp"></p>
-                  <span className="readmore">Coming Soon</span>
+                  <h6 className="pub-heading">EVERY DOT MATTERS</h6>
+
                 </div>
+                <Link to="/" className="no-more">
+                  <span>Coming Soon</span>
+                  {/* <StaticImage src="../images/right-arrow.png" /> */}
+                </Link>
               </div>
             </Col>
-            <Col>
+            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
-                {/* <StaticImage src="../images/Nirvana.jpg" /> */}
+
                 <StaticImage src="../images/Nirvana.jpg" />
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">NIRVANA</h6>
-                  <p className="md-subp"></p>
-                  <span className="readmore">Coming Soon</span>
+                  <h6 className="pub-heading">NIRVANA</h6>
+
                 </div>
+                <Link to="/" className="no-more">
+                  <span>Coming Soon</span>
+                  {/* <StaticImage src="../images/right-arrow.png" /> */}
+                </Link>
               </div>
             </Col>
-            <Col>
+            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/The_Mother_Earth.jpg" />
                 <div className="publication-dis">
-                  <h6 className="mission-discrption-info">THE MOTHER EARTH</h6>
-                  <p className="md-subp">An alarming wake-up call</p>
-                  <span className="readmore">Coming Soon</span>
+                  <h6 className="pub-heading">THE MOTHER EARTH</h6>
+
                 </div>
+                <Link to="/" className="no-more">
+                  <span>Coming Soon</span>
+                  {/* <StaticImage src="../images/right-arrow.png" /> */}
+                </Link>
               </div>
             </Col>
           </Row>

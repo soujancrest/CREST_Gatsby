@@ -14,7 +14,7 @@ export default function Blog({ data }) {
     <div>
       <Container className="about-subs">
         <h1 className="crest-heading blog-bg mb-20">OUR BLOG</h1>
-        <h3>Re-engineering the concrete jungle</h3> <br></br>
+        {/* <h3>Re-engineering the concrete jungle</h3> <br></br> */}
         <p className="mission-discrption-info">
           CREST Foundation publishes objective, independent, high-quality
           research, including books, reports, and other materials covering

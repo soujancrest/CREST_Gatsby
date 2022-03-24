@@ -2,6 +2,10 @@
 footer p {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
+
+  @media #{$extra-small}{
+    font-size: 0.6rem;
+  }
 }
 footer h4 {
   margin-bottom: 1rem;
@@ -73,7 +77,23 @@ footer .container .col-3,
   position: relative;
   padding: 0.9rem 0;
   background-color: #595757;
+  .crest-right-nav {
+    ul {
+      li {
+
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
 }
+
+.crest-right-nav ul li a.active{
+  color: $theme-btn-bg;
+  font-family: stem-light;
+}
+
 
 .crest-menu {
   position: absolute;
@@ -100,6 +120,9 @@ footer a {
   align-items: flex-end;
 }
 .crest-right-nav {
+  @media #{$extra-small}{
+    display: none;
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -173,6 +196,9 @@ footer a {
 
 .pdt {
   padding-right: 10px;
+  @media #{$extra-small}{
+    padding-right: 5px;
+  }
 }
 
 .crest-add {
@@ -182,22 +208,34 @@ footer a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+
+    @media #{$extra-small} {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
     h6 {
       font-family: stem-medium;
       width: 18%;
-    }
-    a {
-      margin: 0 0 0 4rem;
-      font-size: 0.9rem;
-      font-family: stem-extralight;
-      width: 82%;
-      &:hover {
-        color: #fff;
-        text-decoration: underline;
+      @media #{$extra-small} {
+        width: 100%;
       }
-      span {
-        color: $theme-btn-bg;
+    }
+    p {
+      font-size: 0.7rem;
+      font-family: stem-thin;
+      margin: 0;
+      a {
+        // text-decoration: underline !important;
+        margin-left: 10px;
+        &:hover {
+          color: #fff;
+          text-decoration: underline !important;
+        }
+        span {
+          color: $theme-btn-bg;
+        }
       }
     }
   }
@@ -207,10 +245,12 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
   p {
     margin: 0;
+    font-family: stem-thin;
+    font-size: 0.7rem;
   }
 }
 
@@ -230,7 +270,7 @@ footer a {
   align-items: center;
   margin-top: 2rem;
   img {
-    width: 150px;
+    width: 120px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -259,5 +299,34 @@ footer a {
 
   @media #{$extra-small} {
     border-right: unset;
+  }
+}
+
+.crest-banner-home {
+  padding: 4rem 0;
+}
+.crestbanner {
+  background-position: right !important;
+
+  @media #{$extra-small}{
+    background-position: center !important;
+    background-size: contain !important;
+  }
+}
+
+.crest-left-logo{
+  img{
+    width: 200px;
+  }
+}
+
+.crest-navbar{
+  position: relative;
+
+  .crest-header,.crest-header-grey{
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
   }
 }
