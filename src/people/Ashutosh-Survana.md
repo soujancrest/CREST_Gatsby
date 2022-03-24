@@ -10,7 +10,7 @@ email: ashutosh@crest.eco
 featuredImage: ../images/team/ASHUTOSH-SUVARNA.jpg
 ---
 
-### About Ashutosh Suvarna
+<!-- ### About Ashutosh Suvarna -->
 
 A graduate of Indian Institute of Technology and University of Pennsylvania, Ashutosh Suvarna has over
 20 years of experience incubating start-ups and leading cross-functional innovation solutions globally. He

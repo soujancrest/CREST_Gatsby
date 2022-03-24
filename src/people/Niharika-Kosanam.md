@@ -10,7 +10,7 @@ email: niharika@crest.eco
 featuredImage: ../images/team/NIHARIKA-KOSANAM.jpg
 ---
 
-### About Niharika Kosanam
+<!-- ### About Niharika Kosanam -->
 
 Niharika Kosanam is the Founder of Continuum Studio, a firm that strives to achieve sustainability in every aspect of
 living. The Sustainability Experts at Continuum Studio are LEED and Green Building Council accredited professionals,

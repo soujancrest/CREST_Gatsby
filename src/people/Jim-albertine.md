@@ -10,7 +10,7 @@ email: jim@crest.eco
 featuredImage: ../images/team/JIM-ALBERTINE.jpg
 ---
 
-### About Jim Albertine
+<!-- ### About Jim Albertine -->
 
 Jim Albertine is the past President of the American League of Lobbyists and has been recognized as one of the
 premier lobbyists in the nation’s capital.

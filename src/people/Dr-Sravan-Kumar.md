@@ -10,7 +10,7 @@ email: sravan@crest.eco
 featuredImage: ../images/team/DR. SRAVAN-KUMAR.jpg
 ---
 
-### About Dr.Sravan Kumar
+<!-- ### About Dr.Sravan Kumar -->
 
 Dr. Sravan is a qualified medical professional and a passionate social entrepreneur whose work impacted
 over 300,000 low income farmers in over two decades. He represents a well respected non-profit

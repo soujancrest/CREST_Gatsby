@@ -10,7 +10,7 @@ email: venkat@crest.eco
 featuredImage: ../images/team/VENKAT-TANGIRALA.jpg
 ---
 
-### About Venkat Tangirala
+<!-- ### About Venkat Tangirala -->
 
 Founder of multiple award winning and patented Windstream Technologies, - Venkat Tangirala is striving to
 contribute to decarbonizing planet Earth. A serial entrepreneur and cross-functional specialist, Venkat has led

@@ -1,11 +1,11 @@
 ---
 slug: planet-kriya–a-expose-of-the-shocking-changes-agriculture-has-endured
-title: Planet Kriya – A expose of the shocking changes agriculture has endured
+title:  An exposure of the shocking changes agriculture has endured
 stack: Html & CSS
 contentType: Blog
 focusArea: Circular Economy
 type: blog
-excerpt: India is home to around 100 million farmers today. Our nation has always prided its agriculture and produce, feeding many nations across the world. Rice and wheat among other foods are the staples, grown across the country.
+excerpt: India is home to around 100 million farmers today. Our nation has always prided its agriculture and produce, feeding many nations across the world.
 highlight: “Agriculture is a fundamental source of national prosperity.” – J. J. Mapes
 featuredImage: ../images/blog/03.jpg
 thumbImage: ../images/blog/BlogThumb_02.jpg

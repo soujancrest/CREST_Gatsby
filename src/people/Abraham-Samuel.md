@@ -9,7 +9,7 @@ excerpt: Abraham Samuel is a serial entrepreneur with over 35 years of experienc
 featuredImage: ../images/team/ABRAHAM-SAMUEL.jpg
 ---
 
-### About Abraham Samuel
+<!-- ### About Abraham Samuel -->
 
 Abraham Samuel is a serial entrepreneur with over 35 years of experience and proven track record in
 commodity sales and franchise businesses across global markets. His exemplary strategic vision and

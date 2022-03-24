@@ -15,9 +15,10 @@ export default function PublicationThumb({ publication }) {
       <div className="pub-sec">
         <Container>
           <h2 className="crest-text-heading">PUBLICATIONS</h2>
-          <Row></Row>
-          <Row className="pub-sec-row2">
-            <Col className="col-lg-2 col-md-3 ">
+
+
+          <div className="publication-section">
+            <div className="public-inner">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/BlueDharma.jpg" />
                 <div className="publication-dis">
@@ -30,8 +31,6 @@ export default function PublicationThumb({ publication }) {
                   <StaticImage src="../images/right-arrow.png" />
                 </Link>
               </div>
-            </Col>
-            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/India_Wakes.jpg" />
                 <div className="publication-dis">
@@ -44,8 +43,6 @@ export default function PublicationThumb({ publication }) {
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
                 </Link>
               </div>
-            </Col>
-            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/Planet_Kriya.jpg" />
                 <div className="publication-dis">
@@ -57,9 +54,6 @@ export default function PublicationThumb({ publication }) {
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
                 </Link>
               </div>
-            </Col>
-
-            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/Every_Dot_Matters.jpg" />
 
@@ -72,8 +66,6 @@ export default function PublicationThumb({ publication }) {
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
                 </Link>
               </div>
-            </Col>
-            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
 
                 <StaticImage src="../images/Nirvana.jpg" />
@@ -86,8 +78,6 @@ export default function PublicationThumb({ publication }) {
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
                 </Link>
               </div>
-            </Col>
-            <Col className="col-lg-2 col-md-3 ">
               <div className="crest-publication-sec">
                 <StaticImage src="../images/The_Mother_Earth.jpg" />
                 <div className="publication-dis">
@@ -99,8 +89,11 @@ export default function PublicationThumb({ publication }) {
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
                 </Link>
               </div>
-            </Col>
-          </Row>
+
+            </div>
+          </div>
+
+
         </Container>
       </div>
     </Container>

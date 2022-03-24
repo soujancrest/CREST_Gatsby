@@ -41,7 +41,7 @@ export default function IndexPage({ data }) {
 
       {/* banckground */}
 
-      <HomeBanner  />
+      <HomeBanner />
 
       <div className="about">
         <Container>
@@ -113,7 +113,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-lg-4 col-12">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/about/Our-Ethos.png"
+                      src="../images/about/24.jpg"
                       atl=""
                       className="mission-side-img"
                     />
@@ -128,11 +128,10 @@ export default function IndexPage({ data }) {
                       Re-imagining the urban lifestyle
                     </h5>
                     <p className="mission-sub-text">
-                      Energy Positive cities and global cooling, To meet the
-                      2050 net-zero emission goals, CREST Foundation intends to
+                      To meet the
+                      2050 net-zero emission goals, we intend to
                       create energy-positive communities that produce clean
-                      energy from renewable resources and facilitate zero
-                      maintenance and zero waste living.
+                      energy from renewable resources
                     </p>
                     <Link className="readmore" to="/about/#vision">
                       Read more...
@@ -142,7 +141,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/about/Our-Vision.png"
+                      src="../images/about/244.jpg"
                       atl=""
                       className="mission-side-img"
                     />
@@ -157,8 +156,7 @@ export default function IndexPage({ data }) {
                       Launching a witnessed-organic revolution
                     </h5>
                     <p className="mission-sub-text">
-                      Nutrition, soil health and closed loop cycles, CREST
-                      Foundation will create circular economies through its
+                      To create circular economies through
                       sustainable communities by implementing a ‘buy local, eat
                       local’ model of food production that dramatically reduces
                       food miles.
@@ -171,7 +169,7 @@ export default function IndexPage({ data }) {
                 <Col className="mission-inner col-sm-4">
                   <div className="mission-side">
                     <StaticImage
-                      src="../images/about/Our- Commitment.png"
+                      src="../images/about/Farmer.jpg"
                       atl=""
                       className="mission-side-img"
                     />
@@ -208,9 +206,9 @@ export default function IndexPage({ data }) {
             <div className="climate-box-books">
               <Row className="climate-inner-row">
                 <Col className="climate-box-img col-lg-3 col-12">
-                  <StaticImage src="../images/climate-book.png" />
+                  <StaticImage src="../images/climate-books.jpg" />
                 </Col>
-                <Col className="box-right-con climate-box-img">
+                <Col className="box-right-con ">
                   <h2 className="mission-subheading heading-color">
                     Backcreek, Monroe County, West Virginia.
                   </h2>
@@ -222,7 +220,7 @@ export default function IndexPage({ data }) {
                     and its impact on natural resources.
                   </h6>
                   <a href="" className="readmore">
-                    Read More...
+                    Read More <StaticImage src="../images/right-arrow.png" />
                   </a>
                 </Col>
               </Row>
@@ -242,7 +240,8 @@ export default function IndexPage({ data }) {
                     Sustainable Development Goals defined for Saudi Arabia.
                   </h6>
                   <a href="" className="readmore">
-                    Read More...
+                    Read More
+                    <StaticImage src="../images/right-arrow.png" />
                   </a>
                 </Col>
               </Row>
@@ -262,7 +261,8 @@ export default function IndexPage({ data }) {
                     district.
                   </h6>
                   <a href="" className="readmore">
-                    Read More...
+                    Read More
+                    <StaticImage src="../images/right-arrow.png" />
                   </a>
                 </Col>
               </Row>
@@ -272,7 +272,7 @@ export default function IndexPage({ data }) {
       </div>
 
       <PublicationList2 />
-      
+
       <div className="strip">
         <Container></Container>
       </div>
@@ -295,9 +295,9 @@ export default function IndexPage({ data }) {
         </Container>
       </div>
 
-      
 
-    
+
+
     </div>
   )
 }

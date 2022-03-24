@@ -10,7 +10,7 @@ email: naveen@crest.eco
 featuredImage: ../images/team/NAVEEN-PUJALA.jpg
 ---
 
-### About Naveen Pujala
+<!-- ### About Naveen Pujala -->
 
 A computer science engineer by profession, Naveen Pujala started his journey as an entrepreneur at the age of 27
 after working in several reputed firms as a software developer, a 3D animator, and a multimedia specialist. He started

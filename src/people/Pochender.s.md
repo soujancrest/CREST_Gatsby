@@ -10,7 +10,7 @@ email: sp@crest.eco
 featuredImage: ../images/team/POCHENDER-S.jpg
 ---
 
-### About Pochender.S
+<!-- ### About Pochender.S -->
 
 Pochender S. is an accomplished and well-networked, management professional with a Master’s in
 Environmental Engineering and more than 41 years of experience in the areas of strategy, execution,

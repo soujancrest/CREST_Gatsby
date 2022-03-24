@@ -1,6 +1,6 @@
 ---
 slug: blue-dharma-an-insight-into-how-we-can-prolong-our-stay-on-earth
-title: Blue Dharma - An insight into how we can prolong our stay on Earth
+title: An insight into how we can prolong our stay on Earth
 stack: Html & CSS
 contentType: Blog
 focusArea: Circular Economy

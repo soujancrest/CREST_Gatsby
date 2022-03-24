@@ -263,9 +263,16 @@ a:hover {
   border: unset;
   outline: none;
   align-self: end;
+  display: flex;
+  align-items: center;
   &:hover {
     color: $theme-heading-color;
     text-decoration: underline;
+  }
+
+  img{
+    width: 18px;
+    margin-left: 5px;
   }
 }
 
@@ -326,9 +333,14 @@ a:hover {
   color: $black;
 }
 .mission-side-img {
-  width: 150px;
+  width: 180px;
   height: 150px;
-  border-radius: 5px;
+  // border-radius: 5px;
+
+  @media #{$extra-small}{
+    width: 100%;
+    height: 200px;
+  }
 }
 
 .mission-side-right {
@@ -543,7 +555,7 @@ a:hover {
 }
 
 .page-head {
-  margin: 3rem 0 0 0;
+  margin: 8rem 0 0 0;
 }
 
 .page-head h2 {
@@ -662,13 +674,13 @@ a:hover {
     padding: 2rem;
   }
 
-  .our-mission .container {
-    padding: 2rem;
-  }
+  // .our-mission .container {
+  //   padding: 2rem;
+  // }
 
   .our-mission-row {
     display: block;
-    padding: 0;
+    padding: 1rem;
   }
 
   .our-mission .left-col {
@@ -1055,6 +1067,7 @@ li {
   @media #{$extra-small}{
     padding: 2rem 0;
     background-image: unset;
+    margin-bottom:0 ;
   }
 
   .climate-text {
@@ -1074,9 +1087,13 @@ li {
 
   .climate-inner-row {
     background-color: #ffffff;
-    margin: 0 0 3rem;
     padding: 0.5rem;
     align-items: flex-start;
+    
+    &:not(:last-child){
+      margin: 0 0 3rem;
+
+    }
 
     @media #{$extra-small}{
       flex-direction: column;
@@ -1088,7 +1105,7 @@ li {
       img{
         height: 150px;
         @media #{$extra-small}{
-          height: 400px;
+          height: 100%;
           // width: 400px;
         }
       }
@@ -1114,4 +1131,9 @@ li {
 
     }
   }
+}
+
+
+.publication-section{
+  display: flex;
 }

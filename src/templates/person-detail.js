@@ -23,27 +23,27 @@ export default function PersonDetail({ data }) {
 
             <StaticImage src="../../images/about/arrow-left.png" />
 
-
             <Link to="/about/people"> Back to People</Link>
             <br></br>
             <br></br>
 
-            <h1>{name}</h1>
+            <h1 className="mission-subheading">{name}</h1>
             <h3>{designation}</h3>
-            <p>{excerpt}</p>
+            {/* <p>{excerpt}</p> */}
+            <div
+              className="content-inner"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
           </div>
         </div>
       </Container>
 
-      <div className="people-border"></div>
+      {/* <div className="people-border"></div> */}
 
       <Container>
         <div className="people-details-content">
-          <h1>{title}</h1>
-          <div
-            className="content-inner"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          {/* <h1>{title}</h1> */}
+
         </div>
       </Container>
     </div>

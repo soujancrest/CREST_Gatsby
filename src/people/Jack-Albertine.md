@@ -10,7 +10,7 @@ email: jack@crest.eco
 featuredImage: ../images/team/JACK-ALBERTINE.jpg
 ---
 
-### About Jack Albertine
+<!-- ### About Jack Albertine -->
 
 Having served as the Member of the Boards of 14 publicly traded companies in his career including Fruit of the Loom
 Inc. Thermo Electron, BBN, American Precision Industries, Gould Pumps, the MidWest Air Group, Intermagnetics

@@ -1,11 +1,11 @@
 ---
 slug: mother-earth-an-alarming-wake-up-call
-title: Mother Earth - An alarming wake-up call
+title: An alarming wake-up call
 stack: Html & CSS
 contentType: Blog
 focusArea: Circular Economy
 type: blog
-excerpt: Mother Earth has nurtured “life” for millions of years, enforcing adaptation and survival of the fittest. She is the perfect example that the only constant in all our lives is “change.” Species that couldn’t accept it perished.
+excerpt: Mother Earth has nurtured “life” for millions of years, enforcing adaptation and survival of the fittest. She is the perfect example that the only constant in all our lives is “change.”
 highlight: “Earth provides 	enough to satisfy every man’s need, but not every man’s greed.” - Mahatma Gandhi
 highlight 2: Mother nature is not going to keep up with human greed for much longer. Let’s act - NOW.
 featuredImage: ../images/blog/Mother earth.jpg

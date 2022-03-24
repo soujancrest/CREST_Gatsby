@@ -34,7 +34,11 @@ export default function About() {
                   Energy Positive Cities and Global Cooling
                 </h4>
                 <br></br>
-                <p className="mission-sub-text">
+                <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                   To meet the 2050 net-zero emission goals, CREST Foundation
                   intends to create energy-positive communities that produce
                   clean energy from renewable resources and facilitate zero
@@ -81,7 +85,11 @@ export default function About() {
               <div className="goal-section">
                 {/* <h4 className="over-heading">Energy Positive Cities and Global Cooling</h4>
                 <br></br> */}
-                <p className="mission-sub-text">
+                <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                   CREST Foundation is on a mission to build 20 self-sufficient
                   Climate Hubs over the next ten years. Each Climate Hub will
                   consist of 600 eco-homes, 500 acres of organic farms, food
@@ -149,7 +157,11 @@ export default function About() {
                 </h4>
                 <br></br>
 
-                <p className="mission-sub-text">
+                <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                   CREST Foundation will create climate-resilient eco-habitats
                   that combine the luxuries of modern life with the benefits of
                   living in nature. These energy-efficient homes will usher in a
@@ -199,7 +211,11 @@ export default function About() {
                 </h4>
                 <br></br>
 
-                <p className="mission-sub-text">
+                <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                   CREST Foundation aims to reduce the global carbon footprint by
                   establishing Climate Hubs. CREST Foundation will transform the
                   global agricultural landscape by nurturing forest ecosystems

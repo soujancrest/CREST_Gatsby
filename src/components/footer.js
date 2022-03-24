@@ -11,7 +11,7 @@ const Footer = () => (
     style={{
       background: `#595757`,
       display: "flex",
-      padding: `3rem 0`,
+      padding: `2rem 0`,
       color: `#ffffff`,
     }}
   >
@@ -221,9 +221,9 @@ const Footer = () => (
                 </p>
               </address>
             </div>
-
+{/* 
             <div className="crest-media">
-              <p className="pdt">CONNECT WITH US</p>
+      
               <Link to="https://www.instagram.com/crestfoundation/">
                 <StaticImage src="../images/instagram_icon.png" />
               </Link>
@@ -236,11 +236,8 @@ const Footer = () => (
               <Link to="https://www.linkedin.com/in/crest-foundation-390867227/">
                 <StaticImage src="../images/linkedin_icon.png" />
               </Link>
-              <p>
-
-                <span>/CREST</span>FOUNDATION
-              </p>
-            </div>
+           
+            </div> */}
 
             <div className="crest-copy">
               <p>

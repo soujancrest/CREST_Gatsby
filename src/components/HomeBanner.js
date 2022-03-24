@@ -5,36 +5,55 @@ import { Container, Row, Col } from "react-bootstrap"
 import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
 
-export default function HomeBanner() {
-  const { placeholderImage } = useStaticQuery(
+export default function HomeBanner({className}) {
+  const { mobileImage, desktopImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "crest-3.jpg" }) {
+        mobileImage: file(relativePath: { eq: "approch.png" }) {
           childImageSharp {
-            gatsbyImageData(
-              width: 2000
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
-            )
+            fluid(maxWidth: 490, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        desktopImage: file(relativePath: { eq: "crest-3.jpg" }) {
+          childImageSharp {
+            fluid(quality: 100, maxWidth: 4160) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
           }
         }
       }
     `
   )
-  const image = getImage(placeholderImage)
 
-  const bgImage = convertToBgImage(image)
+  const sources = [
+    mobileImage.childImageSharp.fluid,
+    {
+      ...desktopImage.childImageSharp.fluid,
+      media: `(min-width: 491px)`,
+    },
+  ]
+  // const image = getImage(placeholderImage)
+
+  // const bgImage = convertToBgImage(image)
   return (
     <BackgroundImage
-      Tag="section"
+      // Tag="section"
       // Spread bgImage into BackgroundImage:
-      {...bgImage}
-      preserveStackingContext
-      className="crestbanner"
-    >
+      // {...bgImage}
+      // preserveStackingContext
+      // className="crestbanner"
 
+      Tag={`section`}
+      id={`media-test`}
+      // className={className}
+      className="crestbanner"
+      fluid={sources}
+    >
+  
       <div className="crest-banner-home">
-        <Container>
+     <Container>
           <div className="creast-inner">
             <div className="crest-banner-text">
               <h1 className="banner-heading">
@@ -51,7 +70,7 @@ export default function HomeBanner() {
           </div>
 
         </Container>
-      </div>
+        </div>
     </BackgroundImage>
   )
 }

@@ -10,7 +10,7 @@ email: biksham@crest.eco
 featuredImage: ../images/team/Dr. BIKSHAM-GUJJA.jpg
 ---
 
-### About Dr. Biksham Gujja
+<!-- ### About Dr. Biksham Gujja -->
 
 Dr. Biksham Gujja is the Founder and Chairperson of AgSri, a social enterprise that works with farmers on
 improving the productivity of major irrigated crops. Through an innovative process, AgSri significantly reduces

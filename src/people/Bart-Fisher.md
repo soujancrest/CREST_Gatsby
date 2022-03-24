@@ -10,7 +10,7 @@ email: bart@crest.eco
 featuredImage: ../images/team/BART-FISHER.jpg
 ---
 
-### About Bart Fisher
+<!-- ### About Bart Fisher -->
 
 Listed in Who’s Who in the World, Who’s Who in American Law, and Who’s Who in America, Bart Fisher is an
 eminent lawyer, investment banker, philanthropist and author. To his credit are five books on international trade

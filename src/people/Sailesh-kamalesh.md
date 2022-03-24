@@ -10,7 +10,7 @@ email: sailesh@crest.eco
 featuredImage: ../images/team/SAILESH-KAMALESH.jpg
 ---
 
-### About Sailesh Kamalesh
+<!-- ### About Sailesh Kamalesh -->
 
 Founder of multiple award winning and patented Windstream Technologies, - Sailesh Kamalesh is striving to
 contribute to decarbonizing planet Earth. A serial entrepreneur and cross-functional specialist, Venkat has led

@@ -19,7 +19,7 @@ export default function PublicationThumb({ publication }) {
     <Container>
       <GatsbyImage image={image} />
       {image3 && <StaticImage src={image3} />}
-      {/* <StaticImage src=`../images/${glhsgljsdfh}` /> */}
+      {/* <StaticImage src=`../images/${glhsgljsdfh}` /> */} 
       <img src="../images/Cover Page-05.jpg" />
       <h3>{publication.title}</h3>
       <h5>{publication.excerpt}</h5>

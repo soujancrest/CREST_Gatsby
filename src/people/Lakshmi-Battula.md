@@ -10,7 +10,7 @@ email: lakshmi@crest.eco
 featuredImage: ../images/team/LAKSHMI-BATTULA.jpg
 ---
 
-### About Lakshmi Battula
+<!-- ### About Lakshmi Battula -->
 
 Following her passion and calling to give-up her well paying and respectable corporate job with ADP, Lakshmi Battula
 formed Sthiranya, a non-profit organization focused on community farming endeavours. Her focus is on growing
