@@ -270,7 +270,7 @@ footer a {
   align-items: center;
   margin-top: 2rem;
   img {
-    width: 120px;
+    width: 120px !important;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -286,7 +286,7 @@ footer a {
   align-items: center;
   // margin-top: 1rem;
   img {
-    width: 300px;
+    width: 300px !important;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -316,7 +316,7 @@ footer a {
 
 .crest-left-logo{
   img{
-    width: 200px;
+    width: 200px !important;
   }
 }
 
