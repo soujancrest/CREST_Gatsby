@@ -9,7 +9,7 @@ export default function HomeBanner({className}) {
   const { mobileImage, desktopImage } = useStaticQuery(
     graphql`
       query {
-        mobileImage: file(relativePath: { eq: "approch.png" }) {
+        mobileImage: file(relativePath: { eq: "crest-mobile.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 490, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp

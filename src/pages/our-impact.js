@@ -167,7 +167,7 @@ const OurImpact = () => (
         </Row>
       </Container>
       <Container>
-        <h3>Our Primary Focus</h3>
+        <h3 className="mission-subheading heading-color">Our Primary Focus</h3>
       </Container>
       <Container>
         <div className="approach-cards">

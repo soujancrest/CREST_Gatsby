@@ -66,35 +66,35 @@ function Navbar({ homePath }) {
               style={sideBar ? { transform: "translateX(0)" } : null}
             >
               <li>
-                <Link to="/about" className="mainNavLink">
-                  About us
+                <Link to="/about" onClick={handleSidebar} className="mainNavLink">
+                  About 
                 </Link>
               </li>
 
               <li>
-                <Link className="mainNavLink" to="/our-approach">
-                  Our Approach
+                <Link className="mainNavLink" onClick={handleSidebar} to="/our-approach">
+                   Approach
                 </Link>
               </li>
               <li>
-                <Link className="mainNavLink" to="/our-goal">
-                  Our Goal
+                <Link className="mainNavLink" onClick={handleSidebar} to="/our-goal">
+                   Goal
                 </Link>
               </li>
               <li>
-                <Link className="mainNavLink" to="/our-impact">
-                  Our Impact
-                </Link>
-              </li>
-
-              <li>
-                <Link className="mainNavLink" to="/blog">
-                  Our Blog
+                <Link className="mainNavLink" onClick={handleSidebar} to="/our-impact">
+                  Impact
                 </Link>
               </li>
 
               <li>
-                <Link className="mainNavLink" to="/contact">
+                <Link className="mainNavLink" onClick={handleSidebar} to="/blog">
+                 Blog
+                </Link>
+              </li>
+
+              <li>
+                <Link className="mainNavLink" onClick={handleSidebar} to="/contact">
                   Contact us
                 </Link>
               </li>
