@@ -10,7 +10,7 @@ export default function ClimateActionBanner({className}) {
   const { mobileImage, desktopImage } = useStaticQuery(
     graphql`
       query {
-        mobileImage: file(relativePath: { eq: "Cover Page-01.jpg" }) {
+        mobileImage: file(relativePath: { eq: "white.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 490, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp
@@ -47,7 +47,7 @@ export default function ClimateActionBanner({className}) {
       fluid={sources}
     >
   
-      <div className="crest-banner-home">
+      <div className="crest-banner-home climate-banner">
       <Container>
           <div className="climate-sec-inner">
             <div className="climate-box-inner">
@@ -128,7 +128,7 @@ export default function ClimateActionBanner({className}) {
                     conditions of humans, Flora, and Fauna throughout the
                     district.
                   </h3>
-                  <br></br>
+          
                   <a href="/CAR-Zaheerabad/" className="readmore">
                     Read More
                     <StaticImage src="../images/right-arrow.png" />

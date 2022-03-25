@@ -2,13 +2,10 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
-import { Tabs } from "react-bootstrap"
-import Tab from "react-bootstrap/Tab"
-
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
-import styles from "../../styles/global.scss"
+import "../../styles/global.scss"
 import AboutLayout from "../../components/AboutLayout"
 
 import "../../styles/about.scss"
@@ -23,7 +20,7 @@ export default function About() {
           <Row>
             <Col className="col-lg-4 col-12">
               <div className="goal-img">
-                <StaticImage src="../../images/about/our-vision.png" alt="" />
+                <StaticImage src="../../images/about/our-mission.png" alt="" />
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">

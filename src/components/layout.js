@@ -7,6 +7,7 @@ import Header from "./header"
 import Footer from "./footer"
 import Navbar from "./Navbar"
 import "./layout.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
@@ -59,7 +60,8 @@ const Layout = ({ children, location }) => {
       </div>
       {showButton && (
         <button onClick={scrollToTop} className="back-to-top">
-         Scroll to top
+         {/* Scroll to top */}
+         <StaticImage src="../images/arrowhead-up.png" alt="" />
         </button>
       )}
      

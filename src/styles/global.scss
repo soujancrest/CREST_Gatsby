@@ -1068,20 +1068,7 @@ li {
 // }
 
 // CAR Page by Soujan
-.climate-sec {
-  background-image:url("../images/cliamet-sec.jpg");
-  // height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 4rem;
-  padding: 4rem 0;
 
-  @media #{$extra-small}{
-    padding: 0;
-    background-image: unset;
-    margin-bottom:0 ;
-  }
 
   .climate-text {
     padding: 0;
@@ -1103,10 +1090,9 @@ li {
     padding: 0.5rem;
     align-items: flex-start;
     
-    &:not(:last-child){
-      margin: 0 0 3rem;
+      margin: 0 0 2rem;
 
-    }
+   
 
     @media #{$extra-small}{
       flex-direction: column;
@@ -1144,9 +1130,13 @@ li {
 
     }
   }
-}
+
 
 
 .publication-section{
   display: flex;
+}
+
+.climate-banner{
+  margin-bottom: 2rem;
 }

@@ -247,6 +247,10 @@ footer a {
   align-items: center;
   width: 45%;
   margin: 0 auto;
+  @media #{$extra-small}{
+    flex-direction: column;
+    width: 100%;
+  }
   p {
     margin: 0;
     font-family: stem-thin;
@@ -339,15 +343,21 @@ footer a {
   bottom: 20px;
   right: 20px;
   font-size: 20px;
-  background: orange;
+  background: $text-color;
   color: white;
   cursor: pointer;
   border-radius: 100px;
   border: none;
-  box-shadow: 0 5px 10px #ccc;
+  // box-shadow: 0 5px 10px #ccc;
   z-index: 999;
+  width: 40px;
+  height: 40px;
+
+  img{
+    width: 30px !important;
+  }
 }
 
 .back-to-top:hover {
-  background: red;
+  background: #787b31;
 }

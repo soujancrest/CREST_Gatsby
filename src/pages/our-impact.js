@@ -140,7 +140,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="3" sm="6">
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Path 24.png" alt="" />
