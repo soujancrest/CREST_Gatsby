@@ -20,7 +20,7 @@ export default function About() {
           <Row>
             <Col className="col-lg-4 col-12">
               <div className="goal-img">
-                <StaticImage src="../../images/about/our-mission.png" alt="" />
+                <StaticImage src="../../images/about/Our-Vision.png" alt="" />
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">
