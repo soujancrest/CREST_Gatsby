@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { useState,useEffect } from "react"
+import { useState, useEffect } from "react"
 
 import Header from "./header"
 import Footer from "./footer"
@@ -20,25 +20,25 @@ const Layout = ({ children, location }) => {
     }
   `)
 
-  const [showButton, setShowButton] = useState(false);
+  const [showButton, setShowButton] = useState(false)
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
-        setShowButton(true);
+        setShowButton(true)
       } else {
-        setShowButton(false);
+        setShowButton(false)
       }
-    });
-  }, []);
+    })
+  }, [])
 
-  // This function will scroll the window to the top 
+  // This function will scroll the window to the top
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // for smoothly scrolling
-    });
-  };
+      behavior: "smooth", // for smoothly scrolling
+    })
+  }
 
   return (
     <>
@@ -46,25 +46,28 @@ const Layout = ({ children, location }) => {
         homePath={location.pathname == "/" ? true : false}
         siteTitle={data.site.siteMetadata?.title || `Title`}
       />
-      
+
       <div
         style={{
           margin: `0 auto`,
           // maxWidth: 1450,
           // padding: `0 1.0875rem 1.45rem`,
-          marginTop:80
+          marginTop: 80,
         }}
       >
         <main>{children}</main>
-
       </div>
       {showButton && (
-        <button onClick={scrollToTop} className="back-to-top">
-         {/* Scroll to top */}
-         <StaticImage src="../images/arrowhead-up.png" alt="" />
+        <button
+          onClick={scrollToTop}
+          className="back-to-top"
+          aria-label="scroll to top"
+        >
+          {/* Scroll to top */}
+          <StaticImage src="../images/arrowhead-up.png" alt="" />
         </button>
       )}
-     
+
       <Footer />
     </>
   )

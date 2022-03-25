@@ -6,7 +6,7 @@ import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
 import { StaticImage } from "gatsby-plugin-image"
 
-export default function ClimateActionBanner({className}) {
+export default function ClimateActionBanner({ className }) {
   const { mobileImage, desktopImage } = useStaticQuery(
     graphql`
       query {
@@ -38,17 +38,14 @@ export default function ClimateActionBanner({className}) {
 
   return (
     <BackgroundImage
-    
-
       Tag={`section`}
       id={`media-test`}
       // className={className}
       className="crestbanner"
       fluid={sources}
     >
-  
       <div className="crest-banner-home climate-banner">
-      <Container>
+        <Container>
           <div className="climate-sec-inner">
             <div className="climate-box-inner">
               <h6>INDRODUCING</h6>
@@ -79,16 +76,18 @@ export default function ClimateActionBanner({className}) {
                   <h2 className="mission-subheading heading-color">
                     Backcreek, Monroe County, West Virginia.
                   </h2>
-                  <h3 className="mission-sub-text">
+                  <p className="mission-sub-text">
                     A consolidation of gross study with focus on the current
                     situation due to several man-made developments across Monroe
                     County boiling down to Back Creek. This includes mapping of
                     climatic and geological changes that occurred over a period
                     and its impact on natural resources.
-                  </h3>
-                  <a href="/CAR-BackCreek/" className="readmore">
-                    Read More <StaticImage src="../images/right-arrow.png" />
-                  </a>
+                  </p>
+                  <p className="read-text">
+                    <a href="/CAR-BackCreek/" className="readmore">
+                      Read More <StaticImage src="../images/right-arrow.png" />
+                    </a>
+                  </p>
                 </Col>
               </Row>
               <Row className="climate-inner-row">
@@ -99,18 +98,19 @@ export default function ClimateActionBanner({className}) {
                   <h2 className="mission-subheading heading-color">
                     Neom, Saudi Arabia.
                   </h2>
-                  <h3 className="mission-sub-text">
+                  <p className="mission-sub-text">
                     Primary focus of this report is to constitute a solution
                     framework and restore ecological balance with a broad
                     roadmap towards environmental impact goals of CREST
                     Foundation overlapped and measured in comparison with UN
                     Sustainable Development Goals defined for Saudi Arabia.
-                  </h3>
-           
-                  <a href="/CAR-Neom/" className="readmore">
-                    Read More
-                    <StaticImage src="../images/right-arrow.png" />
-                  </a>
+                  </p>
+                  <p className="read-text">
+                    <a href="/CAR-Neom/" className="readmore">
+                      Read More
+                      <StaticImage src="../images/right-arrow.png" />
+                    </a>
+                  </p>
                 </Col>
               </Row>
               <Row className="climate-inner-row">
@@ -121,24 +121,25 @@ export default function ClimateActionBanner({className}) {
                   <h2 className="mission-subheading heading-color">
                     Zaheerabad, Hyderabad
                   </h2>
-                  <h3 className="mission-sub-text">
+                  <p className="mission-sub-text">
                     A study of the existing bionetwork in and around Zahirabad,
                     Telangana along with understanding the surrounding
                     ecosystems and analyzing how this affects the living
                     conditions of humans, Flora, and Fauna throughout the
                     district.
-                  </h3>
-          
-                  <a href="/CAR-Zaheerabad/" className="readmore">
-                    Read More
-                    <StaticImage src="../images/right-arrow.png" />
-                  </a>
+                  </p>
+                  <p className="read-text">
+                    <a href="/CAR-Zaheerabad/" className="readmore">
+                      Read More
+                      <StaticImage src="../images/right-arrow.png" />
+                    </a>
+                  </p>
                 </Col>
               </Row>
             </div>
           </div>
         </Container>
-        </div>
+      </div>
     </BackgroundImage>
   )
 }

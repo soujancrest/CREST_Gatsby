@@ -165,34 +165,27 @@ const Footer = () => (
         </Col>
       </Row> */}
 
-
       <Row>
         <Col className="col-lg-4 col-12">
           <div className="footer-logos">
-
             <div className="crest-logo-left">
-              <Link className="link" to="/">
-                <StaticImage src="../images/CREST_White_Logo.png" />
-              </Link>
+              <StaticImage src="../images/CREST_White_Logo.png" />
             </div>
 
             <div className="crest-logo-bot">
               <StaticImage src="../images/us-green.png" />
-
             </div>
           </div>
-
         </Col>
         <Col className="col-lg-8 col-12">
           <div className="crest-footer-dis">
-
             <div className="crest-add">
               <address>
                 <h6>UNITED STATE-HQ</h6>
 
-
                 <p>
-                  <span>:</span> 700 12th Street, N.W. , Suite 700, Washington DC - 20005.
+                  <span>:</span> 700 12th Street, N.W. , Suite 700, Washington
+                  DC - 20005.
                   <a href="tel:+12023449558"> Phone :+1 202 344 9558</a>
                 </p>
               </address>
@@ -200,8 +193,8 @@ const Footer = () => (
                 <h6>INDIA</h6>
 
                 <p>
-                  <span>:</span>   Sri Vishnu Elite, 5th floor, Jayabheri Enclave, Gachibowli,
-                  Hyderabad - 500032.
+                  <span>:</span> Sri Vishnu Elite, 5th floor, Jayabheri Enclave,
+                  Gachibowli, Hyderabad - 500032.
                   <a href="tel:+919866657462"> Phone :+91 98666 57462</a>
                 </p>
               </address>
@@ -211,17 +204,17 @@ const Footer = () => (
                   <span>:</span> 1 Shenton Way, #10-04, Singapore - 068803.
                   <a href="tel:+6597537487"> Phone :+65 9753 7487</a>
                 </p>
-
               </address>
               <address>
                 <h6> AUSTRALIA</h6>
                 <p>
-                  <span>:</span>  8 Brookside Dr, Wyndham Vale, VIC, Australia - 3024.
+                  <span>:</span> 8 Brookside Dr, Wyndham Vale, VIC, Australia -
+                  3024.
                   <a href="tel:+61403983113"> Phone :+61 403983113</a>
                 </p>
               </address>
             </div>
-{/* 
+            {/* 
             <div className="crest-media">
       
               <Link to="https://www.instagram.com/crestfoundation/">
@@ -240,20 +233,13 @@ const Footer = () => (
             </div> */}
 
             <div className="crest-copy">
-              <p>
-                All rights are reserved to crest foundation
-              </p>
+              <p>All rights are reserved to crest foundation</p>
 
-              <p>
-                Privacy & Policy
-              </p>
+              <p>Privacy & Policy</p>
             </div>
           </div>
         </Col>
-
       </Row>
-
-
     </Container>
   </footer>
 )

@@ -104,11 +104,14 @@ export default function IndexPage({ data }) {
                       Human Wellbeing can save the planet,CREST Foundation will
                       create climate-resilient eco-habitats that combine the
                       luxuries of modern life with the benefits of living in
-                      nature.{" "}
+                      nature.
                     </p>
-                    <Link className="readmore" to="/about/#ethos">
-                    Read More <StaticImage src="../images/right-arrow.png" />
-                    </Link>
+                    <p className="read-text">
+                      <Link className="readmore" to="/about/#ethos">
+                        Read More
+                        <StaticImage src="../images/right-arrow.png" />
+                      </Link>
+                    </p>
                   </div>
                 </Col>
                 <Col className="mission-inner col-lg-4 col-12">
@@ -129,14 +132,16 @@ export default function IndexPage({ data }) {
                       Re-imagining the urban lifestyle
                     </h5>
                     <p className="mission-sub-text">
-                      To meet the
-                      2050 net-zero emission goals, we intend to
+                      To meet the 2050 net-zero emission goals, we intend to
                       create energy-positive communities that produce clean
                       energy from renewable resources
                     </p>
-                    <Link className="readmore" to="/about/#vision">
-                    Read More <StaticImage src="../images/right-arrow.png" />
-                    </Link>
+                    <p className="read-text">
+                      <Link className="readmore" to="/about/#vision">
+                        Read More
+                        <StaticImage src="../images/right-arrow.png" />
+                      </Link>
+                    </p>
                   </div>
                 </Col>
                 <Col className="mission-inner col-sm-4">
@@ -157,14 +162,16 @@ export default function IndexPage({ data }) {
                       Launching a witnessed-organic revolution
                     </h5>
                     <p className="mission-sub-text">
-                      To create circular economies through
-                      sustainable communities by implementing a ‘buy local, eat
-                      local’ model of food production that dramatically reduces
-                      food miles.
+                      To create circular economies through sustainable
+                      communities by implementing a ‘buy local, eat local’ model
+                      of food production that dramatically reduces food miles.
                     </p>
-                    <Link className="readmore" to="/about/our-commitment">
-                    Read More <StaticImage src="../images/right-arrow.png" />
-                    </Link>
+                    <p className="read-text">
+                      <Link className="readmore" to="/about/our-commitment">
+                        Read More
+                        <StaticImage src="../images/right-arrow.png" />
+                      </Link>
+                    </p>
                   </div>
                 </Col>
                 <Col className="mission-inner col-sm-4">
@@ -183,7 +190,6 @@ export default function IndexPage({ data }) {
       </div>
 
       <ClimateActionBanner />
-     
 
       <PublicationList2 />
 
@@ -208,10 +214,6 @@ export default function IndexPage({ data }) {
           </div>
         </Container>
       </div>
-
-
-
-
     </div>
   )
 }
