@@ -26,10 +26,10 @@ export default function PublicationThumb({ publication }) {
 
                 </div>
 
-                <Link to="/" className="no-more">
+                <a href="http://bluedharma.in/" target="_blank" className="no-more">
                   <span>Know More</span>
                   <StaticImage src="../images/right-arrow.png" />
-                </Link>
+                </a>
               </div>
               <div className="crest-publication-sec">
                 <StaticImage src="../images/India_Wakes.jpg" />

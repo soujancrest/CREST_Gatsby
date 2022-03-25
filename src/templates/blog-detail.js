@@ -29,13 +29,13 @@ export default function BlogDetail({ data }) {
           </nav>
 
           <h6 className="crest-heading mb-20">{title}</h6>
-          <p>{excerpt}</p>
+          <p className="mission-sub-text">{excerpt}</p>
         </Row>
         <div className="blog-border"></div>
 
         <Row>
           <div
-            className="content-inner"
+            className="blog-inner"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </Row>

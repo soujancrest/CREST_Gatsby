@@ -140,67 +140,62 @@ const OurApproach = () => (
       <br></br>
       <Container>
         <Row>
-          <Col>1</Col>
-          <Col>
+
+          <Col className="col-lg-6">
             <div className="approach-section-planet">
-              <div className="approach-heading mission-subheading">
-                Planet
+              <div className="planet-box">
+                <div className="approach-heading mission-subheading">
+                  Planet
+                </div>
+                <ul>
+                  <li className="mission-sub-text">
+                    Preserve & Improve Biodiversity
+                  </li>
+                  <li className="mission-sub-text">
+                    Water Positive Community
+                  </li>
+                  <li className="mission-sub-text">
+                    Zero Wastewater Discharge
+                  </li>
+                  <li className="mission-sub-text">
+                    Sustainable Food Production
+                  </li >
+                  <li className="mission-sub-text">
+                    Protection of Aquatic Ecosystems
+                  </li>
+                  <li className="mission-sub-text">
+                    Innovative Technologies
+                  </li>
+
+                </ul>
+
               </div>
-              <ul>
-                <li>
-                  Improved Air Quality
-                </li>
-                <li>
-                  Water Positive Community
-                </li>
-                <li>
-                  Zero Wastewater Discharge
-                </li>
+              <div className="planet-box">
+                <ul>
+                 
+                  <li className="mission-sub-text">
+                    Resources Efficieny
+                  </li>
+                  <li className="mission-sub-text">
+                    Improved Air Quality
+                  </li>
+                  <li className="mission-sub-text">
+                    Carbon Sequestration
+                  </li>
+                  <li className="mission-sub-text">
+                    Renewable Energy
+                  </li>
 
-              </ul>
+                </ul>
+
+              </div>
+
             </div>
           </Col>
-          <Col>
-            <div className="approach-section-planet">
-
-              <ul>
-                <li className="mission-sub-text">
-                  Renewable Energy
-                </li >
-                <li className="mission-sub-text">
-                  Resources Efficieny
-                </li>
-                <li className="mission-sub-text">
-                  Innovative Technologies
-                </li>
-                <li className="mission-sub-text">
-                  Protection of Aquatic Ecosystems
-                </li>
-
-              </ul>
-            </div>
-          </Col>
-          <Col>
-            <div className="approach-section-planet">
-
-              <ul>
 
 
-                <li className="mission-sub-text">
-                  Preserve & Improve Biodiversity
-                </li>
-                <li className="mission-sub-text">
-                  Carbon Sequestration
-                </li>
-                <li className="mission-sub-text">
-                  Sustainable Food Production
-                </li>
-
-              </ul>
-            </div>
-          </Col>
-          <Col>
-            <div className="approach-section-planet">
+          <Col className="col-lg-3">
+            <div className="approach-section-planets">
               <div className="approach-heading mission-subheading">
                 People
               </div>
@@ -209,7 +204,7 @@ const OurApproach = () => (
                   Wellbeing
                 </li>
                 <li className="mission-sub-text">
-                  Enclusive Economic Growth
+                  Inclusive Economic Growth
                 </li>
                 <li className="mission-sub-text">
                   Equal Opportunties
@@ -218,8 +213,8 @@ const OurApproach = () => (
               </ul>
             </div>
           </Col>
-          <Col>
-            <div className="approach-section-planet">
+          <Col className="col-lg-3">
+            <div className="approach-section-planets">
               <div className="approach-heading mission-subheading">
                 Profits
               </div>
