@@ -15,9 +15,10 @@ const ClimateActionReport = () => (
     <div>
       <Container>
         <div className="people-detail-sec">
-          <div className="people-img">
-            <StaticImage src="../images/NEOM 01-02-22.jpg" />
-          </div>
+        <Link to="/" className="back-page">
+              <StaticImage src="../images/arrow-left.png" />
+              <span> Back to Home</span>
+            </Link>
 
           <div className="people-details">
             <Link to="/" className="back-page">

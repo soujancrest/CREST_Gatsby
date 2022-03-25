@@ -106,7 +106,11 @@ const OurApproach = () => (
 
       <Container>
         <Row>
-          <Col className="col-lg-4 col-12"></Col>
+          <Col className="col-lg-4 col-12">
+          <div className="goal-img">
+              <StaticImage src="../images/our-approach/approch.png" alt="" />
+            </div>
+          </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="approch-1">
               <h3 className="mission-subheading heading-color mb-20">

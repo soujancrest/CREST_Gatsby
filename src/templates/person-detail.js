@@ -23,7 +23,11 @@ export default function PersonDetail({ data }) {
 
             <StaticImage src="../../images/about/arrow-left.png" />
 
-            <Link to="/about/people"> Back to People</Link>
+            {/* <Link to=""> </Link> */}
+            <Link to="/about/people" className="back-page">
+              <StaticImage src="../images/arrow-left.png" />
+              <span> Back to People</span>
+            </Link>
             <br></br>
             <br></br>
 

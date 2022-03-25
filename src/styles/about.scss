@@ -297,7 +297,7 @@
   margin-bottom: 1rem;
   color: $theme-heading-color;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-family: stem-medium;
 }
 .person-thumbs {
   display: flex;
@@ -397,8 +397,17 @@
 .back-page {
   text-decoration: none;
   margin-bottom: 2rem;
-  display: block;
+  display: flex;
+  align-items: baseline;
   color: $text-color;
+  // vertical-align: middle;
+  span{
+    margin-left: 10px;
+  }
+  img{
+    // margin-right: 10px;
+    width: 10px !important;
+  }
 }
 
 .crest-tab {
@@ -516,5 +525,11 @@ flex-wrap: wrap;
   }
   h2{
     min-height: 70px;
+  }
+}
+
+.car-se{
+  img{
+    height: 400px;
   }
 }

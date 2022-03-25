@@ -7,27 +7,28 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../styles/global.scss"
-import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab"
 const ClimateActionReport = () => (
   <div>
     <Seo title="Climate Action Report" />
     <div>
       <Container>
-        <div className="people-detail-sec">
-          <div className="people-img">
-            <StaticImage src="../images/Back Creek 27_Jan_2022 fin.jpg" />
+        <div className="people-detail-sec ">
+          <div className="car-se">
+            <StaticImage src="../images/climate-books.jpg" />
           </div>
 
           <div className="people-details">
             <Link to="/" className="back-page">
-              Back to Home
+              <StaticImage src="../images/arrow-left.png" />
+              <span> Back to Home</span>
             </Link>
 
-            <h4 className="heading-bg crest-left">CLIMATE ACTION REPORT</h4>
+            <h4 className="heading-bg">CLIMATE ACTION REPORT</h4>
             <h5 className="mission-subheading heading-color">
               BACKCREEK, MONROE COUNTY, WEST VIRGINIA.
             </h5>
+            <br></br>
             <p className="mission-sub-text">
               The 5771-acre Back Creek Wilderness property shares a common
               boundary with the George Washington – Jefferson National Forest
