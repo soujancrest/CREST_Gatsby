@@ -64,8 +64,8 @@ const OurApproach = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="goal-img">
-              <StaticImage src="../images/our-approach/approch.png" alt="" />
+            <div className="approach-img">
+              <StaticImage src="../images/our-approach/Road-Map.jpg" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
@@ -73,7 +73,7 @@ const OurApproach = () => (
               <h3 className="mission-subheading heading-color mb-20">
                 Our Roadmap To Sustained Growth
               </h3>
-              <p  className="mission-sub-text"
+              <p className="mission-sub-text"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -89,7 +89,7 @@ const OurApproach = () => (
                 structured to generate revenue from the very first project.
 
                 <br>
-                
+
                 </br>
 
                 By sparking a clean energy and an organic food revolution,
@@ -98,17 +98,17 @@ const OurApproach = () => (
                 CREST Foundation will move the needle of climate change in the
                 right direction.
               </p>
-            
+
             </div>
           </Col>
         </Row>
-      </Container>
-
-      <Container>
+        <br></br>
+        <br></br>
+        {/* <br></br> */}
         <Row>
           <Col className="col-lg-4 col-12">
-          <div className="goal-img">
-              <StaticImage src="../images/our-approach/approch.png" alt="" />
+            <div className="approach-img">
+              <StaticImage src="../images/our-approach/Crest-icons.jpg" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
@@ -116,7 +116,7 @@ const OurApproach = () => (
               <h3 className="mission-subheading heading-color mb-20">
                 Our Solution Framework
               </h3>
-              <p  className="mission-sub-text"
+              <p className="mission-sub-text"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -134,6 +134,105 @@ const OurApproach = () => (
               </p>
             </div>
           </Col>
+        </Row>
+      </Container>
+      <br></br>
+      <br></br>
+      <Container>
+        <Row>
+          <Col>1</Col>
+          <Col>
+            <div className="approach-section-planet">
+              <div className="approach-heading mission-subheading">
+                Planet
+              </div>
+              <ul>
+                <li>
+                  Improved Air Quality
+                </li>
+                <li>
+                  Water Positive Community
+                </li>
+                <li>
+                  Zero Wastewater Discharge
+                </li>
+
+              </ul>
+            </div>
+          </Col>
+          <Col>
+            <div className="approach-section-planet">
+
+              <ul>
+                <li className="mission-sub-text">
+                  Renewable Energy
+                </li >
+                <li className="mission-sub-text">
+                  Resources Efficieny
+                </li>
+                <li className="mission-sub-text">
+                  Innovative Technologies
+                </li>
+                <li className="mission-sub-text">
+                  Protection of Aquatic Ecosystems
+                </li>
+
+              </ul>
+            </div>
+          </Col>
+          <Col>
+            <div className="approach-section-planet">
+
+              <ul>
+
+
+                <li className="mission-sub-text">
+                  Preserve & Improve Biodiversity
+                </li>
+                <li className="mission-sub-text">
+                  Carbon Sequestration
+                </li>
+                <li className="mission-sub-text">
+                  Sustainable Food Production
+                </li>
+
+              </ul>
+            </div>
+          </Col>
+          <Col>
+            <div className="approach-section-planet">
+              <div className="approach-heading mission-subheading">
+                People
+              </div>
+              <ul>
+                <li className="mission-sub-text">
+                  Wellbeing
+                </li>
+                <li className="mission-sub-text">
+                  Enclusive Economic Growth
+                </li>
+                <li className="mission-sub-text">
+                  Equal Opportunties
+                </li>
+
+              </ul>
+            </div>
+          </Col>
+          <Col>
+            <div className="approach-section-planet">
+              <div className="approach-heading mission-subheading">
+                Profits
+              </div>
+              <ul>
+                <li className="mission-sub-text">
+                  Eco Habitats
+                </li>
+
+              </ul>
+            </div>
+          </Col>
+
+
         </Row>
       </Container>
     </div>

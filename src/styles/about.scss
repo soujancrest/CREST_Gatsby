@@ -533,3 +533,13 @@ flex-wrap: wrap;
     height: 400px;
   }
 }
+
+.approach-img{
+  img{
+    min-height: 270px;
+  }
+}
+
+.approach-heading{
+ color: $theme-heading-color;
+}
