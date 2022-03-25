@@ -6,7 +6,10 @@ export default function PeopleThumb({ person }) {
   const image = getImage(person.frontmatter.featuredImage)
   return (
     <div className="people-thumbs-inner">
-      {person.frontmatter.category === "Executive Team India" ? (
+      {person.frontmatter.category === "Finance" ||
+      person.frontmatter.category === "Design" ||
+      person.frontmatter.category === "Web Tech" ||
+      person.frontmatter.category === "Project Management" ? (
         <div>
           <GatsbyImage image={image} />
           <h4>{person.frontmatter.name}</h4>

@@ -107,14 +107,6 @@ export default function People({ data }) {
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">MARKETING</h5>
-          <div className="person-thumbs">
-            {marketing.map(item => (
-              <PeopleThumb person={item} key={item.id} />
-            ))}
-          </div>
-          <br></br>
-          <hr></hr>
           <h5 className="about-people-sub">SALES & CRM</h5>
           <div className="person-thumbs">
             {salesCRM.map(item => (
@@ -142,14 +134,6 @@ export default function People({ data }) {
           <h5 className="about-people-sub">WEB TECH</h5>
           <div className="person-thumbs">
             {webTech.map(item => (
-              <PeopleThumb person={item} key={item.id} />
-            ))}
-          </div>
-          <br></br>
-          <hr></hr>
-          <h5 className="about-people-sub">CORPORATE COMMUNICATIONS</h5>
-          <div className="person-thumbs">
-            {corporate.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
