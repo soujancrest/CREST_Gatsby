@@ -9,15 +9,14 @@ export default function BlogThumb({ blog }) {
   return (
     <div>
       <Link
-        className="link"
+        className="link "
         to={"/blog/" + blog.frontmatter.slug}
         key={blog.id}
       >
-        <div>
+        <div className="crest-blog-sec">
           <GatsbyImage image={image} />
 
-          <h2 className="mission-subheading heading-color">{blog.frontmatter.title}</h2>
-          <br></br>
+          <h2 className="mission-subheading heading-color mb-10">{blog.frontmatter.title}</h2>
           <p className="mission-sub-text">{blog.frontmatter.excerpt}</p>
         </div>
       </Link>

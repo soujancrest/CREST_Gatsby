@@ -1,8 +1,10 @@
 import { graphql } from "gatsby"
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Container, Row,Col } from "react-bootstrap"
 import BlogThumb from "../components/BlogThumb"
 import Layout from "../components/layout"
+// import { Container, Row, Col } from "react-bootstrap"
+
 // import Seo from "../components/seo"
 
 export default function Blog({ data }) {
@@ -11,15 +13,21 @@ export default function Blog({ data }) {
 
   console.log(blogs)
   return (
-    <div>
+    <div className="page-heads">
       <Container className="about-subs">
+        <Row>
+        <Col className="col-lg-4 col-12">
         <h1 className="crest-heading blog-bg mb-20">OUR BLOG</h1>
-        {/* <h3>Re-engineering the concrete jungle</h3> <br></br> */}
-        <p className="mission-discrption-info">
+          </Col>
+          <Col className="col-lg-8 col-12">
+          <p className="mission-discrption-info">
           CREST Foundation publishes objective, independent, high-quality
           research, including books, reports, and other materials covering
           sustainable development themes.
-        </p>
+        </p>          </Col>
+        </Row>
+      
+      
         <div className="page-border">
           <Container>
             <div className="border-crest"></div>

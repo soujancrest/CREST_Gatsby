@@ -106,7 +106,7 @@ export default function IndexPage({ data }) {
                       nature.{" "}
                     </p>
                     <Link className="readmore" to="/about/#ethos">
-                      Read more...
+                    Read More <StaticImage src="../images/right-arrow.png" />
                     </Link>
                   </div>
                 </Col>
@@ -134,7 +134,7 @@ export default function IndexPage({ data }) {
                       energy from renewable resources
                     </p>
                     <Link className="readmore" to="/about/#vision">
-                      Read more...
+                    Read More <StaticImage src="../images/right-arrow.png" />
                     </Link>
                   </div>
                 </Col>
@@ -162,7 +162,7 @@ export default function IndexPage({ data }) {
                       food miles.
                     </p>
                     <Link className="readmore" to="/about/our-commitment">
-                      Read more....
+                    Read More <StaticImage src="../images/right-arrow.png" />
                     </Link>
                   </div>
                 </Col>
@@ -212,14 +212,14 @@ export default function IndexPage({ data }) {
                   <h2 className="mission-subheading heading-color">
                     Backcreek, Monroe County, West Virginia.
                   </h2>
-                  <h6 className="mission-sub-text">
+                  <h3 className="mission-sub-text">
                     A consolidation of gross study with focus on the current
                     situation due to several man-made developments across Monroe
                     County boiling down to Back Creek. This includes mapping of
                     climatic and geological changes that occurred over a period
                     and its impact on natural resources.
-                  </h6>
-                  <a href="" className="readmore">
+                  </h3>
+                  <a href="/" className="readmore">
                     Read More <StaticImage src="../images/right-arrow.png" />
                   </a>
                 </Col>
@@ -232,14 +232,14 @@ export default function IndexPage({ data }) {
                   <h2 className="mission-subheading heading-color">
                     Neom, Saudi Arabia.
                   </h2>
-                  <h6 className="mission-sub-text">
+                  <h3 className="mission-sub-text">
                     Primary focus of this report is to constitute a solution
                     framework and restore ecological balance with a broad
                     roadmap towards environmental impact goals of CREST
                     Foundation overlapped and measured in comparison with UN
                     Sustainable Development Goals defined for Saudi Arabia.
-                  </h6>
-                  <a href="" className="readmore">
+                  </h3>
+                  <a href="/" className="readmore">
                     Read More
                     <StaticImage src="../images/right-arrow.png" />
                   </a>
@@ -253,14 +253,14 @@ export default function IndexPage({ data }) {
                   <h2 className="mission-subheading heading-color">
                     Zaheerabad, Hyderabad
                   </h2>
-                  <h6 className="mission-sub-text">
+                  <h3 className="mission-sub-text">
                     A study of the existing bionetwork in and around Zahirabad,
                     Telangana along with understanding the surrounding
                     ecosystems and analyzing how this affects the living
                     conditions of humans, Flora, and Fauna throughout the
                     district.
-                  </h6>
-                  <a href="" className="readmore">
+                  </h3>
+                  <a href="/" className="readmore">
                     Read More
                     <StaticImage src="../images/right-arrow.png" />
                   </a>
@@ -289,7 +289,7 @@ export default function IndexPage({ data }) {
           </div>
           <div className="explore-btn">
             <Link className="explor-blog" to="/blog">
-              Explore our blogs
+              Explore our blog
             </Link>
           </div>
         </Container>

@@ -509,3 +509,12 @@ flex-wrap: wrap;
   }
 }
 }
+
+.crest-blog-sec{
+  @media #{$extra-small}{
+    margin-bottom: 2rem;
+  }
+  h2{
+    min-height: 70px;
+  }
+}

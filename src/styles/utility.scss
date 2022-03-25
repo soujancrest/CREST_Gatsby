@@ -83,11 +83,11 @@
 
 .app-img {
   // width: 100px;
-  height: 100px;
+  height: 120px;
   vertical-align: middle;
 
   img{
-      width: 70px;
+      width: 70px !important;
   }
 }
 
@@ -100,14 +100,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
 
   .impact-img {
     text-align: center;
-    margin: 0 auto 1.8rem;
+    // margin: 0 auto 1.8rem;
+    min-height: 70px;
     img {
-      width: 59px;
+      width: 50px;
     }
   }
   .mission-discrption-info {
@@ -193,7 +196,7 @@
 }
 .climate-box-inner{
   background-color: rgba(0,0,0,.8);
-  padding: 4rem 2rem;
+  padding: 3.4rem 2rem;
   color: $white;
 
   @media #{$extra-small}{
@@ -256,4 +259,8 @@
       padding: 0;
     }
   }
+}
+
+.page-heads{
+  margin-top: 8rem;
 }

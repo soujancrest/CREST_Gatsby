@@ -40,36 +40,48 @@ $extra-large: "screen and (min-width: 1920px) and (max-width: 5000px)";
   font-family: stem;
   src: url("../../src/fonts/Stem-Regular.woff");
   src: url("../../src/fonts/Stem-Regular.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: stem-bold;
   src: url("../../src/fonts/Stem-Bold.woff");
   src: url("../../src/fonts/Stem-Bold.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: stem-extralight;
   src: url("../../src/fonts/Stem-ExtraLight.woff");
   src: url("../../src/fonts/Stem-ExtraLight.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: stem-light;
   src: url("../../src/fonts/Stem-Light.woff");
   src: url("../../src/fonts/Stem-Light.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: stem-medium;
   src: url("../../src/fonts/Stem-Medium.woff");
   src: url("../../src/fonts/Stem-Medium.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: stem-thin;
   src: url("../../src/fonts/Stem-Thin.woff");
   src: url("../../src/fonts/Stem-Thin.woff2");
+  font-style: normal;
+  font-display: swap;
 }
 
 *,
@@ -928,7 +940,8 @@ li {
     font-size: 2.2rem;
 
     @media #{$extra-small}{
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      line-height: 40px;
     }
   }
  
@@ -1065,7 +1078,7 @@ li {
   padding: 4rem 0;
 
   @media #{$extra-small}{
-    padding: 2rem 0;
+    padding: 0;
     background-image: unset;
     margin-bottom:0 ;
   }
@@ -1118,7 +1131,7 @@ li {
         margin-left: 0px;
       }
       h2{
-        margin-bottom: 1rem;
+        margin-bottom: 0.1rem;
       }
       p {
         margin: 0;

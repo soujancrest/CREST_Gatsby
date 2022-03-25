@@ -304,6 +304,9 @@ footer a {
 
 .crest-banner-home {
   padding: 4rem 0;
+  @media #{$extra-small}{
+    padding: 3rem 0;
+  }
 }
 .crestbanner {
   background-position: right !important;

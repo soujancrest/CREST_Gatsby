@@ -51,17 +51,17 @@ const OurImpact = () => (
                   backgroundColor="transparent"
                 />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 CLEAN TECHNOLOGIES & INNOVATION
               </h3>
               <ul>
-                <li>- Sustainable Product Design</li>
-                <li>- AI & Process Automation</li>
-                <li>- Digital Transformation</li>
-                <li>- SMART City Operations</li>
-                <li>- Wellness Products / Technologies</li>
-                <li>- Manufacturing / Sustainable Building Prototypes</li>
-                <li>- Transformative Spaces - Eco Building Material</li>
+                <li>Sustainable Product Design</li>
+                <li>AI & Process Automation</li>
+                <li>Digital Transformation</li>
+                <li>SMART City Operations</li>
+                <li>Wellness Products / Technologies</li>
+                <li>Manufacturing / Sustainable Building Prototypes</li>
+                <li>Transformative Spaces - Eco Building Material</li>
               </ul>
             </div>
           </Col>
@@ -70,17 +70,17 @@ const OurImpact = () => (
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 63.png" alt="" />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 AWARENESS & PROPAGATION
               </h3>
 
               <ul>
-                <li>- Organic Events</li>
-                <li>- Training Programs</li>
-                <li>- Community Farming</li>
-                <li>- Kitchen Gardening</li>
-                <li>- Zero Waste Living</li>
-                <li>- Sustainable Ecosystems</li>
+                <li>Organic Events</li>
+                <li>Training Programs</li>
+                <li>Community Farming</li>
+                <li>Kitchen Gardening</li>
+                <li>Zero Waste Living</li>
+                <li>Sustainable Ecosystems</li>
               </ul>
             </div>
           </Col>
@@ -89,18 +89,18 @@ const OurImpact = () => (
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 72.png" alt="" />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 SUSTAINABLE CITIES AND COMMUNITIES
               </h3>
               <ul>
-                <li>- Master Planning & Architecture</li>
-                <li>- Environmental</li>
-                <li>- Interior</li>
-                <li>- Farmscape</li>
-                <li>- Structure & MEP</li>
-                <li>- Automation & Supply Chain</li>
-                <li>- Infrastructure</li>
-                <li>- Communications</li>
+                <li>Master Planning & Architecture</li>
+                <li>Environmental</li>
+                <li>Interior</li>
+                <li>Farmscape</li>
+                <li>Structure & MEP</li>
+                <li>Automation & Supply Chain</li>
+                <li>Infrastructure</li>
+                <li>Communications</li>
               </ul>
             </div>
           </Col>
@@ -109,15 +109,15 @@ const OurImpact = () => (
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 71.png" alt="" />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 PREVENTIVE CARE & WELLNESS LIVING
               </h3>
               <ul>
-                <li>- Preventive Care</li>
-                <li>- Social Bonding</li>
-                <li>- Child & Animal Care</li>
-                <li>- Maintenance / Services</li>
-                <li>- Wellness Lifestyle</li>
+                <li>Preventive Care</li>
+                <li>Social Bonding</li>
+                <li>Child & Animal Care</li>
+                <li>Maintenance / Services</li>
+                <li>Wellness Lifestyle</li>
               </ul>
             </div>
           </Col>
@@ -126,17 +126,17 @@ const OurImpact = () => (
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Path 33.png" alt="" />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 RESPONSIBLE PRODUCTION & CONSUMPTION
               </h3>
               <ul>
-                <li>- Organic and Processed Food & Dairy Products</li>
-                <li>- Plastic & Bio Waste</li>
-                <li>- Power Gen</li>
-                <li>- Building Material</li>
-                <li>- Lifestyle Products</li>
-                <li>- FPOs & ECO Products</li>
-                <li>- New Age Farming</li>
+                <li>Organic and Processed Food & Dairy Products</li>
+                <li>Plastic & Bio Waste</li>
+                <li>Power Gen</li>
+                <li>Building Material</li>
+                <li>Lifestyle Products</li>
+                <li>FPOs & ECO Products</li>
+                <li>New Age Farming</li>
               </ul>
             </div>
           </Col>
@@ -145,21 +145,19 @@ const OurImpact = () => (
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Path 24.png" alt="" />
               </div>
-              <h3 className="mission-discrption-info mb-20">
+              <h3 className="mission-subheading heading-color mb-20">
                 CLIMATE ACTION INSTITUTE
               </h3>
 
               <ul>
-                <li>- Climate Research Editorial</li>
-                <li>- Content Research & Content Creation</li>
-                <li>- Publications</li>
-                <li>- Education</li>
-                <li>- Planet Wellbeing, Health & Wellness</li>
-                <li>- Sustainable Lifestyle</li>
+                <li>Climate Research Editorial</li>
+                <li>Content Research & Content Creation</li>
+                <li>Publications</li>
+                <li>Education</li>
+                <li>Planet Wellbeing, Health & Wellness</li>
+                <li>Sustainable Lifestyle</li>
                 <li>
-                  {" "}
-                  - Skill Development (Organic Food Products Manufacturing,
-                  Healthy Culinary etc.)
+                Skill Development
                 </li>
               </ul>
             </div>

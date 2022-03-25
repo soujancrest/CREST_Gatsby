@@ -171,7 +171,7 @@ const Footer = () => (
           <div className="footer-logos">
 
             <div className="crest-logo-left">
-              <Link className="link " to="/">
+              <Link className="link" to="/">
                 <StaticImage src="../images/CREST_White_Logo.png" />
               </Link>
             </div>

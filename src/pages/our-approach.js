@@ -73,7 +73,11 @@ const OurApproach = () => (
               <h3 className="mission-subheading heading-color mb-20">
                 Our Roadmap To Sustained Growth
               </h3>
-              <p className="mission-sub-text">
+              <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                 With a robust financial plan to recuperate funds allocated to
                 each part of the Impact Fund, CREST Foundation will not need to
                 secure additional funding beyond the first $100 million. Using
@@ -83,14 +87,18 @@ const OurApproach = () => (
               <p className="mission-sub-text">
                 CREST Foundation’s sustained, robust economic model is
                 structured to generate revenue from the very first project.
-              </p>
-              <p className="mission-sub-text">
+
+                <br>
+                
+                </br>
+
                 By sparking a clean energy and an organic food revolution,
                 decarbonizing over-congested cities, improving air quality, and
                 bringing back ecosystems and biodiversity local to each region,
                 CREST Foundation will move the needle of climate change in the
                 right direction.
               </p>
+            
             </div>
           </Col>
         </Row>
@@ -104,7 +112,11 @@ const OurApproach = () => (
               <h3 className="mission-subheading heading-color mb-20">
                 Our Solution Framework
               </h3>
-              <p className="mission-sub-text">
+              <p  className="mission-sub-text"
+                style={{
+                  fontStyle: "italic",
+                  color: "#595757",
+                }}>
                 CREST Foundation aims to create sustainable, carbon neutral,
                 built environments with climate responsive habitats that
                 contribute to people and planet wellbeing.
