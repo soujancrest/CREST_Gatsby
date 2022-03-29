@@ -77,11 +77,7 @@ export default function ClimateActionBanner({ className }) {
                     Backcreek, Monroe County, West Virginia.
                   </h2>
                   <p className="mission-sub-text">
-                    A consolidation of gross study with focus on the current
-                    situation due to several man-made developments across Monroe
-                    County boiling down to Back Creek. This includes mapping of
-                    climatic and geological changes that occurred over a period
-                    and its impact on natural resources.
+                    A consolidation gross study with focus on the current situation due to several man-made developments across Monroe County boiling down to Back Creek. This includes climatic & geological changes that occurred over a period and its impact on natural resources.
                   </p>
                   <p className="read-text">
                     <a href="/CAR-BackCreek/" className="readmore">
@@ -99,11 +95,8 @@ export default function ClimateActionBanner({ className }) {
                     Neom, Saudi Arabia.
                   </h2>
                   <p className="mission-sub-text">
-                    Primary focus of this report is to constitute a solution
-                    framework and restore ecological balance with a broad
-                    roadmap towards environmental impact goals of CREST
-                    Foundation overlapped and measured in comparison with UN
-                    Sustainable Development Goals defined for Saudi Arabia.
+                    Primary focus of this report is to constitute a solution framework and restore ecological balance with a roadmap towards environmental impact goals of CREST Foundation overlapped & measured in comparison with UN Sustainable Development.
+                     {/* Goals defined for Saudi Arabia. */}
                   </p>
                   <p className="read-text">
                     <a href="/CAR-Neom/" className="readmore">
