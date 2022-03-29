@@ -1087,10 +1087,20 @@ li {
   padding: 0.5rem;
   align-items: flex-start;
   margin: 0 0 1.8rem;
+  height: 190px;
 
   @media #{$extra-small} {
     flex-direction: column;
     align-items: flex-start;
+    height: auto;
+  }
+
+  @media #{$small}{
+    height: auto;
+  }
+
+  @media #{$medium}{
+    height: auto;
   }
 
   .climate-box-img {
@@ -1105,14 +1115,14 @@ li {
   }
 
   .box-right-con {
-    margin-left: -40px;
+    margin-left: -50px;
     @media #{$extra-small} {
       margin-top: 1rem;
       margin-left: 0px;
     }
     @media #{$small}{
       // margin-top: 1rem;
-      margin-left: -10px;
+      margin-left: -20px;
     }
 
     @media #{$medium}{
@@ -1125,7 +1135,7 @@ li {
     }
     p {
       margin: 0;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
     .readmore {
       float: right;

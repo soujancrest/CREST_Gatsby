@@ -132,6 +132,12 @@ footer a {
       margin: 0;
       position: relative;
       padding: 0 1.5rem;
+@media #{$small}{
+  padding: 0 1rem;
+}
+      @media #{$medium}{
+        padding: 0 1rem;
+      }
 
       a {
         color: #000;
