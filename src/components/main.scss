@@ -218,6 +218,13 @@ footer a {
     h6 {
       font-family: stem-medium;
       width: 18%;
+      span{
+        display: none;
+        @media #{$extra-small}{
+          display:inline-block ;
+          color: $theme-btn-bg;
+        }
+      }
       @media #{$extra-small} {
         width: 100%;
       }
@@ -228,6 +235,9 @@ footer a {
       margin: 0;
       span {
         color: $theme-btn-bg;
+        @media #{$extra-small}{
+          display: none;
+        }
       }
       a {
         margin-left: 10px;

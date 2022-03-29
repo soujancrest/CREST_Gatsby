@@ -107,7 +107,7 @@
   }
 }
 .about-sub {
-  margin-top: 4rem;
+  margin-top: 3rem;
   @media #{$extra-small} {
     margin-top: 0;
   }
@@ -275,7 +275,15 @@
 
   @media #{$extra-small} {
     width: 48%;
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  @media #{$small} {
+    width: 48%;
+    margin-bottom: 2rem;
+  }
+  @media #{$medium} {
+    width: 25%;
+    margin-bottom: 2rem;
   }
 
   a {

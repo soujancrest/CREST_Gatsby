@@ -11,7 +11,7 @@ export default function Blog({ data }) {
   const blogs = data.allMarkdownRemark.nodes
   // const blogs = allMds.filter(blog => blog.frontmatter.Category === "blog")
 
-  console.log(blogs)
+  // console.log(blogs)
   return (
     <div className="page-heads">
       <Container className="about-subs">

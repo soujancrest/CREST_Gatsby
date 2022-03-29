@@ -15,7 +15,7 @@ import ClimateActionBanner from "../components/ClimateActionBanner"
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
-  console.log(blogs)
+  // console.log(blogs)
   return (
     <div>
       <Seo title="Home" />

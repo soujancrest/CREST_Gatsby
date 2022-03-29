@@ -181,7 +181,7 @@ const Footer = () => (
           <div className="crest-footer-dis">
             <div className="crest-add">
               <address>
-                <h6>UNITED STATE-HQ</h6>
+                <h6>UNITED STATE-HQ  <span>:</span></h6>
 
                 <p>
                   <span>:</span> 700 12th Street, N.W. , Suite 700, Washington
@@ -190,7 +190,7 @@ const Footer = () => (
                 </p>
               </address>
               <address>
-                <h6>INDIA</h6>
+                <h6>INDIA  <span>:</span></h6>
 
                 <p>
                   <span>:</span> Sri Vishnu Elite, 5th floor, Jayabheri Enclave,
@@ -199,14 +199,14 @@ const Footer = () => (
                 </p>
               </address>
               <address>
-                <h6>SINGAPORE</h6>
+                <h6>SINGAPORE  <span>:</span></h6>
                 <p>
                   <span>:</span> 1 Shenton Way, #10-04, Singapore - 068803.
                   <a href="tel:+6597537487"> Phone :+65 9753 7487</a>
                 </p>
               </address>
               <address>
-                <h6> AUSTRALIA</h6>
+                <h6> AUSTRALIA  <span>:</span></h6>
                 <p>
                   <span>:</span> 8 Brookside Dr, Wyndham Vale, VIC, Australia -
                   3024.

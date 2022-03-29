@@ -150,7 +150,16 @@
 }
 
 .goal-img {
+
+ 
+
   @media #{$extra-small} {
+    margin-bottom: 1rem;
+  }
+  @media #{$small}{
+    margin-bottom: 1rem;
+  }
+  @media #{$medium}{
     margin-bottom: 1rem;
   }
   img {
