@@ -20,28 +20,6 @@ export default function IndexPage({ data }) {
     <div>
       <Seo title="Home" />
 
-      {/* <div className="banner">
-        <Container>
-          <div className="creast-inner">
-            <div className="crest-banner-text">
-              <h1 className="banner-heading">
-                CREST CLIMATE HUBS <br></br>
-                COULD BE THE SOLUTION
-              </h1>
-              <h4 className="banner-sub-heading">
-                The planet earth has witnessed five mass extinctions <br>
-                </br>
-                Human race could be next!
-              </h4>
-
-            </div>
-          </div>
-
-        </Container>
-      </div> */}
-
-      {/* banckground */}
-
       <HomeBanner />
 
       <div className="about">
@@ -49,7 +27,6 @@ export default function IndexPage({ data }) {
           <Row>
             <Col>
               <div className="about__crest-info">
-                {/* <h6>ABOUT CREST</h6> */}
                 <p>
                   <span>CREST </span> (Center for Research in Environmental &
                   Sustainable Technologies) <br></br>
@@ -95,7 +72,7 @@ export default function IndexPage({ data }) {
             <Col className="right-col">
               <h4 className="heading-bg crest-left">Our Ethos</h4>
               <Row className="right-col-1">
-                <Col className="mission-inner col-lg-8 col-12">
+                <Col className="mission-inner   col-sm-8 col-12">
                   <div className="mission-side-right">
                     <h5 className="mission-subheading heading-color">
                       Climate crisis and Human Wellbeing
@@ -114,7 +91,7 @@ export default function IndexPage({ data }) {
                     </p>
                   </div>
                 </Col>
-                <Col className="mission-inner col-lg-4 col-12">
+                <Col className="mission-inner col-sm-4 col-12">
                   <div className="mission-side">
                     <StaticImage
                       src="../images/about/24.jpg"

@@ -10,7 +10,6 @@ $theme-btn-bg: #e86241;
 
 // Fonts
 $body-fonts: stem, sans-serif;
-// $theme-heading-fonts: 'stem-extralight',sans-serif;
 $theme-paragraph-fonts: stem-thin, sans-serif;
 
 // media Queries
@@ -1087,8 +1086,7 @@ li {
   background-color: #ffffff;
   padding: 0.5rem;
   align-items: flex-start;
-
-  margin: 0 0 2rem;
+  margin: 0 0 1.8rem;
 
   @media #{$extra-small} {
     flex-direction: column;
@@ -1112,6 +1110,16 @@ li {
       margin-top: 1rem;
       margin-left: 0px;
     }
+    @media #{$small}{
+      // margin-top: 1rem;
+      margin-left: -10px;
+    }
+
+    @media #{$medium}{
+      // margin-top: 1rem;
+      margin-left: -20px;
+    }
+
     h2 {
       margin-bottom: 0.1rem;
     }

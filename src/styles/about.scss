@@ -176,7 +176,7 @@
     text-transform: uppercase;
 
     @media #{$extra-small} {
-      font-size: 2.5rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -271,10 +271,11 @@
   justify-content: space-between;
   align-items: center;
   width: calc(100% - 80%);
-  // margin-bottom: 2rem;
+
 
   @media #{$extra-small} {
-    width: 50%;
+    width: 48%;
+      margin-bottom: 2rem;
   }
 
   a {
@@ -304,6 +305,9 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
+  @media #{$extra-small}{
+    justify-content: space-between;
+  }
 }
 
 .about-subs {
@@ -535,22 +539,30 @@ flex-wrap: wrap;
 }
 
 .approach-img{
+  @media #{$extra-small}{
+    margin-bottom: 1rem;
+
+  }
   img{
     min-height: 270px;
+    @media #{$extra-small}{
+      min-height: 230px;
+    }
   }
 }
 
 .approach-heading{
  color: $theme-heading-color;
+ height: 30px;
 }
 
 .approach-section-planet{
   display: flex;
   justify-content: space-between;
   background-color: #e6e7e8;
-  padding: 2rem 1rem;
-  min-height: 225px;
-  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+  min-height: 200px;
+  // margin-bottom: 2rem;
 
   .planet-box{
     width: 50%;
@@ -564,7 +576,7 @@ flex-wrap: wrap;
     padding: 0;
     li{
       margin: 0;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #000;
     }
   }
@@ -575,14 +587,17 @@ flex-wrap: wrap;
   // justify-content: space-between;
   flex-direction: column;
   background-color: #e6e7e8;
-  padding: 2rem 1rem;
-  min-height: 220px;
+  padding: 1rem 1rem;
+  min-height: 200px;
+  @media #{$extra-small}{
+    min-height: auto;
+  }
   ul{
     margin: 0;
     padding: 0;
     li{
       margin: 0;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #000;
     }
   }

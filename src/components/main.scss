@@ -226,16 +226,16 @@ footer a {
       font-size: 0.7rem;
       font-family: stem-thin;
       margin: 0;
+      span {
+        color: $theme-btn-bg;
+      }
       a {
-        // text-decoration: underline !important;
         margin-left: 10px;
         &:hover {
           color: #fff;
           text-decoration: underline !important;
         }
-        span {
-          color: $theme-btn-bg;
-        }
+        
       }
     }
   }

@@ -69,10 +69,10 @@ export default function ClimateActionBanner({ className }) {
             </div>
             <div className="climate-box-books">
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-lg-3 col-12">
+                <Col className="climate-box-img col-md-3 col-12">
                   <StaticImage src="../images/climate-books.jpg" />
                 </Col>
-                <Col className="box-right-con ">
+                <Col className="box-right-con col-md-9">
                   <h2 className="mission-subheading heading-color">
                     Backcreek, Monroe County, West Virginia.
                   </h2>
@@ -91,10 +91,10 @@ export default function ClimateActionBanner({ className }) {
                 </Col>
               </Row>
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-lg-3 col-12">
+                <Col className="climate-box-img col-md-3 col-12">
                   <StaticImage src="../images/NEOM 01-02-22.jpg" />
                 </Col>
-                <Col className="box-right-con">
+                <Col className="box-right-con col-md-9">
                   <h2 className="mission-subheading heading-color">
                     Neom, Saudi Arabia.
                   </h2>
@@ -114,10 +114,10 @@ export default function ClimateActionBanner({ className }) {
                 </Col>
               </Row>
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-lg-3 col-12">
+                <Col className="climate-box-img col-md-3 col-12">
                   <StaticImage src="../images/Dhriti_Climate Hub_cover.jpg" />
                 </Col>
-                <Col className="box-right-con">
+                <Col className="box-right-con col-md-9">
                   <h2 className="mission-subheading heading-color">
                     Zaheerabad, Hyderabad
                   </h2>

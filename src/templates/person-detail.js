@@ -28,9 +28,7 @@ export default function PersonDetail({ data }) {
               <StaticImage src="../images/arrow-left.png" />
               <span> Back to People</span>
             </Link>
-            <br></br>
-            <br></br>
-
+        
             <h1 className="mission-subheading">{name}</h1>
             <h3>{designation}</h3>
             {/* <p>{excerpt}</p> */}

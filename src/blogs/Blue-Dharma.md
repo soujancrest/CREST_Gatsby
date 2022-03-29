@@ -8,7 +8,7 @@ type: blog
 excerpt: In order to look forward, we must look back. So, let’s get a glimpse of how we got here
 highlight: As Robert Frost puts it, we must take the road “less traveled” now.
 featuredImage: ../images/blog/04.jpg
-thumbImage: ../images/blog/bluedharma.jpg
+thumbImage: ../images/blog/bluedharma.png
 ---
 
 ## Welcome

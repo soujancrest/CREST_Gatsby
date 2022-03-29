@@ -93,12 +93,12 @@ function Navbar({ homePath }) {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link className="mainNavLink" onClick={handleSidebar} to="/contact">
                   Contact us
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="../images/Crest_Foundation_Book.pdf"
                   className="mainNavLink"
@@ -106,7 +106,7 @@ function Navbar({ homePath }) {
                 >
                   Download Brochure
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 

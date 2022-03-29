@@ -141,7 +141,7 @@ const OurApproach = () => (
       <Container>
         <Row>
 
-          <Col className="col-lg-6">
+          <Col className="col-lg-6 col-12">
             <div className="approach-section-planet">
               <div className="planet-box">
                 <div className="approach-heading mission-subheading">
@@ -163,14 +163,14 @@ const OurApproach = () => (
                   <li className="mission-sub-text">
                     Protection of Aquatic Ecosystems
                   </li>
-                  <li className="mission-sub-text">
-                    Innovative Technologies
-                  </li>
-
+                 
                 </ul>
 
               </div>
               <div className="planet-box">
+              <div className="approach-heading mission-subheading">
+        
+                </div>
                 <ul>
                  
                   <li className="mission-sub-text">
@@ -185,6 +185,9 @@ const OurApproach = () => (
                   <li className="mission-sub-text">
                     Renewable Energy
                   </li>
+                  <li className="mission-sub-text">
+                    Innovative Technologies
+                  </li>
 
                 </ul>
 
@@ -194,7 +197,7 @@ const OurApproach = () => (
           </Col>
 
 
-          <Col className="col-lg-3">
+          <Col className="col-lg-3 col-12">
             <div className="approach-section-planets">
               <div className="approach-heading mission-subheading">
                 People
@@ -213,7 +216,7 @@ const OurApproach = () => (
               </ul>
             </div>
           </Col>
-          <Col className="col-lg-3">
+          <Col className="col-lg-3 col-12">
             <div className="approach-section-planets">
               <div className="approach-heading mission-subheading">
                 Profits

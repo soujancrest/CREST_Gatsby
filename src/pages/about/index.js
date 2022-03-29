@@ -115,24 +115,7 @@ export default function About() {
                   natural ecosystems while combating the most urgent changes of
                   the climate crisis.
                 </p>
-                <p className="mission-sub-text">
-                  Our all-inclusive approach to each strand of sustainability —
-                  air, water, food, soil, shelter, energy, and people — will
-                  fundamentally transform the urban lifestyle. Each
-                  self-sufficient climate hub will produce sustainably farmed
-                  organic food, generate clean energy from renewable resources,
-                  improve air quality, recharge the deep aquifer, restore soil
-                  health, support animal health, and nurture biodiversity.
-                </p>
-                <p className="mission-sub-text">
-                  This fiscally responsible high-impact initiative is built on a
-                  consistent, sustained growth model and is guaranteed to yield
-                  results. CREST Foundation is seeking to raise $100 million for
-                  the first demonstration project. The Foundation has a 12-year
-                  roadmap to grow its revenue to $1.78 billion, create 620,000
-                  jobs, generate 820 MW of clean energy, and produce 6.28
-                  million metric tons of organic food.
-                </p>
+               
               </div>
             </Col>
           </Row>
@@ -235,20 +218,7 @@ export default function About() {
                   is converted back into energy and excess food is funneled into
                   organic food processing plants.
                 </p>
-                <p className="mission-sub-text">
-                  Easy availability of nutritious, farm-fresh food also
-                  decreases reliance on takeout food and reduces waste from
-                  takeout packaging. Most importantly, these circular
-                  microeconomies contribute to a reduction in food miles,
-                  thereby decarbonizing the earth.
-                </p>
-                <p className="mission-sub-text">
-                  Micro-economies can bolster and support other aspects of the
-                  economy besides food production. Providing rural citizens with
-                  the same healthcare, education, and employment opportunities
-                  usually limited to cities dissuades mass-migration to urban
-                  areas and decreases infrastructure and transportation needs
-                </p>
+              
               </div>
             </Col>
           </Row>

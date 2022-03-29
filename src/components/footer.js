@@ -214,7 +214,7 @@ const Footer = () => (
                 </p>
               </address>
             </div>
-            {/* 
+            
             <div className="crest-media">
       
               <Link to="https://www.instagram.com/crestfoundation/">
@@ -230,7 +230,7 @@ const Footer = () => (
                 <StaticImage src="../images/linkedin_icon.png" />
               </Link>
            
-            </div> */}
+            </div>
 
             <div className="crest-copy">
               <p>All rights are reserved to crest foundation</p>
