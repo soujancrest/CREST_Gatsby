@@ -57,6 +57,7 @@ export default function ClimateActionBanner({ className }) {
                 Deforestation, extinction of millions of plant & animal species
                 and global warming which are bringing the human race closer to
                 extinction each day.<br></br>
+                <br></br>
                 CREST Foundation’s Climate Hubs are designed to create a
                 paradigm shift in building forest ecosystems that promote
                 De-urbanization by reducing urban loads, forming farm
@@ -65,10 +66,7 @@ export default function ClimateActionBanner({ className }) {
                 free, unaltered, safe and healthy food. The communities also
                 include herbal forests that help absorb affluents and increase
                 oxygen levels in the atmosphere thereby contributing to global
-                cooling. These communities adapt proven watershed techniques to
-                recharge deep aquifers and increase reserves for fast depleting
-                potable water besides fueling rural development & sustained
-                circular economy.
+                cooling.
               </p>
             </div>
             <div className="climate-box-books">
