@@ -150,16 +150,13 @@
 }
 
 .goal-img {
-
- 
-
   @media #{$extra-small} {
     margin-bottom: 1rem;
   }
-  @media #{$small}{
+  @media #{$small} {
     margin-bottom: 1rem;
   }
-  @media #{$medium}{
+  @media #{$medium} {
     margin-bottom: 1rem;
   }
   img {
@@ -207,7 +204,7 @@
 }
 .climate-box-inner {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   color: $white;
 
   @media #{$extra-small} {

@@ -48,7 +48,7 @@ export default function ClimateActionBanner({ className }) {
         <Container>
           <div className="climate-sec-inner">
             <div className="climate-box-inner">
-              <h6>INDRODUCING</h6>
+              <h6>INTRODUCING</h6>
               <h2>CLIMATE HUBS</h2>
 
               <p>
