@@ -68,19 +68,7 @@ export default function ClimateActionBanner({ className }) {
                 cooling. These communities adapt proven watershed techniques to
                 recharge deep aquifers and increase reserves for fast depleting
                 potable water besides fueling rural development & sustained
-                circular economy.<br></br>
-                Climate Hubs are the new age, future proof, low density
-                mixed-use climate responsive habitats which include. The
-                Habitats include food forests, education institutes ,
-                healthcare, sports and work facilities within them providing
-                free power, vegetables, fruits, milk & meat for a lifetime. The
-                habitats introduce its residents to uncontaminated fresh air,
-                safe water, and healthy soil while also adding wellness and
-                sustainable ecosystems to their modern living standards. Climate
-                Hub is designed to create an impeccable impact on biodiversity
-                that helps in restoring the environmental balance & play a key
-                role in safeguarding the future of the human race on planet
-                earth.
+                circular economy.
               </p>
             </div>
             <div className="climate-box-books">
@@ -100,7 +88,10 @@ export default function ClimateActionBanner({ className }) {
                     impact on natural resources.
                   </p>
                   <p className="read-text">
-                    <a href="/CAR-BackCreek/" className="readmore">
+                    <a
+                      href="/ClimateActionReport-BackCreek/"
+                      className="readmore"
+                    >
                       Read More <StaticImage src="../images/right-arrow.png" />
                     </a>
                   </p>
@@ -123,7 +114,7 @@ export default function ClimateActionBanner({ className }) {
                     {/* Goals defined for Saudi Arabia. */}
                   </p>
                   <p className="read-text">
-                    <a href="/CAR-Neom/" className="readmore">
+                    <a href="/ClimateActionReport-Neom/" className="readmore">
                       Read More
                       <StaticImage src="../images/right-arrow.png" />
                     </a>
@@ -146,7 +137,10 @@ export default function ClimateActionBanner({ className }) {
                     district.
                   </p>
                   <p className="read-text">
-                    <a href="/CAR-Zaheerabad/" className="readmore">
+                    <a
+                      href="/ClimateActionReport-Zaheerabad/"
+                      className="readmore"
+                    >
                       Read More
                       <StaticImage src="../images/right-arrow.png" />
                     </a>
