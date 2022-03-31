@@ -46,12 +46,12 @@ export default function ClimateActionBanner({ className }) {
     >
       <div className="crest-banner-home climate-banner">
         <Container>
-          <div className="climate-sec-inner">
-            <div className="climate-box-inner">
-              <h6>INTRODUCING</h6>
-              <h2>CLIMATE HUBS</h2>
+          <div className="climate-sec-inner" >
+            <div className="climate-box-inner" >
+              <h6 data-sal="slide-up" data-sal-duration="1000" >INTRODUCING</h6>
+              <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">CLIMATE HUBS</h2>
 
-              <p>
+              <p >
                 Constant expansion and ever growing demands of urban age have
                 become major contributors for depletion of natural resources,
                 Deforestation, extinction of millions of plant & animal species

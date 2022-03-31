@@ -214,22 +214,22 @@ const Footer = () => (
                 </p>
               </address>
             </div>
-            
+
             <div className="crest-media">
-      
-              <Link to="https://www.instagram.com/crestfoundation/">
+
+              <Link to="https://www.instagram.com/crestfoundation/" target={"_blank"}>
                 <StaticImage src="../images/instagram_icon.png" />
               </Link>
-              <Link to="https://www.facebook.com/CREST-Foundation-106024431983601">
+              <Link to="https://www.facebook.com/CREST-Foundation-106024431983601" target={"_blank"}>
                 <StaticImage src="../images/facebook_icon.png" />
               </Link>
-              <Link to="https://twitter.com/CRESTFoun17">
+              <Link to="https://twitter.com/CRESTFoun17" target={"_blank"}>
                 <StaticImage src="../images/Dark_Blue.png" />
               </Link>
-              <Link to="https://www.linkedin.com/in/crest-foundation-390867227/">
+              <Link to="https://www.linkedin.com/in/crest-foundation-390867227/" target={"_blank"}>
                 <StaticImage src="../images/linkedin_icon.png" />
               </Link>
-           
+
             </div>
 
             <div className="crest-copy">

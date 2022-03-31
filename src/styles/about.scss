@@ -9,7 +9,7 @@
   padding: 0.5rem 0;
   border-top: 1px solid $theme-btn-bg;
   border-bottom: 1px solid $theme-btn-bg;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     margin-bottom: 1rem;
   }
   li {
@@ -19,14 +19,13 @@
     font-size: 1rem;
     font-family: stem-extralight;
     text-transform: uppercase;
-    @media #{$extra-small}{
-     font-size: 0.8rem;
+    @media #{$extra-small} {
+      font-size: 0.8rem;
     }
     a {
       position: relative;
       color: $text-color;
       text-decoration: none;
-    
     }
     &:not(:first-child) {
       padding-left: 4rem;
@@ -48,15 +47,15 @@
   position: absolute;
   top: 36px;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%, 0);
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid $theme-btn-bg;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     top: 37px;
-   }
+  }
 }
 
 .ab-overview {
@@ -138,7 +137,7 @@
   align-items: flex-start;
   margin-top: 8rem;
 
-  a{
+  a {
     color: $text-color;
   }
 
@@ -272,7 +271,6 @@
   align-items: center;
   width: calc(100% - 80%);
 
-
   @media #{$extra-small} {
     width: 48%;
     margin-bottom: 2rem;
@@ -302,7 +300,7 @@
     color: $text-color;
   }
 }
-.about-people-sub{
+.about-people-sub {
   margin-bottom: 1rem;
   color: $theme-heading-color;
   font-size: 0.9rem;
@@ -313,7 +311,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     justify-content: space-between;
   }
 }
@@ -413,10 +411,10 @@
   align-items: baseline;
   color: $text-color;
   // vertical-align: middle;
-  span{
+  span {
     margin-left: 10px;
   }
-  img{
+  img {
     // margin-right: 10px;
     width: 10px !important;
   }
@@ -469,102 +467,111 @@
   }
 }
 
-
-.over-heading{
+.over-heading {
   font-family: stem-medium;
   text-transform: uppercase;
 }
 
-.blog-bg{
+.blog-bg {
   color: $theme-btn-bg !important;
 }
 
-.crest-text-heading{
+.crest-text-heading {
   font-size: 1.3rem;
   font-family: stem-medium;
   letter-spacing: 1px;
   color: $theme-btn-bg;
 }
 
-.crest-publication-sec{
+.crest-publication-sec {
   position: relative;
 }
 
-.no-more{
+.no-more {
   position: absolute;
-  right:0px;
+  right: 0px;
   bottom: 35px;
   z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 0.2rem 0.3rem ;
-  font-size: .7rem;
-  span{
+  padding: 0.2rem 0.3rem;
+  font-size: 0.7rem;
+  span {
     color: $text-color;
   }
-  img{
+  img {
     margin-left: 10px;
     width: 15px !important;
   }
 }
 
-.pub-heading{
+.pub-heading {
   font-family: stem-medium;
   color: $text-color;
   font-size: 0.9rem;
   letter-spacing: 1px;
+
+  @media #{$small}{
+    letter-spacing: unset;
+  }
 }
-.public-inner{
+.public-inner {
   display: flex;
   gap: 2px;
-  
-  @media #{$extra-small}{
-flex-wrap: wrap;
-  }
-.crest-publication-sec{
 
-  @media #{$extra-small}{
-    width: 49%;
+  @media #{$extra-small} {
+    flex-wrap: wrap;
+  }
+  @media #{$small} {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .crest-publication-sec {
+    @media #{$extra-small} {
+      width: 49%;
+    }
+    @media #{$small} {
+      flex-wrap: wrap;
+      width: 25%;
+    }
   }
 }
-}
 
-.crest-blog-sec{
-  @media #{$extra-small}{
+.crest-blog-sec {
+  @media #{$extra-small} {
     margin-bottom: 2rem;
   }
-  h2{
+  h2 {
     min-height: 70px;
   }
 }
 
-.car-se{
-  img{
+.car-se {
+  img {
     height: 400px;
   }
 }
 
-.approach-img{
-  @media #{$extra-small}{
+.approach-img {
+  @media #{$extra-small} {
     margin-bottom: 1rem;
-
   }
-  img{
+  img {
     min-height: 270px;
-    @media #{$extra-small}{
+    @media #{$extra-small} {
       min-height: 230px;
     }
   }
 }
 
-.approach-heading{
- color: $theme-heading-color;
- height: 30px;
+.approach-heading {
+  color: $theme-heading-color;
+  height: 30px;
 }
 
-.approach-section-planet{
+.approach-section-planet {
   display: flex;
   justify-content: space-between;
   background-color: #e6e7e8;
@@ -572,17 +579,17 @@ flex-wrap: wrap;
   min-height: 200px;
   // margin-bottom: 2rem;
 
-  .planet-box{
+  .planet-box {
     width: 50%;
 
-    &:not(:first-child){
+    &:not(:first-child) {
       padding-left: 5%;
     }
   }
-  ul{
+  ul {
     margin: 0;
     padding: 0;
-    li{
+    li {
       margin: 0;
       text-transform: capitalize;
       color: #000;
@@ -590,20 +597,20 @@ flex-wrap: wrap;
   }
 }
 
-.approach-section-planets{
+.approach-section-planets {
   display: flex;
   // justify-content: space-between;
   flex-direction: column;
   background-color: #e6e7e8;
   padding: 1rem 1rem;
   min-height: 200px;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     min-height: auto;
   }
-  ul{
+  ul {
     margin: 0;
     padding: 0;
-    li{
+    li {
       margin: 0;
       text-transform: capitalize;
       color: #000;
@@ -611,16 +618,16 @@ flex-wrap: wrap;
   }
 }
 
-.blog-inner{
-
-  h2,h3{
+.blog-inner {
+  h2,
+  h3 {
     margin-bottom: 1rem;
     font-size: 1.3rem;
     font-family: stem-medium;
     line-height: 38px;
     color: $theme-heading-color;
   }
-  p{
+  p {
     font-size: 0.8rem;
     font-family: stem;
     line-height: 24px;

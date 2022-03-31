@@ -29,29 +29,29 @@ function Navbar({ homePath }) {
 
             <div className="crest-right-nav">
               <ul>
-                <li>
+                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="100">
                   <Link to="/about" activeClassName="active" className="mainNavLink">
                     About
                   </Link>
                 </li>
 
-                <li>
+                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="300">
                   <Link className="mainNavLink" activeClassName="active" to="/our-approach">
                     Approach
                   </Link>
                 </li>
-                <li>
+                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="400">
                   <Link className="mainNavLink" activeClassName="active" to="/our-goal">
                     Goal
                   </Link>
                 </li>
-                <li>
+                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="500">
                   <Link className="mainNavLink" activeClassName="active" to="/our-impact">
                     Impact
                   </Link>
                 </li>
 
-                <li>
+                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="600">
                   <Link className="mainNavLink" activeClassName="active" to="/blog">
                     Blog
                   </Link>

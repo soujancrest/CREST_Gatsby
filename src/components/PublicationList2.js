@@ -38,10 +38,10 @@ export default function PublicationThumb({ publication }) {
 
                 </div>
 
-                <Link to="/" className="no-more">
+                <div className="no-more">
                   <span>Coming Soon</span>
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </Link>
+                </div>
               </div>
               <div className="crest-publication-sec">
                 <StaticImage src="../images/Planet_Kriya.jpg" />
@@ -49,10 +49,10 @@ export default function PublicationThumb({ publication }) {
                   <h6 className="pub-heading">PLANET KRIYA</h6>
 
                 </div>
-                <Link to="/" className="no-more">
+                <div className="no-more">
                   <span>Coming Soon</span>
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </Link>
+                </div>
               </div>
               <div className="crest-publication-sec">
                 <StaticImage src="../images/Every_Dot_Matters.jpg" />
@@ -61,10 +61,10 @@ export default function PublicationThumb({ publication }) {
                   <h6 className="pub-heading">EVERY DOT MATTERS</h6>
 
                 </div>
-                <Link to="/" className="no-more">
+                <div className="no-more">
                   <span>Coming Soon</span>
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </Link>
+                </div>
               </div>
               <div className="crest-publication-sec">
 
@@ -73,10 +73,10 @@ export default function PublicationThumb({ publication }) {
                   <h6 className="pub-heading">NIRVANA</h6>
 
                 </div>
-                <Link to="/" className="no-more">
+                <div className="no-more">
                   <span>Coming Soon</span>
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </Link>
+                </div>
               </div>
               <div className="crest-publication-sec">
                 <StaticImage src="../images/The_Mother_Earth.jpg" />
@@ -84,10 +84,10 @@ export default function PublicationThumb({ publication }) {
                   <h6 className="pub-heading">THE MOTHER EARTH</h6>
 
                 </div>
-                <Link to="/" className="no-more">
+                <div className="no-more">
                   <span>Coming Soon</span>
                   {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </Link>
+                </div>
               </div>
 
             </div>
