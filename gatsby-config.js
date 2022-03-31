@@ -1,4 +1,4 @@
-require("dotenv").config()
+// require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: `CREST Foundation`,
@@ -12,7 +12,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          process.env.GOOGLE_ANALYTICS_TRACKING_ID, // Google Analytics / GA
+          "G-VXVKR8GVX7", // Google Analytics / GA
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
