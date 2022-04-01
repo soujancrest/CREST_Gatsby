@@ -42,7 +42,7 @@ const OurImpact = () => (
     <div>
       <Container className="about-sub">
         <Row>
-          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000">
+          <Col className="mb-20" lg="4" sm="6" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage
@@ -65,7 +65,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
+          <Col className="mb-20" lg="4" sm="6"  >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 63.png" alt="" />
@@ -84,7 +84,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
+          <Col className="mb-20" lg="4" sm="6"  >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 72.png" alt="" />

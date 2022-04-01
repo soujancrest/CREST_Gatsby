@@ -221,7 +221,7 @@ const OurApproach = () => (
               <div className="approach-heading mission-subheading" data-sal="slide-up" data-sal-duration="1000">
                 Profits
               </div>
-              <ul data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+              <ul data-sal="slide-up" data-sal-duration="1000"  >
                 <li className="mission-sub-text">
                   Eco Habitats
                 </li>
