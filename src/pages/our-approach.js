@@ -107,7 +107,7 @@ const OurApproach = () => (
         {/* <br></br> */}
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="approach-img">
+            <div className="approach-imgs">
               <StaticImage src="../images/our-approach/Crest-icons.jpg" alt="" />
             </div>
           </Col>

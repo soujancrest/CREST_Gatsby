@@ -47,7 +47,7 @@ const ClimateActionReport = () => (
               tons of Carbon Dioxide each per year.
             </p>
             <br></br>
-            <botton className="explor-btn">Download</botton>
+            <a href="../images/Climate_Action_Report_Back_Creek.pdf" target="_blank" className="explor-btn download-btn">Download</a>
           </div>
         </div>
       </Container>

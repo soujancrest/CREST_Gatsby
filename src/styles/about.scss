@@ -550,7 +550,7 @@
 
 .car-se {
   img {
-    height: 400px;
+    max-height: 450px !important;
   }
 }
 
@@ -565,6 +565,18 @@
     }
   }
 }
+.approach-imgs {
+  @media #{$extra-small} {
+    margin-bottom: 1rem;
+  }
+  img {
+    min-height: 250px;
+    @media #{$extra-small} {
+      min-height: 230px;
+    }
+  }
+}
+
 
 .approach-heading {
   color: $theme-heading-color;
@@ -633,4 +645,9 @@
     line-height: 24px;
     color: $black;
   }
+}
+
+.download-btn{
+  color: #fff !important;
+  text-decoration: none;
 }

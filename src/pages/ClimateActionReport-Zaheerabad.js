@@ -15,10 +15,9 @@ const ClimateActionReport = () => (
     <div>
       <Container>
         <div className="people-detail-sec">
-        <Link to="/" className="back-page">
-              <StaticImage src="../images/arrow-left.png" />
-              <span> Back to Home</span>
-            </Link>
+        <div className="car-se">
+            <StaticImage src="../images/Dhriti_Climate Hub_cover.jpg" />
+          </div>
 
           <div className="people-details">
             <Link to="/" className="back-page">
@@ -30,12 +29,10 @@ const ClimateActionReport = () => (
               Zaheerabad, Hyderabad.
             </h5>
             <p className="mission-sub-text">
-              Small Description - Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s,
+            A study of the existing bionetwork in and around Zahirabad, Telangana along with understanding the surrounding ecosystems and analyzing how this affects the living conditions of humans, Flora, and Fauna throughout the district to come up with best practices for enhancing biodiversity and bringing about ecological balance.
             </p>
             <br></br>
-            <botton className="explor-btn">Download</botton>
+            <a href="/" className="explor-btn download-btn">Download</a>
           </div>
         </div>
       </Container>
