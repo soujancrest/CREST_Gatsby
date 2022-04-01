@@ -58,89 +58,89 @@ export default function People({ data }) {
       <AboutLayout />
       <div>
         <Container className="about-sub">
-          <h4 className="about-people-heading">BOARD OF TRUSTEES</h4>
-          <div className="person-thumbs">
+          <h4 className="about-people-heading" data-sal="slide-up" data-sal-duration="1000" >BOARD OF TRUSTEES</h4>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" >
             {boardOfTrustees.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
         </Container>
         <Container className="about-sub">
-          <h4 className="about-people-heading">MANAGEMENT TEAM - USA</h4>
-          <div className="person-thumbs">
+          <h4 className="about-people-heading" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">MANAGEMENT TEAM - USA</h4>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000">
             {managementTeamUSA.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
         </Container>
         <Container className="about-sub">
-          <h4 className="about-people-heading">MANAGEMENT TEAM - INDIA</h4>
-          <div className="person-thumbs">
+          <h4 className="about-people-heading" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">MANAGEMENT TEAM - INDIA</h4>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000">
             {managementTeamIndia.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
         </Container>
         <Container className="about-sub">
-          <h4 className="about-people-heading">LEADERSHIP TEAM - INDIA</h4>
-          <div className="person-thumbs">
+          <h4 className="about-people-heading" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">LEADERSHIP TEAM - INDIA</h4>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {leadershipTeamIndia.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
         </Container>
         <Container className="about-sub">
-          <h4 className="about-people-heading">EXECUTIVE TEAM</h4>
-          <h5 className="about-people-sub">RESEARCH & ANALYTICS</h5>
-          <div className="person-thumbs">
+          <h4 className="about-people-heading" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">EXECUTIVE TEAM</h4>
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">RESEARCH & ANALYTICS</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {researchAnalytics.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">SUSTAINABILITY</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" >SUSTAINABILITY</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {sustainability.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">SALES & CRM</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">SALES & CRM</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {salesCRM.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">FINANCE & ACCOUNTS</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">FINANCE & ACCOUNTS</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {finance.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">DESIGN</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">DESIGN</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {design.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">WEB TECH</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">WEB TECH</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {webTech.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
           <br></br>
           <hr></hr>
-          <h5 className="about-people-sub">PROJECT MANAGEMENT</h5>
-          <div className="person-thumbs">
+          <h5 className="about-people-sub" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">PROJECT MANAGEMENT</h5>
+          <div className="person-thumbs" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
             {projectManagement.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}

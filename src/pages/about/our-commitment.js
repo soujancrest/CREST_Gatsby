@@ -17,7 +17,7 @@ export default function OurCommitment() {
         <Container className="about-sub">
           <Row>
             <Col className="col-lg-4 col-12">
-              <div className="goal-img">
+              <div className="goal-img" data-sal="slide-up" data-sal-duration="500">
                 <StaticImage
                   src="../../images/about/Our- Commitment.png"
                   alt=""
@@ -28,12 +28,12 @@ export default function OurCommitment() {
               {/* <h4 className="heading-bg mb-20 text-white">OUR COMMITMENT</h4> */}
 
               <div className="goal-section">
-                <h4 className="over-heading">
+                <h4 className="over-heading" data-sal="slide-up" data-sal-duration="1000">
                   Nutrition, Soil Health and Closed Loop Cycles
                 </h4>
                 <br></br>
 
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   CREST Foundation will create circular economies through its
                   sustainable communities by implementing a ‘buy local, eat
                   local’ model of food production that dramatically reduces food

@@ -15,20 +15,20 @@ const ClimateActionReport = () => (
     <div>
       <Container>
         <div className="people-detail-sec">
-          <div className="car-se">
+          <div className="car-se" >
             <StaticImage src="../images/NEOM 01-02-22.jpg" />
           </div>
 
           <div className="people-details">
-            <Link to="/" className="back-page">
+            <Link to="/" className="back-page" data-sal="slide-up" data-sal-duration="1000">
               <StaticImage src="../images/arrow-left.png" />
               <span> Back to Home</span>
             </Link>
-            <h4 className="heading-bg crest-left">CLIMATE ACTION REPORT</h4>
-            <h5 className="mission-subheading heading-color">
+            <h4 className="heading-bg crest-left" data-sal="slide-up" data-sal-duration="1000">CLIMATE ACTION REPORT</h4>
+            <h5 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000">
               NEOM, SAUDI ARABIA.
             </h5>
-            <p className="mission-sub-text">
+            <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
               NEOM Region is in the upper north-west part of the Kingdom of
               Saudi Arabia, along the Red Sea and the Gulf of Aaqba. NEOM has
               been designated, by the Saudi Government, as an International
@@ -40,7 +40,7 @@ const ClimateActionReport = () => (
               City by achieving exceptional innovation in business, livability,
               and sustainability in line with Saudi’s vision 2030.
             </p>
-            <p className="mission-sub-text">
+            <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
               Primary focus of this report is to constitute a solution framework
               to restore ecological balance with broad roadmap towards
               environmental impact goals of CREST Foundation overlapped and
@@ -52,7 +52,7 @@ const ClimateActionReport = () => (
               involving several subject matter experts.
             </p>
             <br></br>
-            <a href="../images/Climate_Action_Report_NEOM.pdf" target="_blank" className="explor-btn download-btn">Download</a>
+            <a href="#" target="_blank" className="explor-btn download-btn" data-sal="slide-up" data-sal-duration="1000">Download</a>
           </div>
         </div>
       </Container>

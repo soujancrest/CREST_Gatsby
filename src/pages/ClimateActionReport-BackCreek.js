@@ -14,22 +14,22 @@ const ClimateActionReport = () => (
     <div>
       <Container>
         <div className="people-detail-sec ">
-          <div className="car-se">
+          <div className="car-se" >
             <StaticImage src="../images/climate-books.jpg" />
           </div>
 
           <div className="people-details">
-            <Link to="/" className="back-page">
+            <Link to="/" className="back-page" data-sal="slide-up" data-sal-duration="1000">
               <StaticImage src="../images/arrow-left.png" />
               <span> Back to Home</span>
             </Link>
 
-            <h4 className="heading-bg">CLIMATE ACTION REPORT</h4>
-            <h5 className="mission-subheading heading-color">
+            <h4 className="heading-bg" data-sal="slide-up" data-sal-duration="1000">CLIMATE ACTION REPORT</h4>
+            <h5 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000">
               BACKCREEK, MONROE COUNTY, WEST VIRGINIA.
             </h5>
             <br></br>
-            <p className="mission-sub-text">
+            <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
               The 5771-acre Back Creek Wilderness property shares a common
               boundary with the George Washington – Jefferson National Forest
               and the Moncove Lake Wildlife Management Area. The forest has a
@@ -37,7 +37,7 @@ const ClimateActionReport = () => (
               investment parameters designed to maximize timber production,
               while maintaining the highest and best use of the land.
             </p>
-            <p className="mission-sub-text">
+            <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
               The property has been managed under West Virginia Best Management
               Practices and is currently FSC third-party certified. At present,
               there are no county zoning restrictions, allowing for the
@@ -47,7 +47,7 @@ const ClimateActionReport = () => (
               tons of Carbon Dioxide each per year.
             </p>
             <br></br>
-            <a href="../images/Climate_Action_Report_Back_Creek.pdf" target="_blank" className="explor-btn download-btn">Download</a>
+            <a  href="#" target="_blank" className="explor-btn download-btn" data-sal="slide-up" data-sal-duration="1000">Download</a>
           </div>
         </div>
       </Container>

@@ -15,10 +15,10 @@ const OurImpact = () => (
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
-            <h2 className="crest-heading mb-20">OUR IMPACT</h2>
+            <h2 className="crest-heading mb-20" data-sal="slide-up" data-sal-duration="1000">OUR IMPACT</h2>
           </Col>
           <Col className="col-lg-8 col-12">
-            <p className="mission-discrption-info">
+            <p className="mission-discrption-info" data-sal="slide-up" data-sal-duration="1000">
               Periodic assessment of sustainability parameters defines impact
               through number of Jobs Created, trees planted by Afforestation,
               amount of Carbon Sequestered, avoided CO2 Emissions, amount of
@@ -31,7 +31,7 @@ const OurImpact = () => (
       </Container>
     </div>
 
-    <div className="page-border">
+    <div className="page-border" data-sal="slide-up" data-sal-duration="1000">
       <Container>
         <div className="border-crest"></div>
       </Container>
@@ -42,7 +42,7 @@ const OurImpact = () => (
     <div>
       <Container className="about-sub">
         <Row>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000">
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage
@@ -65,7 +65,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 63.png" alt="" />
@@ -84,7 +84,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 72.png" alt="" />
@@ -104,7 +104,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Group 71.png" alt="" />
@@ -121,7 +121,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Path 33.png" alt="" />
@@ -140,7 +140,7 @@ const OurImpact = () => (
               </ul>
             </div>
           </Col>
-          <Col className="mb-20" lg="4" sm="6">
+          <Col className="mb-20" lg="4" sm="6" data-sal="slide-up" data-sal-duration="1000" >
             <div className="impact-cards-bg">
               <div className="impact-img">
                 <StaticImage src="../images/our-impact/Path 24.png" alt="" />
@@ -165,20 +165,20 @@ const OurImpact = () => (
         </Row>
       </Container>
       <Container>
-        <h3 className="mission-subheading heading-color">Our Primary Focus</h3>
+        <h3 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000" >Our Primary Focus</h3>
       </Container>
       <Container>
         <div className="approach-cards">
           <Row>
             <Col className="mb-20" lg="3" sm="6">
-              <div className="app-cards">
-                <div className="app-img">
+              <div className="app-cards" >
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/air.png" alt="" />
                 </div>
 
                 <div className="">
-                  <h3 className="mission-discrption-info mb-20">AIR</h3>
-                  <p className="md-subp">
+                  <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">AIR</h3>
+                  <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                     Herbal forests absorb toxins and produce clean, medicinal
                     air that improves air quality, the immunity of residents and
                     promotes biodiversity.
@@ -187,13 +187,13 @@ const OurImpact = () => (
               </div>
             </Col>
             <Col className="mb-20" lg="3" sm="6">
-              <div className="app-cards">
-                <div className="app-img">
+              <div className="app-cards" >
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/water.png" alt="" />
                 </div>
                 <div>
-                  <h3 className="mission-discrption-info mb-20">Water</h3>
-                  <p className="md-subp">
+                  <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">Water</h3>
+                  <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                     Watershed management, collected runoff, and harvested
                     rainwater are used to replenish groundwater and recharge
                     deep aquifers and treated sewage water is used for
@@ -205,12 +205,12 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/soil.png" alt="" />
                 </div>
 
-                <h3 className="mission-discrption-info mb-20">SOIL</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">SOIL</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   Closed loop systems and organic practices detoxify and improve
                   soil health while promoting a thriving biodiversity.
                 </p>
@@ -218,11 +218,11 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/food.png" alt="" />
                 </div>
-                <h3 className="mission-discrption-info mb-20">FOOD</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">FOOD</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   Witnessed organic food production establishes the highest
                   nutritional and food safety standards. Farm-fresh,
                   farm-to-fork produce is distributed to residents and excess
@@ -233,11 +233,11 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/energy.png" alt="" />
                 </div>
-                <h3 className="mission-discrption-info mb-20">Energy</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">Energy</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   The project will use solar winds, low wind turbines, biogas
                   plants and biofuel to create an energy positive development.
                 </p>
@@ -245,11 +245,11 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/eco.png" alt="" />
                 </div>
-                <h3 className="mission-discrption-info mb-20">Eco Habitats</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">Eco Habitats</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   Daylight integrated, positive air pressure homes eliminate
                   indoor toxins and produce clean energy. Herbal gardens and
                   food forests enable zero-refrigeration, which reduces carbon
@@ -259,11 +259,11 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/people.png" alt="" />
                 </div>
-                <h3 className="mission-discrption-info mb-20">People</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">People</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   All-inclusive living systems promote a sound rural
                   socio-economic fabric and several opportunities for social
                   bonding.
@@ -272,11 +272,11 @@ const OurImpact = () => (
             </Col>
             <Col className="mb-20" lg="3" sm="6">
               <div className="app-cards">
-                <div className="app-img">
+                <div className="app-img" data-sal="slide-up" data-sal-duration="1000">
                   <StaticImage src="../images/our-approach/animal.png" alt="" />
                 </div>
-                <h3 className="mission-discrption-info mb-20">Animals</h3>
-                <p className="md-subp">
+                <h3 className="mission-discrption-info mb-20" data-sal="slide-up" data-sal-duration="1000">Animals</h3>
+                <p className="md-subp" data-sal="slide-up" data-sal-duration="1000">
                   All animals farmed in the community are fed organic produce.
                   Consequently, all meat and dairy produced on the farms meet
                   the highest food and nutritional safety standards. Bio manure

@@ -19,19 +19,19 @@ export default function About() {
         <Container className="about-sub" id="vision">
           <Row>
             <Col className="col-lg-4 col-12">
-              <div className="goal-img">
+              <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
                 <StaticImage src="../../images/about/Our-Vision.png" alt="" />
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">
-              <h4 className="heading-bg mb-20 text-white">OUR VISION</h4>
+              <h4 className="heading-bg mb-20 text-white" data-sal="slide-up" data-sal-duration="1000">OUR VISION</h4>
 
               <div className="goal-section">
-                <h4 className="over-heading">
+                <h4 className="over-heading" data-sal="slide-up" data-sal-duration="1000" >
                   Energy Positive Cities and Global Cooling
                 </h4>
                 <br></br>
-                <p  className="mission-sub-text"
+                <p  className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -41,7 +41,7 @@ export default function About() {
                   clean energy from renewable resources and facilitate zero
                   maintenance and zero waste living.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   60% of the world’s population will live in cities by 2030.
                   Buildings consume a lot of energy and, together with the
                   construction industry, contribute to 40% of the world’s carbon
@@ -49,13 +49,13 @@ export default function About() {
                   dramatic climatic events become the norm, establishing
                   baseline data to track climate change becomes vital.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   Today, it’s easier and more convenient for people to work and
                   live in air-conditioned homes and offices. These closed-door
                   living situations increase exposure to indoor air pollutants,
                   which is unhealthy in the long run.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   When plants transpire, they cool the air around and beneath
                   them. Increasing herbal forest density and clean energy
                   reliance facilitates global cooling. Cooling temperatures
@@ -72,17 +72,17 @@ export default function About() {
         <Container className="about-sub" id="mission">
           <Row>
             <Col className="col-lg-4 col-12">
-              <div className="goal-img">
+              <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
                 <StaticImage src="../../images/about/our-mission.png" alt="" />
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">
-              <h4 className="heading-bg mb-20 text-white">OUR MISSION</h4>
+              <h4 className="heading-bg mb-20 text-white" data-sal="slide-up" data-sal-duration="1000">OUR MISSION</h4>
 
               <div className="goal-section">
                 {/* <h4 className="over-heading">Energy Positive Cities and Global Cooling</h4>
                 <br></br> */}
-                <p  className="mission-sub-text"
+                <p  className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -95,20 +95,20 @@ export default function About() {
                   village featuring 64 varieties of sports, a community kitchen,
                   and a preventive care and wellness health centre
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
                   Our practical approach is neither theoretical nor challenging
                   to implement. The Foundation’s first publication, Blue Dharma,
                   is a playbook of sustainable practices that have successfully
                   powered the creation of the world’s first energy-positive,
                   water-positive, and collective organic farming community.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
                   Today, it’s easier and more convenient for people to work and
                   live in air-conditioned homes and offices. These closed-door
                   living situations increase exposure to indoor air pollutants,
                   which is unhealthy in the long run.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
                   We have the proof of concept to build carbon-pollution-free
                   communities that promote sustainable living (without
                   compromising on the perks of modern lifestyles) and revive
@@ -124,20 +124,20 @@ export default function About() {
         <Container className="about-sub" id="ethos">
           <Row>
             <Col className="col-lg-4 col-12">
-              <div className="goal-img">
+              <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
                 <StaticImage src="../../images/about/Our-Ethos.png" alt="" />
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">
-              <h4 className="heading-bg mb-20 text-white">OUR ETHOS</h4>
+              <h4 className="heading-bg mb-20 text-white" data-sal="slide-up" data-sal-duration="1000">OUR ETHOS</h4>
 
               <div className="goal-section">
-                <h4 className="over-heading">
+                <h4 className="over-heading" data-sal="slide-up" data-sal-duration="1000">
                   Human Wellbeing Can Save the Planet
                 </h4>
                 <br></br>
 
-                <p  className="mission-sub-text"
+                <p  className="mission-sub-text" data-sal="slide-up" data-sal-duration="100"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -149,20 +149,20 @@ export default function About() {
                   residents access to safe drinking water, fresh air, and farm
                   fresh witnessed organic food
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   Over the last decade, many mega cities have transformed into
                   urban heat islands. City residents breathe polluted air,
                   continuous exposure to which can lead to a dip in immunity and
                   a surge in respiratory illnesses
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   Planted palettes of oxygenating trees clean and cool the air
                   by accelerating the absorption of greenhouse gases from the
                   atmosphere. Cultivating agroforestry and herb gardens provides
                   witnessed organic farm-fresh food and helps bring back
                   biodiversity to urbanized areas.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   Implementing mechanical ventilation techniques in mixed use
                   and residential developments improves ventilation, thereby
                   improving indoor air quality
@@ -175,7 +175,7 @@ export default function About() {
         <Container className="about-sub" id="intention">
           <Row>
             <Col className="col-lg-4 col-12">
-              <div className="goal-img">
+              <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
                 <StaticImage
                   src="../../images/about/Our-Intention.png"
                   alt=""
@@ -183,15 +183,15 @@ export default function About() {
               </div>
             </Col>
             <Col className="col-lg-8 col-sm-12">
-              <h4 className="heading-bg mb-20 text-white">OUR INTENTION</h4>
+              <h4 className="heading-bg mb-20 text-white" data-sal="slide-up" data-sal-duration="1000">OUR INTENTION</h4>
 
               <div className="goal-section">
-                <h4 className="over-heading">
+                <h4 className="over-heading" data-sal="slide-up" data-sal-duration="1000">
                   Supply Chains and Carbon Footprints
                 </h4>
                 <br></br>
 
-                <p  className="mission-sub-text"
+                <p  className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" 
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -203,7 +203,7 @@ export default function About() {
                   research facilities, promoting innovations in nutritional
                   security, and fuelling sustained economic growth.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   Processed foods and global food supply chains have large
                   carbon footprints. Produce that’s farmed with fertilizers and
                   pesticides has a longer shelf-life but is of lower nutritional
@@ -211,7 +211,7 @@ export default function About() {
                   harmful, and organic food products remain expensive to produce
                   and consume.
                 </p>
-                <p className="mission-sub-text">
+                <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" >
                   By relying more on local farms, circular bio-economies become
                   less vulnerable to global supply chain breakdowns. In
                   bio-economies, food is managed in innovative ways. Food waste

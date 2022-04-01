@@ -176,7 +176,7 @@ export default function IndexPage({ data }) {
 
       <div className="ourblog-sec">
         <Container>
-          <h2 className="crest-text-heading">OUR BLOG</h2>
+          <h2 className="crest-text-heading" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">OUR BLOG</h2>
           <Row></Row>
           <br></br>
           <div className="blog-thumb">
@@ -184,7 +184,7 @@ export default function IndexPage({ data }) {
               <BlogThumb blog={blog} />
             ))}
           </div>
-          <div className="explore-btn">
+          <div className="explore-btn" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
             <Link className="explor-blog" to="/blog">
               Explore our blog
             </Link>

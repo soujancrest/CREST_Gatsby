@@ -12,11 +12,11 @@ export default function AboutLayout() {
         <Container>
           <Row>
             <Col className="col-lg-4 col-12">
-              <h2 className="crest-heading mb-20">ABOUT US</h2>
+              <h2 className="crest-heading mb-20" data-sal="slide-up" data-sal-duration="1000" >ABOUT US</h2>
 
             </Col>
             <Col className="col-lg-8 col-12">
-              <p className="mission-discrption-info">
+              <p className="mission-discrption-info" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
                 We are on the verge of extinction, but we don’t seem to realize
                 it. To date, Earth has witnessed five mass extinctions, and all five
                 have been caused by natural geological changes. The sixth mass

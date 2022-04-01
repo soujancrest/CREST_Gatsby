@@ -168,11 +168,11 @@ const Footer = () => (
       <Row>
         <Col className="col-lg-4 col-12">
           <div className="footer-logos">
-            <div className="crest-logo-left">
+            <div className="crest-logo-left" data-sal="slide-up" data-sal-duration="1000">
               <StaticImage src="../images/CREST_White_Logo.png" />
             </div>
 
-            <div className="crest-logo-bot">
+            <div className="crest-logo-bot" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
               <StaticImage src="../images/us-green.png" />
             </div>
           </div>
@@ -180,7 +180,7 @@ const Footer = () => (
         <Col className="col-lg-8 col-12">
           <div className="crest-footer-dis">
             <div className="crest-add">
-              <address>
+              <address data-sal="slide-up" data-sal-duration="1000" >
                 <h6>UNITED STATE-HQ  <span>:</span></h6>
 
                 <p>
@@ -189,7 +189,7 @@ const Footer = () => (
                   <a href="tel:+12023449558"> Phone :+1 202 344 9558</a>
                 </p>
               </address>
-              <address>
+              <address data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
                 <h6>INDIA  <span>:</span></h6>
 
                 <p>
@@ -198,14 +198,14 @@ const Footer = () => (
                   <a href="tel:+919866657462"> Phone :+91 98666 57462</a>
                 </p>
               </address>
-              <address>
+              <address data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
                 <h6>SINGAPORE  <span>:</span></h6>
                 <p>
                   <span>:</span> 1 Shenton Way, #10-04, Singapore - 068803.
                   <a href="tel:+6597537487"> Phone :+65 9753 7487</a>
                 </p>
               </address>
-              <address>
+              <address data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
                 <h6> AUSTRALIA  <span>:</span></h6>
                 <p>
                   <span>:</span> 8 Brookside Dr, Wyndham Vale, VIC, Australia -
@@ -215,7 +215,7 @@ const Footer = () => (
               </address>
             </div>
 
-            <div className="crest-media">
+            <div className="crest-media" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
 
               <Link to="https://www.instagram.com/crestfoundation/" target={"_blank"}>
                 <StaticImage src="../images/instagram_icon.png" />
@@ -233,9 +233,9 @@ const Footer = () => (
             </div>
 
             <div className="crest-copy">
-              <p>All rights are reserved to crest foundation</p>
+              <p data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">All rights are reserved to crest foundation</p>
 
-              <p>Privacy & Policy</p>
+              <p data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">Privacy & Policy</p>
             </div>
           </div>
         </Col>

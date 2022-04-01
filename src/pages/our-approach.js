@@ -6,9 +6,9 @@ import { Container, Row, Col } from "react-bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import styles from "../styles/global.scss"
+import "../styles/global.scss"
 
-import utility from "../styles/utility.scss"
+import "../styles/utility.scss"
 
 const OurApproach = () => (
   <div>
@@ -17,10 +17,10 @@ const OurApproach = () => (
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
-            <h2 className="crest-heading mb-20">OUR APPROACH</h2>
+            <h2 className="crest-heading mb-20" data-sal="slide-up" data-sal-duration="1000">OUR APPROACH</h2>
           </Col>
           <Col className="col-lg-8 col-12">
-            <p className="mission-discrption-info">
+            <p className="mission-discrption-info" data-sal="slide-up" data-sal-duration="1000">
               To map the status of vulnerable species and impact of urbanization
               on natural resources such as Air, Water, Food, Soil etc. and
               design a corrective roadmap for implementing best practices to
@@ -34,7 +34,7 @@ const OurApproach = () => (
       </Container>
     </div>
 
-    <div className="page-border">
+    <div className="page-border" data-sal="slide-up" data-sal-duration="1000">
       <Container>
         <div className="border-crest"></div>
       </Container>
@@ -64,16 +64,16 @@ const OurApproach = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="approach-img">
+            <div className="approach-img" data-sal="slide-up" data-sal-duration="1000">
               <StaticImage src="../images/our-approach/Road-Map.jpg" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color mb-20">
+              <h3 className="mission-subheading heading-color mb-20" data-sal="slide-up" data-sal-duration="1000">
                 Our Roadmap To Sustained Growth
               </h3>
-              <p className="mission-sub-text"
+              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -84,7 +84,7 @@ const OurApproach = () => (
                 this model of sustained economic growth, in 12 years, CREST
                 Foundation expects to grow its revenue into $1.780 billion
               </p>
-              <p className="mission-sub-text">
+              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
                 CREST Foundation’s sustained, robust economic model is
                 structured to generate revenue from the very first project.
 
@@ -107,16 +107,16 @@ const OurApproach = () => (
         {/* <br></br> */}
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="approach-imgs">
+            <div className="approach-imgs" data-sal="slide-up" data-sal-duration="1000">
               <StaticImage src="../images/our-approach/Crest-icons.jpg" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="approch-1">
-              <h3 className="mission-subheading heading-color mb-20">
+              <h3 className="mission-subheading heading-color mb-20" data-sal="slide-up" data-sal-duration="1000">
                 Our Solution Framework
               </h3>
-              <p className="mission-sub-text"
+              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -125,7 +125,7 @@ const OurApproach = () => (
                 built environments with climate responsive habitats that
                 contribute to people and planet wellbeing.
               </p>
-              <p className="mission-sub-text">
+              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
                 The project establishes a closed loop cycle where waste from one
                 process becomes the source for another — food consumption and
                 production are no longer separated as distinct processes. Every
@@ -144,10 +144,10 @@ const OurApproach = () => (
           <Col className="col-lg-6 col-12">
             <div className="approach-section-planet">
               <div className="planet-box">
-                <div className="approach-heading mission-subheading">
+                <div className="approach-heading mission-subheading" data-sal="slide-up" data-sal-duration="1000">
                   Planet
                 </div>
-                <ul>
+                <ul data-sal="slide-up" data-sal-duration="1000">
                   <li className="mission-sub-text">
                     Preserve & Improve Biodiversity
                   </li>
@@ -171,7 +171,7 @@ const OurApproach = () => (
               <div className="approach-heading mission-subheading">
         
                 </div>
-                <ul>
+                <ul data-sal="slide-up" data-sal-duration="1000">
                  
                   <li className="mission-sub-text">
                     Resources Efficieny
@@ -199,10 +199,10 @@ const OurApproach = () => (
 
           <Col className="col-lg-3 col-12">
             <div className="approach-section-planets">
-              <div className="approach-heading mission-subheading">
+              <div className="approach-heading mission-subheading" data-sal="slide-up" data-sal-duration="1000">
                 People
               </div>
-              <ul>
+              <ul data-sal="slide-up" data-sal-duration="1000">
                 <li className="mission-sub-text">
                   Wellbeing
                 </li>
@@ -218,10 +218,10 @@ const OurApproach = () => (
           </Col>
           <Col className="col-lg-3 col-12">
             <div className="approach-section-planets">
-              <div className="approach-heading mission-subheading">
+              <div className="approach-heading mission-subheading" data-sal="slide-up" data-sal-duration="1000">
                 Profits
               </div>
-              <ul>
+              <ul data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
                 <li className="mission-sub-text">
                   Eco Habitats
                 </li>
