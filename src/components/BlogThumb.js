@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import { motion } from "framer-motion"
 
 import "../styles/global.scss"
 
 export default function BlogThumb({ blog }) {
   const image = getImage(blog.frontmatter.thumbImage)
   return (
-    <div>
+    <motion.div layoutid={`${blog.frontmatter.slug}`}>
       <Link
         className="link "
         to={"/blog/" + blog.frontmatter.slug}
@@ -20,6 +21,6 @@ export default function BlogThumb({ blog }) {
           <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">{blog.frontmatter.excerpt}</p>
         </div>
       </Link>
-    </div>
+    </motion.div>
   )
 }

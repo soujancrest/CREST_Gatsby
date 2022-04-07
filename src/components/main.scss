@@ -105,7 +105,7 @@ footer .container .col-3,
 }
 
 footer {
-  margin-top: 3rem;
+  // margin-top: 3rem;
 }
 
 footer a {
@@ -326,6 +326,35 @@ footer a {
   padding: 4rem 0;
   @media #{$extra-small}{
     padding: 3rem 0;
+  }
+}
+.crest-notfound {
+  padding: 4rem 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media #{$extra-small}{
+    padding: 3rem 0;
+    align-items: flex-end;
+  }
+
+  h1{
+    font-family: stem-medium;
+    margin-bottom: 1rem;
+    color: $text-color;
+  }
+  p{
+    color: $text-color;
+    font-family: stem-extralight;
+    font-size: 1.2rem;
+  }
+  .backto{
+    background-color: $theme-btn-bg;
+    color: #fff;
+    text-decoration: none;
+    padding: .6rem 1rem;
+    margin-top: 1.2rem;
   }
 }
 .crestbanner {

@@ -5,15 +5,16 @@ import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 import "../styles/global.scss"
 import "../styles/about.scss"
+import { motion} from "framer-motion"
 
 export default function BlogDetail({ data }) {
   // console.log(data)
   const { html } = data.markdownRemark
-  const { title, stack, contentType, excerpt, featuredImage } =
+  const { title, stack, contentType, excerpt, featuredImage,slug } =
     data.markdownRemark.frontmatter
   const image = getImage(featuredImage)
   return (
-    <div>
+    <motion.div layoutid={`${slug}`}>
 
       <GatsbyImage image={image} />
 
@@ -47,7 +48,7 @@ export default function BlogDetail({ data }) {
           </div>
         </Row>
       </Container>
-    </div>
+    </motion.div>
   )
 }
 
@@ -57,6 +58,7 @@ export const query = graphql`
       html
       frontmatter {
         stack
+        slug
         contentType
         excerpt
         title
