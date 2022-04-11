@@ -37,6 +37,7 @@ module.exports = {
         exitEventName: "sal:out", // Exit event name
       },
     },
+    `gatsby-plugin-modal-routing`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,

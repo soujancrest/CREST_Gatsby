@@ -406,3 +406,16 @@ footer a {
 .back-to-top:hover {
   background: #787b31;
 }
+.crest-video{
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+
+  iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

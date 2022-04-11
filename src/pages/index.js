@@ -12,6 +12,8 @@ import Seo from "../components/seo"
 import BackgroundImage from "gatsby-background-image"
 import HomeBanner from "../components/HomeBanner"
 import ClimateActionBanner from "../components/ClimateActionBanner"
+import Video from "../components/Video"
+// import { Link } from 'gatsby'
 
 export default function IndexPage({ data }) {
   const blogs = data.allMarkdownRemark.nodes
@@ -46,7 +48,12 @@ export default function IndexPage({ data }) {
 
               <div className="mission-discrption">
                 <div className="mission-img" data-sal="fade" data-sal-duration="1000" data-sal-easing="ease">
-                  <StaticImage src="../images/mission-thumb.jpg" />
+                  {/* <Link to="/video/" state={{
+                    modal: true
+                  }}>
+                    {/* <StaticImage src="../images/mission-thumb.jpg" /> *
+                  </Link> */}
+              <Video />
                 </div>
 
                 <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300">
