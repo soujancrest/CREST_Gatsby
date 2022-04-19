@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { getImage, GatsbyImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
-import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from "gatsby-background-image"
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -46,12 +44,20 @@ export default function ClimateActionBanner({ className }) {
     >
       <div className="crest-banner-home climate-banner">
         <Container>
-          <div className="climate-sec-inner" >
-            <div className="climate-box-inner" >
-              <h6 data-sal="slide-up" data-sal-duration="1000" >INTRODUCING</h6>
-              <h2 data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">CLIMATE HUBS</h2>
+          <div className="climate-sec-inner">
+            <div className="climate-box-inner">
+              <h6 data-sal="slide-up" data-sal-duration="1000">
+                INTRODUCING
+              </h6>
+              <h2
+                data-sal="slide-up"
+                data-sal-duration="1000"
+                data-sal-delay="300"
+              >
+                CLIMATE HUBS
+              </h2>
 
-              <p >
+              <p>
                 Constant expansion and ever growing demands of urban age have
                 become major contributors for depletion of natural resources,
                 Deforestation, extinction of millions of plant & animal species
@@ -71,21 +77,40 @@ export default function ClimateActionBanner({ className }) {
             </div>
             <div className="climate-box-books">
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-md-3 col-12" data-sal="slide-up" data-sal-duration="1000" >
+                <Col
+                  className="climate-box-img col-md-3 col-12"
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                >
                   <StaticImage src="../images/climate-books.jpg" />
                 </Col>
                 <Col className="box-right-con col-md-9">
-                  <h2 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <h2
+                    className="mission-subheading heading-color"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     Backcreek, Monroe County, West Virginia.
                   </h2>
-                  <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <p
+                    className="mission-sub-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     A consolidation gross study with focus on the current
                     situation due to several man-made developments across Monroe
                     County boiling down to Back Creek. This includes climatic &
                     geological changes that occurred over a period and its
                     impact on natural resources.
                   </p>
-                  <p className="read-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
+                  <p
+                    className="read-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="400"
+                  >
                     <a
                       href="/ClimateActionReport-BackCreek/"
                       className="readmore"
@@ -96,14 +121,28 @@ export default function ClimateActionBanner({ className }) {
                 </Col>
               </Row>
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-md-3 col-12" data-sal="slide-up" data-sal-duration="1000" >
+                <Col
+                  className="climate-box-img col-md-3 col-12"
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                >
                   <StaticImage src="../images/NEOM 01-02-22.jpg" />
                 </Col>
                 <Col className="box-right-con col-md-9">
-                  <h2 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <h2
+                    className="mission-subheading heading-color"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     Neom, Saudi Arabia.
                   </h2>
-                  <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <p
+                    className="mission-sub-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     Primary focus of this report is to constitute a solution
                     framework and restore ecological balance with a roadmap
                     towards environmental impact goals of CREST Foundation
@@ -111,7 +150,12 @@ export default function ClimateActionBanner({ className }) {
                     Development.
                     {/* Goals defined for Saudi Arabia. */}
                   </p>
-                  <p className="read-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <p
+                    className="read-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     <a href="/ClimateActionReport-Neom/" className="readmore">
                       Read More
                       <StaticImage src="../images/right-arrow.png" />
@@ -120,21 +164,40 @@ export default function ClimateActionBanner({ className }) {
                 </Col>
               </Row>
               <Row className="climate-inner-row">
-                <Col className="climate-box-img col-md-3 col-12" data-sal="slide-up" data-sal-duration="1000" >
+                <Col
+                  className="climate-box-img col-md-3 col-12"
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                >
                   <StaticImage src="../images/Dhriti_Climate Hub_cover.jpg" />
                 </Col>
                 <Col className="box-right-con col-md-9">
-                  <h2 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <h2
+                    className="mission-subheading heading-color"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     Zaheerabad, Hyderabad
                   </h2>
-                  <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <p
+                    className="mission-sub-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     A study of the existing bionetwork in and around Zahirabad,
                     Telangana along with understanding the surrounding
                     ecosystems and analyzing how this affects the living
                     conditions of humans, Flora, and Fauna throughout the
                     district.
                   </p>
-                  <p className="read-text" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                  <p
+                    className="read-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
                     <a
                       href="/ClimateActionReport-Zaheerabad/"
                       className="readmore"

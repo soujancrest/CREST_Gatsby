@@ -37,10 +37,6 @@ exports.createPages = async ({ graphql, actions }) => {
 }
 
 exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
-  // const pokemons = [
-  //   { name: "Pikachu", type: "electric" },
-  //   { name: "Squirtle", type: "water" },
-  // ]
   const publications = [
     {
       title: "Blue Dharma",

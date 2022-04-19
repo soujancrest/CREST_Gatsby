@@ -1,12 +1,9 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Container, Row, Col } from "react-bootstrap"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import Layout from "../components/layout"
 import Seo from "../components/seo"
-import styles from "../styles/global.scss"
 
 const OurGoal = () => (
   <div>
@@ -15,10 +12,20 @@ const OurGoal = () => (
       <Container>
         <Row>
           <Col className="col-lg-4 col-12">
-            <h2 className="crest-heading mb-20" data-sal="slide-up" data-sal-duration="1000">OUR GOAL</h2>
+            <h2
+              className="crest-heading mb-20"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
+              OUR GOAL
+            </h2>
           </Col>
           <Col className="col-lg-8 col-12">
-            <p className="mission-discrption-info" data-sal="slide-up" data-sal-duration="1000">
+            <p
+              className="mission-discrption-info"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
               To create 20 climate hubs in the next 10 years and create a
               paradigm shift to reduce urban loads through De-urbanization,
               Afforestation, Biodiversity, Walk to Work, Farm and Folk, Net Zero
@@ -28,9 +35,6 @@ const OurGoal = () => (
         </Row>
       </Container>
     </div>
-    {/* <div className="tab-sec">
-      <Container></Container>
-    </div> */}
 
     <div className="page-border" data-sal="slide-up" data-sal-duration="1000">
       <Container>
@@ -41,17 +45,27 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="goal-img"  data-sal="slide-up" data-sal-duration="1000">
+            <div
+              className="goal-img"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
               <StaticImage src="../images/goal-1.png" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
-            <div className="goal-section" >
-              <h3 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000">
+            <div className="goal-section">
+              <h3
+                className="mission-subheading heading-color"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Future-Proof Climate Hubs And Inclusivity
               </h3>
               <p
-                className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -63,7 +77,11 @@ const OurGoal = () => (
                 offer better ROI to residents in terms of air, water, food,
                 health, and mental wellbeing.
               </p>
-              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
+              <p
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Although little changes in terms of the landscape, amenities, or
                 access to fresh air or drinking water, demand for urban housing
                 continues to rise exponentially, skyrocketing prices. Urban
@@ -85,17 +103,27 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
+            <div
+              className="goal-img"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
               <StaticImage src="../images/goal-2.png" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000">
+              <h3
+                className="mission-subheading heading-color"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Communities with Walkability
               </h3>
               <p
-                className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -106,7 +134,11 @@ const OurGoal = () => (
                 dramatically cut down on emissions from transportation, global
                 warming’s leading contributor.
               </p>
-              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
+              <p
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Cities are crumbling under the weight of supporting their
                 residents. Whether it is increasing the stock of affordable
                 housing for low-income families, often from marginalized
@@ -131,17 +163,27 @@ const OurGoal = () => (
       <Container className="about-sub">
         <Row>
           <Col className="col-lg-4 col-12">
-            <div className="goal-img" data-sal="slide-up" data-sal-duration="1000">
+            <div
+              className="goal-img"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+            >
               <StaticImage src="../images/goal-3.png" alt="" />
             </div>
           </Col>
           <Col className="col-lg-8 col-sm-12">
             <div className="goal-section">
-              <h3 className="mission-subheading heading-color" data-sal="slide-up" data-sal-duration="1000">
+              <h3
+                className="mission-subheading heading-color"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Community Living and Social Bonding
               </h3>
               <p
-                className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000"
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
                 style={{
                   fontStyle: "italic",
                   color: "#595757",
@@ -153,7 +195,11 @@ const OurGoal = () => (
                 kitchens, and other public assets geared towards enhancing the
                 physical and mental quality of life
               </p>
-              <p className="mission-sub-text" data-sal="slide-up" data-sal-duration="1000">
+              <p
+                className="mission-sub-text"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+              >
                 Urban housing does not facilitate the forming of meaningful
                 connections with neighbors or the community at large. In an
                 increasingly individualistic society, a lack of social bonding

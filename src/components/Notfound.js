@@ -7,8 +7,8 @@ import BackgroundImage from "gatsby-background-image"
 import { Link } from "gatsby"
 
 export default function Notfound({ className }) {
-    const { mobileImage, desktopImage } = useStaticQuery(
-        graphql`
+  const { mobileImage, desktopImage } = useStaticQuery(
+    graphql`
       query {
         mobileImage: file(relativePath: { eq: "notfound-mobile.jpg" }) {
           childImageSharp {
@@ -26,46 +26,33 @@ export default function Notfound({ className }) {
         }
       }
     `
-    )
+  )
 
-    const sources = [
-        mobileImage.childImageSharp.fluid,
-        {
-            ...desktopImage.childImageSharp.fluid,
-            media: `(min-width: 491px)`,
-        },
-    ]
-    // const image = getImage(placeholderImage)
+  const sources = [
+    mobileImage.childImageSharp.fluid,
+    {
+      ...desktopImage.childImageSharp.fluid,
+      media: `(min-width: 491px)`,
+    },
+  ]
+  return (
+    <BackgroundImage
+      Tag={`section`}
+      id={`media-test`}
+      className="crestbanner"
+      fluid={sources}
+    >
+      <div className="crest-notfound">
+        <Container>
+          <p>404 Error</p>
+          <h1>Huhhhh Lost ?</h1>
+          <p>Mom was right there's no place like home</p>
 
-    // const bgImage = convertToBgImage(image)
-    return (
-        <BackgroundImage
-
-            Tag={`section`}
-            id={`media-test`}
-
-            className="crestbanner"
-            fluid={sources}
-        >
-
-            <div className="crest-notfound">
-                <Container>
-                    <p>
-                    404 Error
-                    </p>
-                   <h1>
-                   Huhhhh Lost ?
-                   </h1>
-                   <p>
-                   Mom was right there's no place like home 
-                   </p>
-
-                   <Link to="/" className="backto">
-                       Back to home
-                   </Link>
-
-                </Container>
-            </div>
-        </BackgroundImage>
-    )
+          <Link to="/" className="backto">
+            Back to home
+          </Link>
+        </Container>
+      </div>
+    </BackgroundImage>
+  )
 }

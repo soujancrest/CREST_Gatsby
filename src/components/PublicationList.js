@@ -1,13 +1,9 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
-import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
-import BlogThumb from "./BlogThumb"
 import "../styles/global.scss"
 
 import "bootstrap/dist/css/bootstrap.min.css"
-import Layout from "./layout"
-import Seo from "./seo"
 
 export default function PublicationThumb({ publication }) {
   return (

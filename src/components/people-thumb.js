@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function PeopleThumb({ person }) {
   const image = getImage(person.frontmatter.featuredImage)

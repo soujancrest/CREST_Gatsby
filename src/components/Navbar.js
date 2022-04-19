@@ -29,30 +29,75 @@ function Navbar({ homePath }) {
 
             <div className="crest-right-nav">
               <ul>
-                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="100">
-                  <Link to="/about" activeClassName="active" className="mainNavLink">
+                <li
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  data-sal-delay="100"
+                >
+                  <Link
+                    to="/about"
+                    activeClassName="active"
+                    className="mainNavLink"
+                  >
                     About
                   </Link>
                 </li>
 
-                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="300">
-                  <Link className="mainNavLink" activeClassName="active" to="/our-approach">
+                <li
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  data-sal-delay="300"
+                >
+                  <Link
+                    className="mainNavLink"
+                    activeClassName="active"
+                    to="/our-approach"
+                  >
                     Approach
                   </Link>
                 </li>
-                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="400">
-                  <Link className="mainNavLink" activeClassName="active" to="/our-goal">
+                <li
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  data-sal-delay="400"
+                >
+                  <Link
+                    className="mainNavLink"
+                    activeClassName="active"
+                    to="/our-goal"
+                  >
                     Goal
                   </Link>
                 </li>
-                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="500">
-                  <Link className="mainNavLink" activeClassName="active" to="/our-impact">
+                <li
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  data-sal-delay="500"
+                >
+                  <Link
+                    className="mainNavLink"
+                    activeClassName="active"
+                    to="/our-impact"
+                  >
                     Impact
                   </Link>
                 </li>
 
-                <li data-sal="slide-up" data-sal-duration="1000" data-sal-easing="ease" data-sal-delay="600">
-                  <Link className="mainNavLink" activeClassName="active" to="/blog">
+                <li
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                  data-sal-easing="ease"
+                  data-sal-delay="600"
+                >
+                  <Link
+                    className="mainNavLink"
+                    activeClassName="active"
+                    to="/blog"
+                  >
                     Blog
                   </Link>
                 </li>
@@ -66,62 +111,67 @@ function Navbar({ homePath }) {
               style={sideBar ? { transform: "translateX(0)" } : null}
             >
               <li>
-                <Link to="/about" onClick={handleSidebar} className="mainNavLink">
-                  About 
+                <Link
+                  to="/about"
+                  onClick={handleSidebar}
+                  className="mainNavLink"
+                >
+                  About
                 </Link>
               </li>
 
               <li>
-                <Link className="mainNavLink" onClick={handleSidebar} to="/our-approach">
-                   Approach
+                <Link
+                  className="mainNavLink"
+                  onClick={handleSidebar}
+                  to="/our-approach"
+                >
+                  Approach
                 </Link>
               </li>
               <li>
-                <Link className="mainNavLink" onClick={handleSidebar} to="/our-goal">
-                   Goal
+                <Link
+                  className="mainNavLink"
+                  onClick={handleSidebar}
+                  to="/our-goal"
+                >
+                  Goal
                 </Link>
               </li>
               <li>
-                <Link className="mainNavLink" onClick={handleSidebar} to="/our-impact">
+                <Link
+                  className="mainNavLink"
+                  onClick={handleSidebar}
+                  to="/our-impact"
+                >
                   Impact
                 </Link>
               </li>
 
               <li>
-                <Link className="mainNavLink" onClick={handleSidebar} to="/blog">
-                 Blog
+                <Link
+                  className="mainNavLink"
+                  onClick={handleSidebar}
+                  to="/blog"
+                >
+                  Blog
                 </Link>
               </li>
-
-              {/* <li>
-                <Link className="mainNavLink" onClick={handleSidebar} to="/contact">
-                  Contact us
-                </Link>
-              </li> */}
-              {/* <li>
-                <a
-                  href="../images/Crest_Foundation_Book.pdf"
-                  className="mainNavLink"
-                  target="_blank"
-                >
-                  Download Brochure
-                </a>
-              </li> */}
             </ul>
           </nav>
 
           <button
-          onClick={handleSidebar}
-          className={`navToggle ${sideBar ? "open" : null}`}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
-        <div
-          onClick={handleSidebar}
-          className={`overlay ${sideBar ? "open" : ""}`}
-        />
+            onClick={handleSidebar}
+            className={`navToggle ${sideBar ? "open" : null}`}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+          <div
+            onClick={handleSidebar}
+            className={`overlay ${sideBar ? "open" : ""}`}
+          />
         </Container>
       </div>
     </div>

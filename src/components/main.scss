@@ -3,7 +3,7 @@ footer p {
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     font-size: 0.6rem;
   }
 }
@@ -65,12 +65,9 @@ footer .container .col-3,
 }
 .crest-header {
   display: flex;
-  // align-items: center;
-  // justify-content: center;
   position: relative;
   padding: 0.9rem 0;
   background-color: $white;
-  // border-bottom: 2px solid #787b31;
 }
 .crest-header-grey {
   display: flex;
@@ -80,7 +77,6 @@ footer .container .col-3,
   .crest-right-nav {
     ul {
       li {
-
         a {
           color: $white;
         }
@@ -89,11 +85,10 @@ footer .container .col-3,
   }
 }
 
-.crest-right-nav ul li a.active{
+.crest-right-nav ul li a.active {
   color: $theme-btn-bg;
   font-family: stem-light;
 }
-
 
 .crest-menu {
   position: absolute;
@@ -102,10 +97,6 @@ footer .container .col-3,
   .menu-btn {
     width: 40px;
   }
-}
-
-footer {
-  // margin-top: 3rem;
 }
 
 footer a {
@@ -120,7 +111,7 @@ footer a {
   align-items: flex-end;
 }
 .crest-right-nav {
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     display: none;
   }
   ul {
@@ -132,10 +123,10 @@ footer a {
       margin: 0;
       position: relative;
       padding: 0 1.5rem;
-@media #{$small}{
-  padding: 0 1rem;
-}
-      @media #{$medium}{
+      @media #{$small} {
+        padding: 0 1rem;
+      }
+      @media #{$medium} {
         padding: 0 1rem;
       }
 
@@ -165,11 +156,6 @@ footer a {
   justify-content: flex-start;
   align-items: center;
   height: 70vh;
-}
-
-.crest-logo-left {
-  // border-right: 1px solid $white;
-  // height: 100%;
 }
 
 .footer-heading {
@@ -202,7 +188,7 @@ footer a {
 
 .pdt {
   padding-right: 10px;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     padding-right: 5px;
   }
 }
@@ -224,10 +210,10 @@ footer a {
     h6 {
       font-family: stem-medium;
       width: 18%;
-      span{
+      span {
         display: none;
-        @media #{$extra-small}{
-          display:inline-block ;
+        @media #{$extra-small} {
+          display: inline-block;
           color: $theme-btn-bg;
         }
       }
@@ -241,7 +227,7 @@ footer a {
       margin: 0;
       span {
         color: $theme-btn-bg;
-        @media #{$extra-small}{
+        @media #{$extra-small} {
           display: none;
         }
       }
@@ -251,7 +237,6 @@ footer a {
           color: #fff;
           text-decoration: underline !important;
         }
-        
       }
     }
   }
@@ -263,7 +248,7 @@ footer a {
   align-items: center;
   width: 45%;
   margin: 0 auto;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     flex-direction: column;
     width: 100%;
   }
@@ -304,7 +289,6 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin-top: 1rem;
   img {
     width: 300px !important;
     display: block;
@@ -324,7 +308,7 @@ footer a {
 
 .crest-banner-home {
   padding: 4rem 0;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     padding: 3rem 0;
   }
 }
@@ -334,48 +318,49 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     padding: 3rem 0;
     align-items: flex-end;
   }
 
-  h1{
+  h1 {
     font-family: stem-medium;
     margin-bottom: 1rem;
     color: $text-color;
   }
-  p{
+  p {
     color: $text-color;
     font-family: stem-extralight;
     font-size: 1.2rem;
   }
-  .backto{
+  .backto {
     background-color: $theme-btn-bg;
     color: #fff;
     text-decoration: none;
-    padding: .6rem 1rem;
+    padding: 0.6rem 1rem;
     margin-top: 1.2rem;
   }
 }
 .crestbanner {
   background-position: right !important;
 
-  @media #{$extra-small}{
+  @media #{$extra-small} {
     background-position: center !important;
     background-size: contain !important;
   }
 }
 
-.crest-left-logo{
-  img{
+.crest-left-logo {
+  img {
     width: 200px !important;
   }
 }
 
-.crest-navbar{
+.crest-navbar {
   position: relative;
 
-  .crest-header,.crest-header-grey{
+  .crest-header,
+  .crest-header-grey {
     position: fixed;
     top: 0px;
     z-index: 99;
@@ -393,12 +378,11 @@ footer a {
   cursor: pointer;
   border-radius: 100px;
   border: none;
-  // box-shadow: 0 5px 10px #ccc;
   z-index: 999;
   width: 40px;
   height: 40px;
 
-  img{
+  img {
     width: 30px !important;
   }
 }
@@ -406,12 +390,12 @@ footer a {
 .back-to-top:hover {
   background: #787b31;
 }
-.crest-video{
+.crest-video {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
 
-  iframe{
+  iframe {
     position: absolute;
     left: 0;
     top: 0;

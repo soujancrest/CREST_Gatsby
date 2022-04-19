@@ -1,11 +1,9 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import { getImage, GatsbyImage } from "gatsby-plugin-image"
-import { Container, Row, Col } from "react-bootstrap"
-import { convertToBgImage } from "gbimage-bridge"
+import { Container } from "react-bootstrap"
 import BackgroundImage from "gatsby-background-image"
 
-export default function HomeBanner({className}) {
+export default function HomeBanner({ className }) {
   const { mobileImage, desktopImage } = useStaticQuery(
     graphql`
       query {
@@ -34,43 +32,40 @@ export default function HomeBanner({className}) {
       media: `(min-width: 491px)`,
     },
   ]
-  // const image = getImage(placeholderImage)
-
-  // const bgImage = convertToBgImage(image)
   return (
     <BackgroundImage
-      // Tag="section"
-      // Spread bgImage into BackgroundImage:
-      // {...bgImage}
-      // preserveStackingContext
-      // className="crestbanner"
-
       Tag={`section`}
       id={`media-test`}
-      // className={className}
       className="crestbanner"
       fluid={sources}
     >
-  
       <div className="crest-banner-home">
-     <Container>
+        <Container>
           <div className="creast-inner">
             <div className="crest-banner-text">
-              <h1 className="banner-heading" data-sal="slide-up" data-sal-duration="2000" data-sal-easing="ease">
+              <h1
+                className="banner-heading"
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-easing="ease"
+              >
                 CREST CLIMATE HUBS <br></br>
                 COULD BE THE SOLUTION
               </h1>
-              <h4 className="banner-sub-heading" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" data-sal-easing="ease">
-                The planet earth has witnessed five mass extinctions <br>
-                </br>
+              <h4
+                className="banner-sub-heading"
+                data-sal="slide-up"
+                data-sal-duration="2000"
+                data-sal-delay="300"
+                data-sal-easing="ease"
+              >
+                The planet earth has witnessed five mass extinctions <br></br>
                 Human race could be next!
               </h4>
-
             </div>
           </div>
-
         </Container>
-        </div>
+      </div>
     </BackgroundImage>
   )
 }
