@@ -48,15 +48,13 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4
             className="about-people-heading"
-            data-sal="slide-up"
-            data-sal-duration="1000"
+        
           >
             BOARD OF TRUSTEES
           </h4>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
-            data-sal-duration="1000"
+       
           >
             {boardOfTrustees.map(item => (
               <PeopleThumb person={item} key={item.id} />
@@ -66,16 +64,13 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4
             className="about-people-heading"
-            data-sal="slide-up"
-            data-sal-duration="1000"
-            data-sal-delay="300"
+          
           >
             MANAGEMENT TEAM - USA
           </h4>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
-            data-sal-duration="1000"
+         
           >
             {managementTeamUSA.map(item => (
               <PeopleThumb person={item} key={item.id} />
@@ -85,14 +80,14 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4
             className="about-people-heading"
-            data-sal="slide-up"
+         
          
           >
             MANAGEMENT TEAM - INDIA
           </h4>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+          
          
           >
             {managementTeamIndia.map(item => (
@@ -103,16 +98,14 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4
             className="about-people-heading"
-            data-sal="slide-up"
+       
         
           >
             LEADERSHIP TEAM - INDIA
           </h4>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
-            data-sal-duration="1000"
-            data-sal-delay="400"
+         
           >
             {leadershipTeamIndia.map(item => (
               <PeopleThumb person={item} key={item.id} />
@@ -122,21 +115,21 @@ export default function People({ data }) {
         <Container className="about-sub">
           <h4
             className="about-people-heading"
-            data-sal="slide-up"
+       
            
           >
             EXECUTIVE TEAM
           </h4>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+       
            
           >
             RESEARCH & ANALYTICS
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"  
+       
           
           >
             {researchAnalytics.map(item => (
@@ -147,14 +140,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+        
          
           >
             SUSTAINABILITY
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+           
         
           >
             {sustainability.map(item => (
@@ -165,14 +158,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+         
          
           >
             SALES & CRM
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+          
             
           >
             {salesCRM.map(item => (
@@ -183,14 +176,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+         
          
           >
             FINANCE & ACCOUNTS
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+          
            
           >
             {finance.map(item => (
@@ -201,14 +194,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+          
             
           >
             DESIGN
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+     
         
           >
             {design.map(item => (
@@ -219,14 +212,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+           
            
           >
             WEB TECH
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+     
         
           >
             {webTech.map(item => (
@@ -237,14 +230,14 @@ export default function People({ data }) {
           <hr></hr>
           <h5
             className="about-people-sub"
-            data-sal="slide-up"
+       
          
           >
             PROJECT MANAGEMENT
           </h5>
           <div
             className="person-thumbs"
-            data-sal="slide-up"
+        
          
           >
             {projectManagement.map(item => (
