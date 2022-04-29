@@ -1106,7 +1106,8 @@ li {
   .climate-box-img {
     padding: 0;
     img {
-      height: 150px;
+      max-height: 150px;
+      // height: 150px;
       @media #{$extra-small} {
         height: 100%;
         // width: 400px;
