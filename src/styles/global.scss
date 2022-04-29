@@ -1108,9 +1108,11 @@ li {
     img {
       max-height: 150px;
       // height: 150px;
+      width: 110px;
       @media #{$extra-small} {
         height: 100%;
         // width: 400px;
+        width: 100%;
       }
     }
   }
