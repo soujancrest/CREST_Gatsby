@@ -119,7 +119,7 @@ const Footer = () => (
                 <StaticImage src="../images/Dark_Blue.png" />
               </Link>
               <Link
-                to="https://www.linkedin.com/in/crest-foundation-390867227/"
+                to="https://www.linkedin.com/company/crest-foundation"
                 target={"_blank"}
               >
                 <StaticImage src="../images/linkedin_icon.png" />
