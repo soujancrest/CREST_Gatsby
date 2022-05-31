@@ -82,6 +82,47 @@ export default function ClimateActionBanner({ className }) {
                   data-sal="slide-up"
                   data-sal-duration="1000"
                 >
+                  <StaticImage src="../images/Climate_Hub_wolf_creek.jpg" />
+                </Col>
+                <Col className="box-right-con col-md-9">
+                  <h2
+                    className="mission-subheading heading-color"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
+                    Wolf creek, Fayette County, West Virginia.
+                  </h2>
+                  <p
+                    className="mission-sub-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
+                    Wolf Creek is a thousand-acre mixed-use development situated
+                    in the heart of Fayette County, West Virginia dedicated...
+                  </p>
+                  <p
+                    className="read-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="400"
+                  >
+                    <a
+                      href="/ClimateActionReport-wolfcreek"
+                      className="readmore"
+                    >
+                      Read More <StaticImage src="../images/right-arrow.png" />
+                    </a>
+                  </p>
+                </Col>
+              </Row>
+              <Row className="climate-inner-row">
+                <Col
+                  className="climate-box-img col-md-3 col-12"
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                >
                   <StaticImage src="../images/climate-books.jpg" />
                 </Col>
                 <Col className="box-right-con col-md-9">
@@ -101,9 +142,7 @@ export default function ClimateActionBanner({ className }) {
                   >
                     A consolidation gross study with focus on the current
                     situation due to several man-made developments across Monroe
-                    County boiling down to Back Creek. This includes climatic &
-                    geological changes that occurred over a period and its
-                    impact on natural resources.
+                    County...
                   </p>
                   <p
                     className="read-text"
@@ -145,10 +184,7 @@ export default function ClimateActionBanner({ className }) {
                   >
                     Primary focus of this report is to constitute a solution
                     framework and restore ecological balance with a roadmap
-                    towards environmental impact goals of CREST Foundation
-                    overlapped & measured in comparison with UN Sustainable
-                    Development.
-                    {/* Goals defined for Saudi Arabia. */}
+                    towards...
                   </p>
                   <p
                     className="read-text"
@@ -188,9 +224,7 @@ export default function ClimateActionBanner({ className }) {
                   >
                     A study of the existing bionetwork in and around Zahirabad,
                     Telangana along with understanding the surrounding
-                    ecosystems and analyzing how this affects the living
-                    conditions of humans, Flora, and Fauna throughout the
-                    district.
+                    ecosystems...
                   </p>
                   <p
                     className="read-text"

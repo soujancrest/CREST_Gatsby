@@ -72,7 +72,8 @@ const ClimateActionReport = () => (
             </p>
             <br></br>
             <a
-              href="#"
+              href="../images/Climate_Action_Report_Back_Creek.pdf"
+              download={"../images/Climate_Action_Report_Back_Creek.pdf"}
               target="_blank"
               className="explor-btn download-btn"
               data-sal="slide-up"
