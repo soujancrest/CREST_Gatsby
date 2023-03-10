@@ -50,16 +50,39 @@ export default function PublicationThumb({ publication }) {
                   <h6 className="pub-heading">INDIA WAKES</h6>
                 </div>
 
-                <div className="no-more">
-                  <span>Coming Soon</span>
-                  {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </div>
+                <a
+                  href="https://www.amazon.in/INDIA-WAKES-Coronavirus-World-Order-ebook/dp/B08BX78KQ2"
+                  target="_blank"
+                  className="no-more"
+                >
+                  <span>Know More</span>
+                  <StaticImage src="../images/right-arrow.png" />
+                </a>
               </div>
               <div
                 className="crest-publication-sec"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="200"
+              >
+                <StaticImage src="../images/The_Mother_Earth.jpg" />
+                <div className="publication-dis">
+                  <h6 className="pub-heading">THE MOTHER EARTH</h6>
+                </div>
+                <a
+                  href="https://www.amazon.in/Mother-Earth-Only-Lifeline-Bring/dp/1957456078"
+                  target="_blank"
+                  className="no-more"
+                >
+                  <span>Know More</span>
+                  <StaticImage src="../images/right-arrow.png" />
+                </a>
+              </div>
+              <div
+                className="crest-publication-sec"
+                data-sal="slide-up"
+                data-sal-duration="1000"
+                data-sal-delay="300"
               >
                 <StaticImage src="../images/Planet_Kriya.jpg" />
                 <div className="publication-dis">
@@ -74,7 +97,7 @@ export default function PublicationThumb({ publication }) {
                 className="crest-publication-sec"
                 data-sal="slide-up"
                 data-sal-duration="1000"
-                data-sal-delay="300"
+                data-sal-delay="400"
               >
                 <StaticImage src="../images/Every_Dot_Matters.jpg" />
 
@@ -90,26 +113,11 @@ export default function PublicationThumb({ publication }) {
                 className="crest-publication-sec"
                 data-sal="slide-up"
                 data-sal-duration="1000"
-                data-sal-delay="400"
-              >
-                <StaticImage src="../images/Nirvana.jpg" />
-                <div className="publication-dis">
-                  <h6 className="pub-heading">NIRVANA</h6>
-                </div>
-                <div className="no-more">
-                  <span>Coming Soon</span>
-                  {/* <StaticImage src="../images/right-arrow.png" /> */}
-                </div>
-              </div>
-              <div
-                className="crest-publication-sec"
-                data-sal="slide-up"
-                data-sal-duration="1000"
                 data-sal-delay="500"
               >
-                <StaticImage src="../images/The_Mother_Earth.jpg" />
+                <StaticImage src="../images/Beyond_Carbon.jpg" />
                 <div className="publication-dis">
-                  <h6 className="pub-heading">THE MOTHER EARTH</h6>
+                  <h6 className="pub-heading">BEYOND CARBON</h6>
                 </div>
                 <div className="no-more">
                   <span>Coming Soon</span>

@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../styles/global.scss"
 import Tab from "react-bootstrap/Tab"
+
 const ClimateActionReport = () => (
   <div>
     <Seo title="Climate Action Report" />
@@ -71,7 +72,7 @@ const ClimateActionReport = () => (
               tons of Carbon Dioxide each per year.
             </p>
             <br></br>
-            <a
+            {/* <a
               href="../images/Climate_Action_Report_Back_Creek.pdf"
               download={"../images/Climate_Action_Report_Back_Creek.pdf"}
               target="_blank"
@@ -80,7 +81,7 @@ const ClimateActionReport = () => (
               data-sal-duration="1000"
             >
               Download
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

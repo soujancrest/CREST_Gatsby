@@ -2,7 +2,7 @@
 slug: lakshmi-battula
 name: Lakshmi Battula
 designation: Vice President - Community farming
-category: Research & Analytics
+category: Sustainability
 type: people
 order: 26
 excerpt: Following her passion and calling to give-up her well paying and respectable corporate job with ADP,Lakshmi Battula formed Sthiranya, a non-profit organization focused on community farming endeavours.

@@ -71,7 +71,7 @@ const ClimateActionReport = () => (
               involving several subject matter experts.
             </p>
             <br></br>
-            <a
+            {/* <a
               href="../images/Climate_Action_Report_NEOM.pdf"
               download={"Climate_Action_Report_NEOM.pdf"}
               target="_blank"
@@ -80,7 +80,7 @@ const ClimateActionReport = () => (
               data-sal-duration="1000"
             >
               Download
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

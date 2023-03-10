@@ -70,17 +70,17 @@ const ClimateActionReport = () => (
               ease of accessibility and friendly atmosphere.
             </p>
             <br></br>
-            <a
+            {/* <a
               href="../images/Climate_Hub_Wolf_Creek.pdf"
               download={"../images/Climate_Hub_Wolf_Creek.pdf"}
               target="_blank"
               className="explor-btn download-btn"
               data-sal="slide-up"
               data-sal-duration="1000"
-              // onclick="DownloadFile('../images/Climate_Action_Report_Back_Creek.pdf')"
+              onclick="DownloadFile('../images/Climate_Action_Report_Back_Creek.pdf')"
             >
               Download
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

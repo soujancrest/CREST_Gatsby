@@ -62,12 +62,12 @@ const Footer = () => (
                 </h6>
 
                 <p>
-                  <span>:</span> Sri Vishnu Elite, 5th floor, Jayabheri Enclave,
-                  Gachibowli, Hyderabad - 500032.
+                  <span>:</span> #A104. Jayabheri - The Summit, Narsingi,
+                  Hyderabad - 500075.
                   <a href="tel:+919866657462"> Phone :+91 98666 57462</a>
                 </p>
               </address>
-              <address
+              {/* <address
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="200"
@@ -94,7 +94,7 @@ const Footer = () => (
                   3024.
                   <a href="tel:+61403983113"> Phone :+61 403983113</a>
                 </p>
-              </address>
+              </address> */}
             </div>
 
             <div

@@ -22,7 +22,8 @@ const ClimateActionReport = () => (
               data-sal="slide-up"
               data-sal-duration="1000"
             >
-              Back to Home
+              <StaticImage src="../images/arrow-left.png" />
+              <span> Back to Home</span>
             </Link>
 
             <h4
@@ -51,14 +52,14 @@ const ClimateActionReport = () => (
               for enhancing biodiversity and bringing about ecological balance.
             </p>
             <br></br>
-            <a
+            {/* <a
               href="#"
               className="explor-btn download-btn"
               data-sal="slide-up"
               data-sal-duration="1000"
             >
               Download
-            </a>
+            </a> */}
           </div>
         </div>
       </Container>

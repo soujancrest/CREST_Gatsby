@@ -58,7 +58,7 @@ export default function ClimateActionBanner({ className }) {
               </h2>
 
               <p>
-                Constant expansion and ever growing demands of urban age have
+                Constant expansion and ever growing demands of urban edge have
                 become major contributors for depletion of natural resources,
                 Deforestation, extinction of millions of plant & animal species
                 and global warming which are bringing the human race closer to
