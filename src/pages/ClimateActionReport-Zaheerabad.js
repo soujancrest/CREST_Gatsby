@@ -52,6 +52,17 @@ const ClimateActionReport = () => (
               for enhancing biodiversity and bringing about ecological balance.
             </p>
             <br></br>
+            <p
+              className="mission-sub-text"
+              data-sal="slide-up"
+              data-sal-duration="1000"
+              data-sal-delay="300"
+            >
+              For more info, contact{" "}
+              <a href="mailto:lakshmi@crest.eco" target="_blank">
+                lakshmi@crest.eco
+              </a>
+            </p>
             {/* <a
               href="#"
               className="explor-btn download-btn"

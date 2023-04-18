@@ -59,7 +59,7 @@ export default function HomeBanner({ className }) {
                 data-sal-delay="300"
                 data-sal-easing="ease"
               >
-                The planet earth has witnessed five mass extinctions <br></br>
+                The planet Earth has witnessed five mass extinctions <br></br>
                 Human race could be next!
               </h4>
             </div>
