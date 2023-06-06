@@ -1,7 +1,7 @@
 ---
 slug: ajay-karthik-namila
 name: Ajay Karthik Namila
-designation: Sustainability Engineer
+designation: Sustainability Manager
 category: Sustainability
 type: people
 order: 33
