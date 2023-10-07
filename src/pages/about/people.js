@@ -34,9 +34,9 @@ export default function People({ data }) {
   const design = people.filter(
     person => person.frontmatter.category == "Design"
   )
-  const webTech = people.filter(
-    person => person.frontmatter.category == "Web Tech"
-  )
+  // const webTech = people.filter(
+  //   person => person.frontmatter.category == "Web Tech"
+  // )
   const projectManagement = people.filter(
     person => person.frontmatter.category == "Project Management"
   )
