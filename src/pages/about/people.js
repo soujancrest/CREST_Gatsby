@@ -34,9 +34,9 @@ export default function People({ data }) {
   const design = people.filter(
     person => person.frontmatter.category == "Design"
   )
-  // const webTech = people.filter(
-  //   person => person.frontmatter.category == "Web Tech"
-  // )
+  const webTech = people.filter(
+    person => person.frontmatter.category == "Web Tech"
+  )
   const projectManagement = people.filter(
     person => person.frontmatter.category == "Project Management"
   )
@@ -101,14 +101,14 @@ export default function People({ data }) {
               <PeopleThumb person={item} key={item.id} />
             ))}
           </div>
-          <br></br>
+          {/* <br></br>
           <hr></hr>
           <h5 className="about-people-sub">WEB TECH</h5>
           <div className="person-thumbs">
             {webTech.map(item => (
               <PeopleThumb person={item} key={item.id} />
             ))}
-          </div>
+          </div> */}
           <br></br>
           <hr></hr>
           <h5 className="about-people-sub">PROJECT MANAGEMENT</h5>
