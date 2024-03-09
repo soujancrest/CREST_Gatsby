@@ -2,7 +2,7 @@
 slug: krishna-jsvn
 name: Krishna JSVN
 designation: Director - Strategy
-category: Leadership Team India
+#category: Leadership Team India
 type: people
 order: 16
 excerpt: An All-India rank-holding Chartered Accountant, Krishna JVSN began his consulting journey with KPMG, where he worked as a Senior Associate for 5 years.
