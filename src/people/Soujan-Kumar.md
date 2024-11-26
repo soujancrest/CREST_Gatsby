@@ -1,7 +1,8 @@
 ---
 slug: soujan-kumar
 name: Soujan Kumar
-designation: Senior - Web Developer
+designation: Engineering Manager - Intern
+# designation: Senior - Web Developer
 category: Web Tech
 type: people
 order: 36
