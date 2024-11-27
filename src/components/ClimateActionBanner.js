@@ -75,6 +75,10 @@ export default function ClimateActionBanner({ className }) {
                 cooling. These communities adapt proven watershed 
 techniques to recharge deep aquifers and increase reserves for fast depleting 
 potable water besides fueling rural development & sustained circular economy. 
+  Climate Hubs are the new age, future proof, low density mixed-use climate 
+responsive habitats which include. The Habitats include food forests, education 
+institutes, healthcare, sports, and work facilities within them providing free 
+power, vegetables, fruits, milk & meat for a lifetime.
               </p>
             </div>
             <div className="climate-box-books">
