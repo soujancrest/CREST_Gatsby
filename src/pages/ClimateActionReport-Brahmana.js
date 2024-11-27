@@ -16,7 +16,7 @@ const ClimateActionReport = () => (
       <Container>
         <div className="people-detail-sec ">
           <div className="car-se">
-            <StaticImage src="../images/Brahmana.jpg" />
+            <StaticImage src="../images/Brahmana-cover.jpg" />
           </div>
 
           <div className="people-details">
