@@ -51,9 +51,11 @@ const ClimateActionReport = () => (
               data-sal="slide-up"
               data-sal-duration="1000"
             >
-              Establishing a wellness center near the Brahmana Vellemla Balancing Reservoir (BVBR) 
-in Narketpally, Nalgonda district, Telangana, offers several advantages:
-Key Highlights of the Location
+              Nestled in serene natural surroundings, the center features state-ofthe-art facilities, including therapy suites, yoga studios, fitness centers, 
+therapeutic spas, and outdoor healing spaces. At the heart of our 
+retreat lies an organic farm and herbal garden, fostering a sustainable 
+connection with nature while providing fresh, nutrient-rich produce and 
+medicinal plants for treatments and dining.
             </p>
             <p
               className="mission-sub-text"
@@ -61,10 +63,11 @@ Key Highlights of the Location
               data-sal-duration="1000"
               data-sal-delay="300"
             >
-Nestled amidst the serene landscapes of the Brahmana 
-Vellemla Balancing Reservoir, this enchanting location 
-offers a rare blend of natural beauty, tranquility, and 
-cultural richness, making it the perfect setting for a worldclass wellness retreat.
+Guests can enjoy personalized care, spiritual growth, and community 
+connection through a range of activities—from detox programs and 
+therapeutic massages to sound healing, meditation, and eco-tourism 
+adventures. Whether seeking recovery, relaxation, or spiritual alignment, 
+our wellness resort promises a journey of renewal, balance, and vitality.
             </p>
             <br></br>
             <p
