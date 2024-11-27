@@ -72,7 +72,9 @@ export default function ClimateActionBanner({ className }) {
                 free, unaltered, safe and healthy food. The communities also
                 include herbal forests that help absorb affluents and increase
                 oxygen levels in the atmosphere thereby contributing to global
-                cooling.
+                cooling. These communities adapt proven watershed 
+techniques to recharge deep aquifers and increase reserves for fast depleting 
+potable water besides fueling rural development & sustained circular economy. 
               </p>
             </div>
             <div className="climate-box-books">
@@ -193,6 +195,47 @@ export default function ClimateActionBanner({ className }) {
                     data-sal-delay="300"
                   >
                     <a href="/ClimateActionReport-Neom/" className="readmore">
+                      Read More
+                      <StaticImage src="../images/right-arrow.png" />
+                    </a>
+                  </p>
+                </Col>
+              </Row>
+              <Row className="climate-inner-row">
+                <Col
+                  className="climate-box-img col-md-3 col-12"
+                  data-sal="slide-up"
+                  data-sal-duration="1000"
+                >
+                  <StaticImage src="../images/Brahmana-cover.jpg" />
+                </Col>
+                <Col className="box-right-con col-md-9">
+                  <h2
+                    className="mission-subheading heading-color"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
+                   BRAHMANA VELLEMLA 
+CHOUDAMPALLY, TELANGANA
+                  </h2>
+                  <p
+                    className="mission-sub-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
+                    Nestled amidst the serene landscapes of the Brahmana 
+Vellemla Balancing Reservoir, this enchanting location 
+offers...
+                  </p>
+                  <p
+                    className="read-text"
+                    data-sal="slide-up"
+                    data-sal-duration="1000"
+                    data-sal-delay="300"
+                  >
+                    <a href="/ClimateActionReport-Brahmana/" className="readmore">
                       Read More
                       <StaticImage src="../images/right-arrow.png" />
                     </a>
